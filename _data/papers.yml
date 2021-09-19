@@ -1,0 +1,399 @@
+type_order:
+  - type: working-paper
+  - type: article-journal
+  - type: software
+topic_order:
+  - topic: Advertising Optimization and Measurement
+  - topic: Customer Value and Retention
+  - topic: Social Networks
+  - topic: Statistical Methodology
+  - topic: Criminal Justice
+  - topic: Customer Preferences for Insurance
+
+references:
+- id: BraunRosenthal2018
+  type: article-journal
+  author:
+  - family: Braun
+    given: Michael
+  - family: Rosenthal
+    given: Jeremy
+  - family: Therrian
+    given: Kyle
+  year: 2018
+  month: 12
+  title: "Police Discretion and Racial Disparity in Organized Retail Theft Arrests: Evidence From Texas"
+  container-title: Journal of Empirical Legal Studies
+  page: 916-950
+  volume: '15'
+  issue: '4'
+  download: pub
+  DOI: 10.1111/jels.12201
+  topic:  Criminal Justice
+  notes:
+   - note: "Commentary in <em>Austin American-Statesman</em>"
+     link: "https://tinyurl.com/BraunORToped"
+  preprint: true
+  abstract:  When definitions of two distinct criminal offenses overlap, power to decide which definition to apply to an arrest devolves to local law enforcement agencies. This discretion can lead to unequal treatment and denial of due process, especially when disadvantaged populations are arrested for nonviolent property crimes. We present a Bayesian analysis of arrests under a vaguely worded statutory scheme for retail theft in Texas, in which a shoplifter who is guilty of property theft is also guilty of organized retail theft. Using arrest data from the Texas Department of Public Safety, we find wide variation across law enforcement agencies in initial charging categories, with black and Hispanic arrestees being charged for the more serious crime more than white arrestees. The racial discrepancy is greater for agencies serving cities with higher per-capita income. These results highlight consequences of ambiguous provisions of criminal codes, and suggest a method for identifying agencies whose policies may have disparate impact across racial and ethnic groups.
+
+- id: BraunSchwartz2021
+  type: working-paper
+  author:
+  - family: Braun
+    given: Michael
+  - family: Schwartz
+    given: Eric
+  year: 2021
+  month: 7
+  day: 28
+  title: "The A/B Test Deception: Divergent Delivery, Ad Response
+  Heterogeneity, and Erroneous Inferences in Online Advertising Field
+  Experiments"
+  container-title: "Working paper"
+  DOI: 10.2139/ssrn.3896024
+  SSRN: 3896024
+  topic:  Advertising Optimization and Measurement
+  draft: true
+  abstract: Advertisers and researchers use tools provided by advertising platforms to conduct randomized experiments for testing user responses to creative elements in online ads. Internally valid comparisons between ads require the mix of experimental users exposed to each ad to be similar across all ads. But that internal validity is threatened when platforms’ targeting algorithms deliver each ad to its own optimized mix of users, which diverges across ads. We extend the potential outcomes model of causal inference to treat random assignment of ads and the user exposure states for each ad as two separate decisions. We then demonstrate how targeting ads to users leads advertisers to incorrectly infer which ad performs better, based on aggregate test results. Through analysis and simulation, we characterize how bias in the aggregate estimate of the difference between two ads’ lifts is driven by the interplay between heterogeneous responses to different ads and how platforms deliver ads to divergent subsets of users. We also identify conditions for an undetectable “Simpson’s reversal,” in which all unobserved types of users may prefer ad A over ad B, but the advertiser mistakenly infers from aggregate experimental results that users prefer ad B over ad A.
+
+- id: BraunMuermann04
+  type: article-journal
+  author:
+  - family: Braun
+    given: Michael
+  - family: Muermann
+    given: Alexander
+  year: 2004
+  month: 12
+  title: The Impact of Regret on the Demand for Insurance
+  container-title: Journal of Risk and Insurance
+  page: 737-767
+  volume: '71'
+  issue: '4'
+  DOI: 10.1111/j.0022-4367.2004.00110.x
+  download: pub
+  SSRN: 632829
+  topic:  Customer Preferences for Insurance
+  notes:
+    - note: 2014 Robert I. Mehr Award (10-year impact), American Risk and Insurance Association
+
+- id: BraunFaderEtAl2006
+  type: article-journal
+  author:
+  - family: Braun
+    given: Michael
+  - family: Fader
+    given: Peter S
+  - family: Bradlow
+    given: Eric T
+  - family: Kunreuther
+    given: Howard
+  year: 2006
+  month: 8
+  download: pub
+  title: Modeling the Pseudodeductible in Homeowners’ Insurance
+  container-title: Management Science
+  page: 1258-1272
+  volume: '52'
+  issue: '8'
+  DOI: 10.1287/mnsc.1060.0517
+  preprint: true
+  topic: Customer Preferences for Insurance
+  notes:
+    - note: "Winner, Best Student Paper, INFORMS Decision Analysis
+  Society, 2006"
+
+
+- id: BraunMcAuliffe2010
+  type: article-journal
+  author:
+  - family: Braun
+    given: Michael
+  - family: McAuliffe
+    given: Jon
+  year: 2010
+  month: 3
+  title: Variational Inference for Large-Scale Models of Discrete Choice
+  container-title: Journal of the American Statistical Association
+  page: 324-335
+  volume: '105'
+  issue: '489'
+  download: pub
+  supplemental: true
+  DOI: 10.1198/jasa.2009.tm08030
+  topic:  Statistical Methodology
+  abstract: Discrete choice models are commonly used by applied statisticians in numerous fields, such as marketing, economics, finance, and operations research. When agents in discrete choice models are assumed to have differing preferences, exact inference is often intractable. Markov chain Monte Carlo techniques make approximate inference possible, but the computational cost is prohibitive on the large datasets now becoming routinely available. Variational methods provide a deterministic alternative for approximation of the posterior distribution. We derive variational procedures for empirical Bayes and fully Bayesian inference in the mixed multinomial logit model of discrete choice. The algorithms require only that we solve a sequence of unconstrained optimization problems, which are shown to be convex. One version of the procedures relies on a new approximation to the variational objective function, based on the multivariate delta method. Extensive simulations, along with an analysis of real-world data, demonstrate that variational methods achieve accuracy competitive with Markov chain Monte Carlo at a small fraction of the computational cost. Thus, variational methods permit inference on datasets that otherwise cannot be analyzed without possibly adverse simplifications of the underlying discrete choice model. Appendices C through F are available as online supplemental materials.
+
+- id: BraunBonfrer2011a
+  type: article-journal
+  author:
+  - family: Braun
+    given: Michael
+  - family: Bonfrer
+    given: André
+  year: 2011
+  month: "5-6"
+  title: Scalable Inference of Customer Similarities From Interactions Data Using
+    Dirichlet Processes
+  container-title: Marketing Science
+  preprint: true
+  page: 513-531
+  volume: '30'
+  issue: '3'
+  DOI: 10.1287/mksc.1110.0640
+  topic: Social Networks
+  abstract: Under the sociological theory of homophily, people who are similar to one another are more likely to interact with one another. Marketers often have access to data on interactions among customers from which, with homophily as a guiding principle, inferences could be made about the underlying similarities. However, larger networks face a quadratic explosion in the number of potential interactions that need to be modeled. This scala- bility problem renders probability models of social interactions computationally infeasible for all but the smallest networks. In this paper, we develop a probabilistic framework for modeling customer interactions that is both grounded in the theory of homophily and is flexible enough to account for random variation in who interacts with whom. In particular, we present a novel Bayesian nonparametric approach, using Dirichlet processes, to moderate the scalability problems that marketing researchers encounter when working with networked data. We find that this framework is a powerful way to draw insights into latent similarities of customers, and we discuss how marketers can apply these insights to segmentation and targeting activities.
+
+- id: BraunSchweidel2011
+  type: article-journal
+  author:
+  - family: Braun
+    given: Michael
+  - family: Schweidel
+    given: David A
+  year: 2011
+  month: 10
+  title: Modeling Customer Lifetimes With Multiple Causes of Churn
+  container-title: Marketing Science
+  page: 881-902
+  download: pub
+  volume: '30'
+  issue: '5'
+  DOI: 10.1287/mksc.1110.0665
+  preprint: true
+  topic: Customer Value and Retention
+  abstract: Customer retention and customer churn are key metrics of interest to marketers, but little attention has been placed on linking the different reasons for which customers churn to their value to a contractual service provider. In this paper, we put forth a hierarchical competing-risk model to jointly model when customers choose to terminate their service and why. Some of these reasons for churn can be influenced by the firm (e.g., service problems or price–value trade-offs), but others are uncontrollable (e.g., customer relocation and death). Using this framework, we demonstrate that the impact of a firm’s efforts to reduce customer churn for controllable reasons is mitigated by the prevalence of uncontrollable ones, resulting in a “damper effect” on the return from a firm’s retention marketing efforts. We use data from a provider of land-based telecommunication services to demonstrate how the competing-risk model can be used to derive a measure of the incremental customer value that a firm can expect to accrue through its efforts to delay churn, taking this damper effect into account. In addition to varying across customers based on geodemographic information, the magnitude of the damper effect depends on a customer’s tenure to date. We discuss how our framework can be used to tailor the firm’s retention strategy to individual customers, both in terms of which customers to target and when retention efforts should be deployed.
+
+- id: BraunMoe2013
+  type: article-journal
+  author:
+  - family: Braun
+    given: Michael
+  - family: Moe
+    given: Wendy W.
+  year: 2013
+  month: 9
+  title: "Online Display Advertising: Modeling the Effects Of Multiple Creatives And
+    Individual Impression Histories"
+  container-title: Marketing Science
+  page: 753-767
+  volume: '32'
+  issue: '5'
+  download: pub
+  DOI: 10.1287/mksc.2013.0802
+  topic: Advertising Optimization and Measurement
+  abstract: Online advertising campaigns often consist of multiple ads, each with different creative content. We consider how various creatives in a campaign differentially affect behavior given the targeted individual’s ad impression history, as characterized by the timing and mix of previously seen ad creatives. Specifically, we examine the impact that each ad impression has on visiting and conversion behavior at the advertised brand’s website. We accommodate both observed and unobserved individual heterogeneity and take into account corre- lations among the rates of ad impressions, website visits, and conversions. We also allow for the accumulation and decay of advertising effects, as well as ad wearout and restoration effects. Our results highlight the importance of accommodating both the existence of multiple ad creatives in an ad campaign and the impact of an individual’s ad impression history. Simulation results suggest that online advertisers can increase the number of website visits and conversions by varying the creative content shown to an individual according to that person’s history of previous ad impressions. For our data, we show a 12.7% increase in the expected number of visits and a 13.8% increase in the expected number of conversions.
+
+- id: R_trustOptim
+  type: article-journal
+  author:
+  - family: Braun
+    given: Michael
+  year: 2014
+  month: 9
+  title: "trustOptim: An R Package for Trust Region Optimization with Sparse Hessians"
+  container-title: Journal of Statistical Software
+  page: 1-16
+  volume: '60'
+  issue: '4'
+  DOI: 10.18637/jss.v060.i04
+  topic: Statistical Methodology
+  abstract: Trust region algorithms are nonlinear optimization tools that tend to be stable and reliable when the objective function is non-concave, ill-conditioned, or exhibits regions that are nearly flat. Additionally, most freely-available optimization routines do not exploit the sparsity of the Hessian when such sparsity exists, as in log posterior densities of Bayesian hierarchical models. The _trustOptim_ package for the R programming language addresses both of these issues. It is intended to be robust, scalable and efficient for a large class of nonlinear optimization problems that are often encountered in statistics, such as finding posterior modes. The user must supply the objective function, gradient and Hessian. However, when used in conjunction with the _sparseHessianFD_ package, the user does not need to supply the exact sparse Hessian, as long as the sparsity structure is known in advance. For models with a large number of parameters, but for which most of the cross-partial derivatives are zero (i.e., the Hessian is sparse), _trustOptim_ offers dramatic performance improvements over existing options, in terms of computational time and memory footprint.
+
+# - id: R_bayesGDS
+#   type: software
+#   author:
+#   - family: Braun
+#     given: Michael
+#   year: 2015
+#   title: "bayesGDS: An R Package for Generalized Direct Sampling"
+#   version: 0.6.1
+#   genre: R package
+#   URL: "http://cran.r-package.org/web/packages/bayesGDS"
+#   topic: R Packages
+
+- id: R_sparseMVN
+  type: software
+  author:
+  - family: Braun
+    given: Michael
+  year: 2018
+  month: 3
+  title: "sparseMVN: An R Package for MVN Sampling with
+    Sparse Covariance and Precision Matrices"
+  version: 0.2.1.1
+  topic: R package
+  URL: "https://cran.r-project.org/package=sparseMVN"
+
+- id: BraunSchweidel2015
+  type: article-journal
+  author:
+  - family: Braun
+    given: Michael
+  - family: Schweidel
+    given: David A.
+  - family: Stein
+    given: Eli M.
+  year: 2015
+  month: 12
+  title: "Transaction Attributes and Customer Valuation"
+  container-title: Journal of Marketing Research
+  page: 848-864
+  volume: '52'
+  issue: '6'
+  preprint: true
+  DOI: 10.1509/jmr.13.0377
+  topic: Customer Value and Retention
+  abstract: Dynamic customer targeting is a common task for marketers actively managing customer relationships. Such efforts can be guided by insight into the return on investment from marketing interventions, which can be derived as the increase in the present value of a customer’s expected future transactions. Using the popular latent attrition framework, one could estimate this value by manipulating the levels of a set of nonstationary covariates. We propose such a model that incorporates transaction-specific attributes and maintains standard assumptions of unobserved heterogeneity. We demonstrate how firms can approximate an upper bound on the appropriate amount to invest in retaining a customer and demonstrate that this amount depends on customers’ past purchase activity, namely the recency and frequency of past customer purchases. Using data from a B2B service provider as our empirical application, we apply our model to estimate the revenue lost by the service provider when it fails to deliver a customer’s requested level of service. We also show that the lost revenue is larger than the corresponding expected gain from exceeding a customer’s requested level of service. We discuss the implications of our findings for marketers in terms of managing customer relationships.
+
+
+
+- id: BraunDamien2016
+  type: article-journal
+  author:
+  - family: Braun
+    given: Michael
+  - family: Damien
+    given: Paul
+  year: 2016
+  month: 5-6
+  title: "Scalable Rejection Sampling for Bayesian Hierarchical Models"
+  container-title: Marketing Science
+  page: 427-444
+  volume: '35'
+  issue: '3'
+  preprint: true
+  DOI: 10.1287/mksc.2014.0901
+  topic: Statistical Methodology
+  abstract: Bayesian hierarchical modeling is a popular approach to capturing unobserved heterogeneity across indi- vidual units. However, standard estimation methods such as Markov chain Monte Carlo (MCMC) can be impracticable for modeling outcomes from a large number of units. We develop a new method to sample from posterior distributions of Bayesian models, without using MCMC. Samples are independent, so they can be collected in parallel, and we do not need to be concerned with issues like chain convergence and autocorrelation. The algorithm is scalable under the weak assumption that individual units are conditionally independent, making it applicable for large data sets. It can also be used to compute marginal likelihoods.
+
+- id: R_sparseHessianFD
+  type: article-journal
+  author:
+  - family: Braun
+    given: Michael
+  year: 2017
+  month: 12
+  title: "sparseHessianFD: Estimating Sparse Hessian Matrices in R"
+  container-title: Journal of Statistical Software
+  page: 1-22
+  volume: '82'
+  issue: '10'
+  DOI: 10.18637/jss.v082.i10
+  topic: Statistical Methodology
+  abstract: Sparse Hessian matrices occur often in statistics, and their fast and accurate estimation can improve efficiency of numerical optimization and sampling algorithms. By exploiting the known sparsity pattern of a Hessian, methods in the _sparseHessianFD_ package require many fewer function or gradient evaluations than would be required if the Hessian were treated as dense. The package implements established graph coloring and linear substitution algorithms that were previously unavailable to R users, and is most useful when other numerical, symbolic or algorithmic methods are impractical, inefficient or unavailable.
+
+
+- id: HauserUrbanEtAl2009
+  type: article-journal
+  author:
+  - family: Hauser
+    given: John R
+  - family: Urban
+    given: Glen L
+  - family: Liberali
+    given: Guilherme
+  - family: Braun
+    given: Michael
+  year: 2009
+  month: 3
+  title: Website Morphing
+  container-title: Marketing Science
+  page: 202-223
+  volume: '28'
+  issue: '2'
+  DOI: 10.1287/mksc.1080.0459
+  preprint: true
+  topic: Advertising Optimization and Measurement
+  notes:
+    - note: "Finalist, ISMS Long-term Impact Award, 2017 and 2018"
+    - note: "Finalist, John D. C. Little Award (best marketing paper in
+  an INFORMS journal)"
+  abstract: Virtual advisors often increase sales for those customers who find such online advice to be convenient and helpful. However, other customers take a more active role in their purchase decisions and prefer more detailed data. In general, we expect that websites are more preferred and increase sales if their characteristics (e.g., more detailed data) match customers' cognitive styles (e.g., more analytic). “Morphing” involves automatically matching the basic “look and feel” of a website, not just the content, to cognitive styles. We infer cognitive styles from clickstream data with Bayesian updating. We then balance exploration (learning how morphing affects purchase probabilities) with exploitation (maximizing short-term sales) by solving a dynamic program (partially observable Markov decision process). The solution is made feasible in real time with expected Gittins indices. We apply the Bayesian updating and dynamic programming to an experimental BT Group (formerly British Telecom) website using data from 835 priming respondents. If we had perfect information on cognitive styles, the optimal “morph” assignments would increase purchase intentions by 21%. When cognitive styles are partially observable, dynamic programming does almost as well—purchase intentions can increase by almost 20%. If implemented system-wide, such increases represent approximately $80 million in additional revenue.
+
+- id: UrbanHauserSMR2009
+  type: article-journal
+  author:
+  - family: Urban
+    given: Glen L
+  - family: Hauser
+    given: John R
+  - family: Liberali
+    given: Guilherme
+  - family: Braun
+    given: Michael
+  - family: Sultan
+    given: Fareena
+  year: 2009
+  month: Summer
+  title: Morph the Web to Build Empathy, Trust and Sales
+  container-title: MIT Sloan Management Review
+  page: 53-61
+  volume: '50'
+  issue: '4'
+  download: pub
+  URL: http://tinyurl.com/morph2009smr
+  topic:  Advertising Optimization and Measurement
+  abstract: "We’ve long been able to personalize what information the
+  Internet tells us — but now comes Website Morphing, and an
+  Internet that personalizes how we like to be told. For companies, it
+  means that communicating — and selling — will never be the same."
+
+- id: ChoicesInNetworks
+  type: article-journal
+  title: "Choices in Networks: A Research Framework"
+  container-title: "Marketing Letters"
+  author:
+  - family: Feinberg
+    given: Fred
+  - family: Bruch
+    given: Elizabeth
+  - family: Braun
+    given: Michael
+  - family: Falk
+    given: Brett
+  - family: Fefferman
+    given: Nina
+  - family: Feit
+    given: Elea McDonnell
+  - family: Helveston
+    given: John
+  - family: Larremore
+    given: Daniel
+  - family: McShane
+    given: Blakeley B
+  - family: Patania
+    given: Alice
+  - family: Small
+    given: Mario. L
+  year: 2020
+  month: 12
+  volume: '31'
+  issue: '4'
+  download: pub
+  DOI: 10.1007/s11002-020-09541-9
+  topic: Social Networks
+  abstract: Networks are ubiquitous in life, structuring options available for choice and influencing their relative attractiveness. In this article, we propose an integration of network science and choice theory beyond merely incorporating metrics from one area into models of the other. We posit a typology and framework for “network-choice models” that highlight the distinct ways choices occur in and influence networked environments, as well as two specific feedback processes that guide their mutual interaction, emergent valuation and contingent options. In so doing, we discuss examples, data sources, methodological challenges, anticipated benefits, and research pathways to fully interweave network and choice models.
+
+
+- id: GDSchapter
+  type: article-chapter
+  author:
+  - family: Braun
+    given: Michael
+  - family: Damien
+    given: Paul
+  year: 2018
+  editor:
+    - family: Tsafarakis
+      given: S.
+    - family: Matsatsinis
+      given: N.
+  publisher: "Springer-Verlag"
+  title: "A Non-Markovian Method for Full, Parametric Bayesian Inference"
+  container-title: "Marketing and Big Data Technologies: New Trends and
+  Applications"
+  download: /assets/papers/GDSchapter_preprint.pdf
+  preprint: true
+  topic: Statistical Methodology
+  abstract: Despite recent advances in high-speed computing, Bayesian inference in high dimensional hierarchical models remains a non-trivial undertaking. Markov chain Monte Carlo (MCMC) methods have come a long way in resolving several problems in this regard, but these methods have, in turn, introduced a different set of computational issues like monitoring convergence rates. Such issues, typically, get accentuated in marketing research and practice when non- conjugate Bayesian hierarchical models are used. Here, we use a new method to generate independent samples from posterior distributions in these types of Bayesian models, obviating many of the difficulties associated with MCMC algorithms. Challenging illustrative analysis exemplifies the ease with which one can implement this method.

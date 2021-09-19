@@ -1,0 +1,26 @@
+<span class="citelist title"> {{ ref.title }}</span>{% include authorlist.html alist=ref %}<br>
+{% if ref.type == "article-journal" %}
+<em>{{ref.container-title}}</em> ({{ref.year}})
+{% endif %}
+{% if ref.type == "working-paper" %}
+{% if ref.day %}
+{% capture dateYM %}
+{{ ref.year }}-{{ref.month}}-{{ref.day}}
+{% endcapture %}
+<em>Working paper</em> ({{ dateYM | date: "%Y-%B-%d" }})
+{% else %}
+{% capture dateYM %}
+{{ ref.year }}-{{ref.month}}-01
+{% endcapture %}
+<em>Working paper</em> ({{ dateYM | date: "%Y-%B" }})
+{% endif %}
+{% endif %}
+<ul>
+  {% for note in ref.notes %}
+  <li>{% if note.link %}
+    <a href="{{ note.link }}"> {{ note.note }}</a>
+    {% else %}
+    {{ note.note }}
+    {% endif %}</li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,20 @@
+- title: "About"
+  href: "/about/"
+
+- title: "CV"
+  href: "/cv/"
+
+- title: "Blog"
+  href: "/blog/"
+
+- title: "Computing"
+  href: "/computing/"
+
+# - title: "Research"
+#   href: "/research/"
+
+- title: "Publications"
+  href: "/papers/"
+
+- title: "Teaching"
+  href: "/teaching/"

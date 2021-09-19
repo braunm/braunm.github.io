@@ -1,0 +1,8 @@
+<div class="newsbox">
+  {% for group in site.data.newsbox.newsgroups %}
+  <h5> {{group.title }} </h5>
+  {% for item in group.items %}
+  <p> {{ item.item | markdownify }} </p>
+  {% endfor %}
+  {% endfor %}
+</div>

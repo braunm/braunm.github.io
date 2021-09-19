@@ -1,0 +1,5 @@
+<table>
+  {% tablerow top in site.data.citations.topic_order  cols:2 %}
+  <a href="#{{ top.topic | remove: " "}}">{{ top.topic }}</a>
+  {% endtablerow %}
+</table>

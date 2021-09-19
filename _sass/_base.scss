@@ -1,0 +1,42 @@
+
+
+/* $navbar-dark-hover-color: purple;
+   $navbar-dark-active-color: purple;
+   $navbar-light-hover-color: yellow;
+   $navbar-light-active-color: yellow; */
+
+
+body {
+  padding-top: 70px;
+}
+
+
+section {
+  border: 1px solid $primary;
+  background-color: $light;
+  padding: $spacer;
+  margin: $spacer;
+}
+
+
+a {
+  text-decoration: none;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.navbar {
+  text-transform: uppercase;
+
+  .navbar-brand {
+    font-weight: 1000;
+
+  }
+}
+
+img {
+  width: 300px;
+ // height: auto;
+
+}

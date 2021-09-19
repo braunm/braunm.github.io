@@ -1,0 +1,41 @@
+---
+layout: page
+---
+
+<div class="d-flex justify-content-around fg-info bg-light">
+  <a class="btn btn-primary" align="center" href="/cv/">View My CV</a>
+  <a class="btn btn-primary" align="center" href="https://scholar.google.com/citations?user=Rny0DIkAAAAJ&hl=en">Google Scholar</a>
+</div>
+
+{{ content }}
+
+
+<div class="citelist">
+
+  {% assign allrefs=site.data.papers.references %}
+  <h4 class="type">Working papers</h4>
+  {% assign wps = allrefs | where: "type", "working-paper" %}
+  <dl>
+    <dd><ul class="refs">
+      {% for ref in wps %}
+      <li>{% include paper.html %}</li>
+      {% endfor %}
+    </ul></dd>
+  </dl>
+</div>
+
+<div class="citelist">
+  <h4 class="type">Published articles</h4>
+  {% assign articles = allrefs | where_exp: "allrefs", "allrefs.type contains 'article'" %}
+    <dl class="topics">
+    {% for top in site.data.papers.topic_order %}
+    <dt id="{{ top.topic | remove: " "}}"> {{ top.topic }}</dt>
+    {% assign refs = articles | where: "topic", top.topic | sort: "year" | reverse%}
+    <dd> <ul class="refs">
+      {% for ref in refs %}
+      <li>{% include paper.html %}</li>
+      {% endfor %} <!-- End loop on refs within topic -->
+    </ul></dd>
+    {% endfor %} <!-- End loop on topics -->
+    </dl>
+</div>

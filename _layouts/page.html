@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+
+	<h1 class="page-title">{{ page.title }}</h1>
+
+      {{ content | markdownify}}
+    </div>
+
+    <div class="col-lg-4">
+
+      {% include newsbox.html %}
+
+    </div>
+    </div>
+  </div>
