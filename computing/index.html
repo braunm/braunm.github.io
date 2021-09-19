@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <title>Computing</title>
+  <meta name="description" content="Michael Braun, Associate Professor of Marketing, SMU Cox School of Business">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="canonical" href="/computing/">
+  <link rel="alternate" type="application/rss+xml" title="Michael Braun" href="/feed.xml" />
+  <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+
+  <!-- <link rel="icon" type="image/x-icon" href="http://example.com/favicon.ico" /> -->
+
+
+
+
+
+</head>
+
+
+  <body>
+    <div class="container border">
+    <div class="container border">
+      
+
+<header>
+  <!-- Navigation -->
+
+
+<!-- <div class="d-flex flex-wrap justify-content-center py-3"> -->
+  <nav class="navbar navbar-expand-md  navbar-dark bg-primary fixed-top border" id="navbar">
+    <div class="container-md">
+      <a class="navbar-brand" href="/index/">Michael Braun</a>
+
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+	<span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggler">
+	<ul class="navbar-nav ms-auto">
+	   <li class="hidden"><a href="#page-top"></a></li>
+	   <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+	   <li class="nav-item"><a class="nav-link" href="/papers/">Papers</a></li>
+	   <li class="nav-item"><a class="nav-link" href="/software/">Software</a></li>
+	   <li class="nav-item"><a class="nav-link" href="/teaching/">Teaching</a></li>
+	  <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+	</ul>
+      </div>
+    </div>
+   </nav>
+  <!-- </div> -->
+
+  <div class="container-fluid text-warning">
+    <h2> This website is still under construction </h2>
+
+  </div>
+
+</header>
+
+    </div>
+    <div class="container border">
+
+
+        <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+
+	<h1 class="page-title">Computing</h1>
+
+      <p>I am the author of four packages for the R statistical programming language.  I also have a library of code snippets for R, emacs, and LaTeX that I will post from time to time, as I clean them up for public review.</p>
+
+<h2 id="r-packages">R packages</h2>
+
+<ul>
+  <li>
+    <p><a href="https://cran.r-project.org/package=trustOptim">trustOptim</a></p>
+  </li>
+  <li>
+    <p><a href="https://cran.r-project.org/package=sparseHessianFD">sparseHessianFD</a></p>
+  </li>
+  <li>
+    <p><a href="https://cran.r-project.org/package=sparseMVN">sparseMVN</a></p>
+  </li>
+  <li>
+    <p>bayesGDS (not currently maintained)</p>
+  </li>
+</ul>
+
+<h2 id="my-computing-setup">My computing setup</h2>
+
+<ul>
+  <li>I write <em>everything</em> in Emacs: code, reviews, manuscripts, lecture slides, and even recommendation letters.  Specifically, I use <a href="http://aquamacs.org">Aquamacs Emacs</a>, an emacs port for MacOS.  GNU Emacs has been around since 1985, so it is just plain <strong>solid</strong>, with a huge user base for support, and thousands of packages and modes that can do anything from syntax highlighting of your favorite programming language (<code class="language-plaintext highlighter-rouge">ess-r-mode</code>) to psychotherapy (<code class="language-plaintext highlighter-rouge">doctor</code>).  By using the same program for ever a fully-featured platform, I can use the same program (and thus, the same keybindings) for everything I do.</li>
+</ul>
+
+<p>Emacs is easy to use.  If you do not know Lisp,  <strong>configuring</strong> Emacs can be hard.  Someday I will post my configuration file, which has evolved quite a bit over the last decade.</p>
+
+<ul>
+  <li>
+    <p>For statistical computing, I code in the <a href="https://www.r-project.org">R language</a>, using Emacs with the  <a href="https://ess.r-project.org">ESS</a>  package (<strong>E</strong> macs <strong>S</strong> peaks <strong>S</strong> tatistics). ESS let’s me have both my R source document and an active R session open at the same time, in the same Emacs session. It saves a lot of time to be able to send a chunk of source code directly into R with two keystrokes.</p>
+  </li>
+  <li>Writing papers:  I write my research papers directly in Emacs, marked up with <a href="www.latex-project.org">LaTeX</a>. The <a href="https://www.gnu.org/software/auctex/">AuCTeX</a> Emacs package provides lots of time-saving functions, macros, and keymaps that have become so automatic to me that I can just focus on the writing.
+    <ul>
+      <li>I compile my LaTeX documents with <a href="www.luatex.org">LuaTeX</a> (instead of pdfTeX) for a few reasons:
+        <ul>
+          <li>With <a href="https://github.com/wspr/fontspec">fontspec</a> and <a href="https://github.com/wspr/unicode-math">unicode-math</a>, I can create documents using any installed font, rather than being limited to fonts provided in LaTeX packages.</li>
+          <li>Sometimes there is a need to run calculations as part of the document, such as when drawing figures using tikZ.</li>
+          <li>Some LaTeX packages require LuaTeX.  An example is lua-check-hyphen, which generates a list of all hyphenated words in the document, so I can confirm that they are hyphenated at the right places.</li>
+        </ul>
+      </li>
+      <li>The <a href="https://www.gnu.org/software/auctex/manual/preview-latex.htmlpackage">preview-latex</a> (now included in AuCTeX) embeds compiled chunks of rendered LaTeX (e.g., math symbols and equations) directly in the emacs frame. That way I can see the all of the content – text and math – together in the same frame I am writing in, without having to glance to the output pdf.</li>
+      <li>Reference management:  I use <a href="http://biblatex-biber.sourceforge.net">biber</a> and  <a href="https://ctan.org/pkg/biblatex?lang=en">biblatex</a> to insert citations and create bibliographies. Biblatex is designed to be more flexible and customizable than bibtex,  but my references are stored in bibtex format. My bibtex database (which I maintain using <a href="https://bibdesk.sourceforge.io">BibDesk</a> contains 1,800 references (and in most cases, pdfs) of academic papers I have downloaded, read, intend to read, intended to read, or otherwise needed for some reason, collected since I was a graduate student.</li>
+    </ul>
+  </li>
+  <li>I built this website with <a href="https://www.jekyllrb.com">Jekyll</a>, mainly for blig management. The HTML includes Bootstrap 5 classes.  As with everything else, I wrote both the site code (<code class="language-plaintext highlighter-rouge">web-mode</code>) and text content (<code class="language-plaintext highlighter-rouge">markdown-mode</code>) in Emacs.</li>
+</ul>
+
+    </div>
+
+    <div class="col-lg-4">
+
+      <div class="newsbox">
+  
+  <h5> Research Update </h5>
+  
+  <p> <p>New working paper: <a href="/papers/">The A/B Test Deception: Divergent Delivery, Ad Response Heterogeneity, and Erroneous Inferences in Online Advertising Field Experiments</a> (with Eric Schwartz) is available on SSRN.</p>
+ </p>
+  
+  
+  <h5> Research leave </h5>
+  
+  <p> <p>I am on research leave for the 2021-22 academic year.</p>
+ </p>
+  
+  <p> <p>But I can still be reached by email.</p>
+ </p>
+  
+  
+</div>
+
+
+    </div>
+    </div>
+  </div>
+
+
+
+
+    </div>
+
+    <div class="container border">
+          <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy;  2021</p>
+        </div>
+    </footer>
+
+    </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+
+
+    </body>
+
+</html>
