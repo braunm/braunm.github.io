@@ -19,6 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Michael Braun
+tagline: The website and blog of marketing professor Michael Braun
+url: https://braunm.github.io
 email: braunm@smu.edu
 description: >- # this means to ignore newlines until "baseurl:"
  Michael Braun, Associate Professor of Marketing, SMU Cox School of Business
@@ -33,6 +35,10 @@ github_username:  braunm
 plugins:
   - jekyll-feed
 
+
+
+## destination: "/Users/braunm/Sites/braunm.github.io"
+
 # markdown: kramdown
 
 ## tell Jekyll where to find sass files, including bootstrap
@@ -45,15 +51,15 @@ sass:
 # include: ["node_modules", "/"]
 # exclude: []
 
-lsi: false
-safe: true
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+# lsi: false
+# safe: true
+# incremental: false
+# highlighter: rouge
+# gist:
+#   noscript: false
+# kramdown:
+#   math_engine: mathjax
+#   syntax_highlighter: rouge
 
 
 # Exclude from processing.
