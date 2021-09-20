@@ -493,16 +493,27 @@ progress { vertical-align: baseline; }
 
 header { font-family: Roboto Condensed, sans-serif; }
 
-/* $navbar-dark-hover-color: purple; $navbar-dark-active-color: purple; $navbar-light-hover-color: yellow; $navbar-light-active-color: yellow; */
 code { color: #000; }
 
-a { text-decoration: none; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
+a { text-decoration: none; }
 
 a:hover { color: #cc0000; }
 
 .navbar { text-transform: uppercase; }
 
 .navbar .navbar-brand { font-weight: 1000; font-size: 1.25rem; }
+
+.navbar-dark { background-color: #354c97; }
+
+.navbar-dark .navbar-nav .nav-link { color: white; }
+
+.navbar-dark .navbar-nav .nav-link:hover { color: #cc0000; }
+
+.navbar-dark .navbar-brand { color: #fff; }
+
+.navbar-dark .navbar-brand:hover { color: #cc0000; }
+
+footer { background-color: #354c97; }
 
 img { width: 300px; }
 
