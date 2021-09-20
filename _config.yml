@@ -37,9 +37,9 @@ plugins:
 
 
 
-## destination: "/Users/braunm/Sites/braunm.github.io"
+##destination: "/Users/braunm/Sites/braunm.github.io"
 
-# markdown: kramdown
+markdown: kramdown
 
 ## tell Jekyll where to find sass files, including bootstrap
 sass:

@@ -14,18 +14,13 @@ I am on research leave for the 2021-22 academic year, and not teaching any cours
 
 This is the required graduate-level marketing course for the SMU Cox MBA and MS in Management programs.
 
-<!-- <a class="btn btn-outline-secondary btn-sm" href="/assets/documents/teaching/MKTG_6201_Braun_2021_Spring_A_syllabus.pdf">Syllabus</a> -->
-
 
 
 
 
 #### MAST 6252: Applied Probability Models
 
-
-
-<!-- <a class="btn btn-outline-secondary btn-sm" href="/assets/documents/teaching/syllabus_MAST_6252_2021_Spring_B.pdf">Syllabus</a> -->
-<!-- <a class="btn btn-outline-secondary btn-sm" href="/assets/documents/teaching/Reading_List_MAST_6252_2021.pdf">Reading List</a> -->
+This is the required course taught in the MS in Business Analytics program, with a focus on customer valuation.
 
 
 ## Research graduate students and post-docs

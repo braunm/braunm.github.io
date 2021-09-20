@@ -31,7 +31,7 @@
 {% endif %}
 <div>
   {% if ref.abstract %}
-  <a class="btn btn-outline-primary btn-sm" data-bs-target="#abstract-{{ref.id}}" data-bs-toggle="collapse">Abstract</a>
+  <a class="btn btn-abstract btn-sm" data-bs-target="#abstract-{{ref.id}}" data-bs-toggle="collapse">Abstract</a>
   <div class="collapse" id="abstract-{{ref.id}}">
     <div class="card card-body">
       {{ref.abstract |  markdownify}}
@@ -39,19 +39,19 @@
   </div>
   {% endif %}
 {% if mainref %}
-<a class="btn btn-outline-dark btn-sm" href="{{mainref}}">Publisher</a>
+<a class="btn btn-publisher btn-sm" href="{{mainref}}">Publisher</a>
 {% endif %}
 {% if ref.draft %}
-<a class="btn btn-outline-info btn-sm" href="/assets/documents/papers/{{ref.id}}_draft.pdf">Draft</a>
+<a class="btn btn-draft btn-sm" href="/assets/documents/papers/{{ref.id}}_draft.pdf">Draft</a>
 {% endif %}
 {% if ref.preprint %}
-<a class="btn btn-outline-secondary btn-sm" href="/assets/documents/papers/{{ref.id}}_preprint.pdf">Preprint</a>
+<a class="btn btn-preprint btn-sm" href="/assets/documents/papers/{{ref.id}}_preprint.pdf">Preprint</a>
 {% endif %}
 {% if ref.SSRN %}
-<a class="btn btn-outline-info btn-sm" href="https://ssrn.com/abstract={{ref.SSRN}}">SSRN</a>
+<a class="btn btn-sm btn-ssrn" href="https://ssrn.com/abstract={{ref.SSRN}}">SSRN</a>
 {% endif %}
 {% if ref.supplemental %}
-  <a class="btn btn-outline-success btn-sm" href="/assets/documents/papers/{{ref.id}}_supplemental.pdf">Supplemental</a>
+  <a class="btn btn-sm btn-supplemental" href="/assets/documents/papers/{{ref.id}}_supplemental.pdf">Supplemental</a>
   {% endif %}
 </div>
 

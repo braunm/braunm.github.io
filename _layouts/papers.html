@@ -13,7 +13,7 @@ layout: page
 <div class="citelist">
 
   {% assign allrefs=site.data.papers.references %}
-  <h4 class="type">Working papers</h4>
+  <h3 class="type">Working papers</h3>
   {% assign wps = allrefs | where: "type", "working-paper" %}
   <dl>
     <dd><ul class="refs">
@@ -25,7 +25,7 @@ layout: page
 </div>
 
 <div class="citelist">
-  <h4 class="type">Published articles</h4>
+  <h3 class="type">Published articles</h3>
   {% assign articles = allrefs | where_exp: "allrefs", "allrefs.type contains 'article'" %}
     <dl class="topics">
     {% for top in site.data.papers.topic_order %}

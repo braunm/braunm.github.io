@@ -1,21 +1,17 @@
 
 
+header {font-family: $font-family-sans-serif, sans-serif;}
+//body {font-family: $font-family-base, sans-serif;}
+
+
+
 /* $navbar-dark-hover-color: purple;
    $navbar-dark-active-color: purple;
    $navbar-light-hover-color: yellow;
    $navbar-light-active-color: yellow; */
 
-
-body {
-  padding-top: 70px;
-}
-
-
-section {
-  border: 1px solid $primary;
-  background-color: $light;
-  padding: $spacer;
-  margin: $spacer;
+code {
+  color: $secondary;
 }
 
 
@@ -24,6 +20,9 @@ a {
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
+  &:hover {
+    color: $danger;
+  }
 }
 
 .navbar {
@@ -31,12 +30,12 @@ a {
 
   .navbar-brand {
     font-weight: 1000;
+    font-size: $font-size-lg;
 
   }
 }
 
 img {
   width: 300px;
- // height: auto;
-
+  // height: auto;
 }

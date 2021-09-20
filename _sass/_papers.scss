@@ -7,11 +7,15 @@
    }
  */
 .citelist {
+
+  h2, h3 {
+    font-weight: $font-weight-bold;
+  }
+
   .topics {
     dt {
-      font-size: $font-size-lg;
-      font-weight: $font-weight-normal;
-      //1.5*$font-size-base;
+      font-size: $h4-font-size;
+      font-weight: $font-weight-bold;
     }
   }
 
@@ -33,5 +37,36 @@
     ul.notes {
       list-style-type: square;
     }
+
+    // Colors and variant for each button
+
+    .btn-abstract {
+      @extend .btn-outline-secondary;
+    }
+
+
+    .btn-publisher {
+      @extend .btn-outline-secondary;
+    }
+
+    .btn-preprint {
+      @extend .btn-outline-warning;
+    }
+
+    .btn-draft {
+      @extend .btn-outline-info;
+    }
+
+
+    .btn-ssrn {
+      @extend .btn-outline-primary;
+    }
+
+    .btn-supplemental {
+      @extend .btn-outline-primary;
+    }
+
+
+
   }
 }
