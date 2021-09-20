@@ -4,12 +4,6 @@ header {font-family: $font-family-sans-serif, sans-serif;}
 //body {font-family: $font-family-base, sans-serif;}
 
 
-
-/* $navbar-dark-hover-color: purple;
-   $navbar-dark-active-color: purple;
-   $navbar-light-hover-color: yellow;
-   $navbar-light-active-color: yellow; */
-
 code {
   color: $secondary;
 }
@@ -17,9 +11,9 @@ code {
 
 a {
   text-decoration: none;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+//  -webkit-transition: all .2s ease-in-out;
+//  -moz-transition: all .2s ease-in-out;
+//  transition: all .1s ease-in-out;
   &:hover {
     color: $danger;
   }
@@ -31,8 +25,36 @@ a {
   .navbar-brand {
     font-weight: 1000;
     font-size: $font-size-lg;
-
   }
+}
+
+
+.navbar-dark {
+  background-color: $primary;
+  .navbar-nav {
+    .nav-link {
+      color: white;
+      &:hover {
+	color: $danger;
+      }
+    }
+  }
+  .navbar-brand {
+    color: $light;
+    &:hover {
+      color: $danger;
+    }
+  }
+}
+
+
+
+
+
+
+
+footer {
+  background-color: $primary;
 }
 
 img {

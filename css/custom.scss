@@ -27,8 +27,6 @@ $black:    #000;
 $font-family-base: Helvetica Neue;
 $font-family-sans-serif: Roboto Condensed;
 
-
-
 $smu-blue:  #354c97;
 $smu-red:     #cc0000;
 $smu-purple: #522d80;
@@ -70,13 +68,18 @@ $h4-font-size:                $font-size-base * 1.1;
 $h5-font-size:                $font-size-base;
 $h6-font-size:                $font-size-base;
 
+$navbar-dark-color: $info;
+$navbar-dark-color: $warning;
+$navbar-dark-color: $danger;
+
 
 
 body {
   padding-top: 70px;
 }
 
-$navbar-dark-hover-color: $light;
+$navbar-dark-color: $primary;
+$navbar-light-color: $info;
 
 
 //@import "bootstrap/scss/bootstrap";
