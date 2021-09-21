@@ -19,7 +19,7 @@
 {% endcapture %}
 
 {% if mainref %}
-<a class="title" href="{{mainref}}">{{ ref.title }}</a>
+<a class="title" href="{{mainref}}" rel="noopener noreferrer">{{ ref.title }}</a>
 {% else %}
 <span class="title">{{ ref.title }}</span>
 {% endif %}
@@ -38,20 +38,20 @@
     </div>
   </div>
   {% endif %}
-{% if mainref %}
-<a class="btn btn-publisher btn-sm" href="{{mainref}}">Publisher</a>
+  {% if mainref %}
+  <a class="btn btn-publisher btn-sm" href="{{mainref}}" target="_blank" rel="noopener noreferrer">Publisher</a>
 {% endif %}
 {% if ref.draft %}
-<a class="btn btn-draft btn-sm" href="/assets/documents/papers/{{ref.id}}_draft.pdf">Draft</a>
-{% endif %}
-{% if ref.preprint %}
-<a class="btn btn-preprint btn-sm" href="/assets/documents/papers/{{ref.id}}_preprint.pdf">Preprint</a>
+  <a class="btn btn-draft btn-sm" href="/assets/documents/papers/{{ref.id}}_draft.pdf">Draft</a>
+  {% endif %}
+  {% if ref.preprint %}
+  <a class="btn btn-preprint btn-sm" href="/assets/documents/papers/{{ref.id}}_preprint.pdf" target="_blank"  rel="noopener noreferrer">Preprint</a>
 {% endif %}
 {% if ref.SSRN %}
-<a class="btn btn-sm btn-ssrn" href="https://ssrn.com/abstract={{ref.SSRN}}">SSRN</a>
+<a class="btn btn-sm btn-ssrn" href="https://ssrn.com/abstract={{ref.SSRN}}" target="_blank" rel="noopener noreferrer">SSRN</a>
 {% endif %}
 {% if ref.supplemental %}
-  <a class="btn btn-sm btn-supplemental" href="/assets/documents/papers/{{ref.id}}_supplemental.pdf">Supplemental</a>
+<a class="btn btn-sm btn-supplemental" href="/assets/documents/papers/{{ref.id}}_supplemental.pdf" target="_blank"  rel="noopener noreferrer">Supplemental</a>
   {% endif %}
 </div>
 
@@ -59,7 +59,7 @@
 <ul class="notes">
   {% for note in ref.notes %}
   <li>{% if note.link %}
-    <a href="{{ note.link }}"> {{ note.note }}</a>
+    <a href="{{ note.link }}" target="_blank" rel="noopener noreferrer"> {{ note.note }}</a>
     {% else %}
     {{ note.note }}
     {% endif %}</li>
