@@ -8,17 +8,16 @@ texdoc: "https://texdoc.org/pkg/"
 {:xn: target="_blank" rel="nofollow noreferrer noopener"}
 
 
-I am the author of four packages for the R statistical programming language.  I also have a library of code snippets for R, emacs, and LaTeX that I will post from time to time, as I clean them up for public review.
+I am the author and current maintainer of three packages for the R statistical programming language.  I also have a library of code snippets for R, emacs, and LaTeX that I will post from time to time, as I clean them up for public review.
 
 ## R packages
 
-- [trustOptim](https://cran.r-project.org/package=trustOptim){:xn}
+- [trustOptim](https://braunm.github.io/trustOptim){:xn}
 
-- [sparseHessianFD](https://cran.r-project.org/package=sparseHessianFD){:xn}
+- [sparseHessianFD](https://braunm.github.io/sparseHessianFD){:xn}
 
-- [sparseMVN](https://cran.r-project.org/package=sparseMVN){:xn}
+- [sparseMVN](https://braunm.github.io/sparseMVN){:xn}
 
-- bayesGDS (not currently maintained)
 
 ## My computing setup
 
