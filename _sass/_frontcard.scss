@@ -1,0 +1,20 @@
+
+
+.card {
+  font-family: $font-family-sans-serif;
+  border: 2px solid $success;
+  padding: $spacer;
+  font-size: $font-size-sm;
+  line-height: 1.4;
+  background-color: $light;
+
+  .card-title, h4, h5  {
+    color: $success;
+  }
+
+  .card-topic {
+    color: $smu-purple;
+  }
+
+
+}

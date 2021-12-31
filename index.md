@@ -6,11 +6,10 @@ pic3: /assets/images/MB_MDC_2018.png
 permalink: /
 ---
 
-
 I am currently the Corrigan Research Professor, and Associate Professor of Marketing, at the Cox School of Business of Southern Methodist University.
 
-My research interests include:
+<!-- My research interests include: -->
 
-- Statistical methods for analyzing marketing data (broadly defined)
-- Modeling customer value and retention
-- Measuring online advertising effectiveness
+<!-- - Statistical methods for analyzing marketing data (broadly defined) -->
+<!-- - Modeling customer value and retention -->
+<!-- - Measuring online advertising effectiveness -->
