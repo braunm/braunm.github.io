@@ -4,17 +4,31 @@
   font-family: $font-family-sans-serif;
   border: 2px solid $success;
   padding: $spacer;
-  font-size: $font-size-sm;
+  font-size: $font-size-base;
   line-height: 1.4;
   background-color: $light;
 
-  .card-title, h4, h5  {
-    color: $success;
+  .card-title {
+    h4, h5  {
+      color: $success;
+    }
+    a {
+      text-decoration: underline;
+      color: $primary;
+    }
   }
 
   .card-topic {
-    color: $smu-purple;
+    color: $success;
   }
+}
 
-
+.job {
+  margin-top: 1rem;
+  text-align: center;
+  border: 2px solid;
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-lg;
+  line-height: .5;
+  background-color: $light;
 }

@@ -2,87 +2,75 @@
 layout: default
 ---
 
-
-
-
-  <h1>Corrigan Research Professor + Associate Professor of Marketing</h1>
-  <h2>Cox School of Business, Southern Methodist University</h2>
-
-  <div class="row g-0 justify-content-center">
-    <img class='col-4' src='{{ page.pic1 }}'>
+<div class="row g-0 justify-content-center">
+  <img class='col-4' src='{{ page.pic1 }}'>
   <img class='col-4' src='{{ page.pic2 }}'>
   <img class="col-4" src='{{ page.pic3 }}'>
+</div>
+
+<div class="row justify-content-evenly mt-2" data-masonry='{"percentPosition": true }'>
+
+  <div class='col-sm-12 col-md-6'>
+    <div class='job pt-3 mx-1 my-1'>
+      <p>Corrigan Reserach Professor</p>
+      <p>Associate Professor of Marketing</p>
+    </div>
+  </div>
+
+
+  <div class='col-sm-12 col-md-6'>
+    <div class='job pt-3 mx-1 my-1'>
+      <p>SMU Cox School of Business</p>
+      <p>Southern Methodist University</p>
+    </div>
+  </div>
 
 </div>
 
-<div class="mt-3">
 
+
+
+<div class="my-3 p-3">
+  <h4>About me</h4>
+  <div class="row" data-masonry='{"percentPosition": true }'>
+    {% assign cards=site.data.aboutme.cards|sort: "order" %}
+    {% for card in cards %}
+    <div class="col-sm-{{ card.width[0] }} col-md-{{ card.width[1] }} col-lg-{{ card.width[2] }} col-xl-{{ card.width[3] }} py-1 my-1">
+      <div class="card">
+	<h5 class="card-topic"> {{ card.topic }} </h5>
+	<p class="card-title"> {{ card.title }}</p>
+	<div class="card-body pt-0">
+	  {{ card.body }}
+	</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="my-3 p-3">
+  <h4>News</h4>
   <div class="row" data-masonry='{"percentPosition": true }'>
 
-    <div class="col-sm-6 col-md-4 col-lg-3 mb-2">
-      <div class="card">
-	<h5 class="card-topic">Research</h5>
-	<p class="card-title">Research Interests</p>
-	<div class="card-body">
-	  <ul class="list-group list-group-flush">
-	    <li>Statistical methods for analyzing marketing data (broadly defined)</li>
-	    <li>Modeling customer value and retention</li>
-	    <li>Measuring online advertising effectiveness</li>
-	  </ul>
-	</div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3 mb-2">
-      <div class="card">
-	<h5 class="card-topic">Research</h5>
-	<p class="card-title">Research News</p>
-	{% for item in site.data.newsbox.newsgroups[0].items %}
-	{{ item.item | markdownify }}
-	{% endfor %}
-      </div>
-    </div>
-
-
-    <div class="col-sm-6 col-md-4 col-lg-3 mb-2">
-      <div class="card">
-	<h5 class="card-topic">Teaching</h5>
-	<p class="card-title">Courses I teach</p>
-	<div class="card-body">
-	  <ul class="list-group list-group-flush">
-	    <li>Marketing Management</li>
-	    <li>Customer Analytics using Probability Models</li>
-	  </ul>
-	</div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3 mb-2">
-      <div class="card">
-	<h5 class="card-topic">Computing</h5>
-	<p class="card-title">R packages</p>
-	<div class="card-body">
-	  <ul class="list-group list-group-flush">
-	    <li>trustOptim</li>
-	    <li>sparseHessianFD</li>
-	  </ul>
+    {% for post in site.posts %}
+    <div class='col-sm-12 col-md-4 col-lg-4 col-xl-3 py-1 my-1'>
+      <div class='card'>
+	<h5 class="card-topic">{{ post.categories }}</h5>
+	<p class="card-title"><a href="{{ post.url }}">
+	  {% if post.card_prefix %}{{ post.card_prefix }}: {% endif %} {{ post.title }}</a></p>
+	<div class='card-body pt-0'>
+	  {{ post.excerpt }}
 	</div>
       </div>
     </div>
 
 
-    <div class="col-sm-12 col-md-8 col-lg-6 mb-2">
-      <div class="card">
-	My Blog
-      </div>
-    </div>
+
+    {% endfor %}
+  </div>
 
 
 
 
 
-
-
-
-    </div>
 </div>

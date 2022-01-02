@@ -58,6 +58,11 @@
     }
 
 
+    .btn-website {
+      @extend .btn-outline-success;
+    }
+
+
     .btn-ssrn {
       @extend .btn-outline-primary;
     }

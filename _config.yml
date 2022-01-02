@@ -22,6 +22,7 @@ title: Michael Braun
 tagline: The website and blog of marketing professor Michael Braun
 url: https://braunm.github.io
 email: braunm@smu.edu
+
 description: >- # this means to ignore newlines until "baseurl:"
  Michael Braun, Associate Professor of Marketing, SMU Cox School of Business
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -36,7 +37,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
 
 
 ## destination: "/Users/braunm/Sites/braunm.github.io"

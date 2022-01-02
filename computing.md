@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Computing
 permalink: /computing/
 texdoc: "https://texdoc.org/pkg/"
@@ -7,16 +7,23 @@ texdoc: "https://texdoc.org/pkg/"
 
 {:xn: target="_blank" rel="nofollow noreferrer noopener"}
 
+# Computing
+
 
 I am the author and current maintainer of three packages for the R statistical programming language.  I also have a library of code snippets for R, emacs, and LaTeX that I will post from time to time, as I clean them up for public review.
 
+----
+
 ## R packages
 
-- [trustOptim](https://braunm.github.io/trustOptim){:xn}
 
-- [sparseHessianFD](https://braunm.github.io/sparseHessianFD){:xn}
+ <div class="d-flex justify-content-evenly fg-info bg-light">
+   <a class="btn btn-outline-primary" align="center"  href="https://braunm.github.io/trustOptim/" >trustOptim</a>
+   <a class="btn btn-outline-primary" align="center"  href="https://braunm.github.io/sparseHessianFD/" >sparseHessianFD</a>
+   <a class="btn btn-outline-primary" align="center"  href="https://braunm.github.io/sparseMVN/" >sparseMVN</a>
+ </div>
 
-- [sparseMVN](https://braunm.github.io/sparseMVN){:xn}
+----
 
 
 ## My computing setup

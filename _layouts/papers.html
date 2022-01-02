@@ -1,19 +1,14 @@
 ---
-layout: page
+layout: default
 ---
-
-<div class="d-flex justify-content-around fg-info bg-light">
-  <a class="btn btn-primary" align="center" href="/cv/">View My CV</a>
-  <a class="btn btn-primary" align="center" href="https://scholar.google.com/citations?user=Rny0DIkAAAAJ&hl=en">Google Scholar</a>
-</div>
 
 {{ content }}
 
+<hr>
 
 <div class="citelist">
-
   {% assign allrefs=site.data.papers.references %}
-  <h3 class="type">Working papers</h3>
+  <h2 class="type">Working papers</h2>
   {% assign wps = allrefs | where: "type", "working-paper" %}
   <dl>
     <dd><ul class="refs">
@@ -23,9 +18,9 @@ layout: page
     </ul></dd>
   </dl>
 </div>
-
+<hr>
 <div class="citelist">
-  <h3 class="type">Published articles</h3>
+  <h2 class="type">Published articles</h2>
   {% assign articles = allrefs | where_exp: "allrefs", "allrefs.type contains 'article'" %}
     <dl class="topics">
     {% for top in site.data.papers.topic_order %}
