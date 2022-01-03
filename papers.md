@@ -1,5 +1,5 @@
 ---
-layout: papers
+layout: papers2
 title:  Published research and working papers
 permalink: /papers/
 ---

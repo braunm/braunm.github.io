@@ -6,37 +6,39 @@
    margin: get_map($spacers,5);
    }
  */
-.citelist {
+.cite {
 
-  h2, h3 {
+  $modal-inner-padding: 1px;
+
+  .authors {
+    color: $secondary;
+  }
+
+  .title {
+    color: $primary;
     font-weight: $font-weight-bold;
   }
 
-  .topics {
-    dt {
-      font-size: $h4-font-size;
-      font-weight: $font-weight-bold;
-    }
+  .journal {
+    text-decoration: none;
   }
 
-  .refs  {
-    line-height: $line-height-base;
-    list-style-type: none;
-    > li {
-      margin-top: $spacer;
-    }
 
-    .title {
-      font-size: $font-size-base;
-      text-decoration: none;
 
-      a {
-	color: $primary;
-      }
-    }
-    ul.notes {
-      list-style-type: square;
-    }
+
+  .modal-header {
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .modal-body {
+    line-height: 1.2rem;
+    margin: 0;
+    padding-top: 1px;
+  }
+
+
 
     // Colors and variant for each button
 
@@ -70,7 +72,4 @@
       @extend .btn-outline-primary;
     }
 
-
-
-  }
 }
