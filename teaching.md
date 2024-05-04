@@ -4,8 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-## Research leave
-I am on research leave for the 2021-22 academic year, and not teaching any courses at SMU during this time.
+
 
 
 ##  Current and recent courses
