@@ -8,15 +8,17 @@
   line-height: 1.4;
   background-color: $light;
 
-  .card-title {
-    h4, h5  {
-      color: $success;
-    }
-    a {
-      text-decoration: underline;
-      color: $primary;
-    }
+  &:hover {
+      border: 4px solid $primary;
+      padding: $spacer * .85;
   }
+
+  // .card-title {
+  //   // h4, h5  {
+  //     color: $info;
+  //   // }
+
+  // }
 
   .card-topic {
     color: $success;
@@ -25,6 +27,8 @@
 
 }
 
+
+// For job on front
 .job {
   margin-top: 1rem;
   text-align: center;

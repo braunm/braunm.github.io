@@ -75,6 +75,7 @@ references:
   topic:  Customer Preferences for Insurance
   notes:
     - note: 2014 Robert I. Mehr Award (10-year impact), American Risk and Insurance Association
+  abstract: We examine optimal insurance purchase decisions of individuals that ex- hibit behavior consistent with Regret Theory. Our model incorporates a utility function that assigns a disutility to outcomes that are ex post suboptimal, and predicts that individuals with regret-theoretical preferences adjust away from the extremes of full insurance and no insurance coverage. This prediction holds for both coinsurance and deductible contracts, and can explain the frequently observed preferences for low deductibles in markets for personal insurance.
 
 - id: BraunFaderEtAl2006
   type: article-journal

@@ -20,14 +20,13 @@
 
 {% assign modalID =   ref.id  | append: "Modal"  %}
 <div class='col-sm-12 col-md-4 col-lg-4 col-xl-3 py-1 my-1'>
-  <div class="card">
+  <div class="card" data-bs-toggle="modal"  data-bs-target="{{ modalID | prepend: "#" }}">
     <div class='card-topic'>
       {{ ref.topic }}
     </div>
-    <a class="card-title p-0 m-0" data-bs-toggle="modal"  data-bs-target="{{ modalID | prepend: "#" }}">{{ ref.title }}</a>
+    <span class="card-title p-0 m-0">{{ ref.title }}</span>
     <div class="card-body p-0 m-0">
       {{ref.year}}: <em>{{ref.container-title | strip}}</em>
-
       {% include authorlist2.html alist=ref %}
       <br>
 

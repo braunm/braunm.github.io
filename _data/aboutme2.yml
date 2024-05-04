@@ -1,0 +1,29 @@
+cards:
+  - id: Research
+    type: content
+    target: papers
+    order: 1
+    - title: Research interests
+      items:
+        - item: Statistical methods for analyzing marketing data
+        - item: Modeling customer value and retention
+        - item: Measuring online advertising effectiveness
+        - item: Criminal justice and marketing
+
+  - id: Instruction
+    type: content
+    target: teaching
+    order: 2
+    - title: Courses I teach
+      items:
+        - item: Marketing Management
+        - item: Customer Analytics using Probability Models
+
+  - id: Computing
+    type: content
+    target: computing
+    - title: R packages I've written
+      items:
+        - item: trustOptim
+        - item: sparseHessianFD
+        - item: sparseMVN
