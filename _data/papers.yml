@@ -451,7 +451,7 @@ references:
 
 - id: TurnerWrightBraun2024
   type: article-journal
-  container-title: "Duke Law Journal"
+  container-title: Duke Law Journal
   author:
     - family: Turner
       given: Jenia I.
@@ -465,6 +465,22 @@ references:
   URL: https://scholarship.law.duke.edu/dlj/vol73/iss6/1
   download: /assets/papers/TurnerWrightBraun2024_pub
   abstract: In recent decades, many states have expanded discovery in criminal cases. These reforms were designed to make the criminal process fairer and more efficient. The success of these changes, however, depends on whether defense attorneys actually use the new discovery opportunities to represent their clients more effectively. Records from digital evidence platforms reveal that defense attorneys sometimes fail to carry out their professional duty to review discovery. Analyzing a novel dataset we obtained from digital evidence platforms used in Texas, we found that defense attorneys never accessed any available electronic discovery in a substantial number of felony cases between 2018 and 2020. We also found that the access rate varied by county, year, offense type, attorney category, attorney experience, and file type.
+
+- id: BWT2024
+  type: working-paper
+  container-title: "Working paper"
+  author:
+    - family: Braun
+      given: Michael
+    - family: Wright
+      given: Ronald F.
+    - family: Turner
+      given: Jenia I.
+  title: "Defense Use of Digital Discovery in Criminal Cases:  A Quantitative Analysis"
+  topic: Criminal Justice
+  year: 2024
+  draft: true
+  abstract: Recent criminal court reforms have required prosecutors to provide defense attorneys with broader and earlier discovery of evidence. For these discovery reforms to fulfill their aims of improved fairness and efficiency, defense attorneys must take advantage of the evidence disclosed by the prosecution. Prior studies suggest, however, that a range of factors, including low pay and high caseloads, impede effective defense representation. If similar factors hinder defense attorneys from reviewing discovery, discovery reforms would fail to meet their goals, and defendants would receive sub-standard representation. The recent adoption of digital evidence platforms by local jurisdictions allows us to study whether defense attorneys consistently fulfill their duty to review discovery. Analyzing data from digital evidence platforms used in felony cases in four Texas counties between 2018 and 2020, we examine whether and when defense attorneys fail to access evidence disclosed by the prosecution. We find that a substantial number of defense attorneys never access the discovery. The access rate varies by county, year, offense seriousness, attorney category, attorney experience, and file type. Drawing on review of prior scholarship and Bayesian analysis of the data, we discuss plausible interpretations of these variations.
 
 - id: BraunDeLanghe2024
   type: article-journal

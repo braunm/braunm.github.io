@@ -13,7 +13,7 @@ layout: default
   <dl>
     <dd><ul class="refs">
       {% for ref in wps %}
-      <li>{% include paper.html %}</li>
+      <li>{% include paper_list.html %}</li>
       {% endfor %}
     </ul></dd>
   </dl>
@@ -28,7 +28,7 @@ layout: default
     {% assign refs = articles | where: "topic", top.topic | sort: "year" | reverse%}
     <dd> <ul class="refs">
       {% for ref in refs %}
-      <li>{% include paper.html %}</li>
+      <li>{% include paper_list.html %}</li>
       {% endfor %} <!-- End loop on refs within topic -->
     </ul></dd>
     {% endfor %} <!-- End loop on topics -->
