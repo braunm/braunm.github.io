@@ -3100,7 +3100,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #212529;
 }
 
-.btn-outline-primary, .citelist .refs .btn-supplemental, .citelist .refs .btn-ssrn {
+.btn-outline-primary, .cite .btn-supplemental, .cite .btn-ssrn, .citelist .refs .btn-supplemental, .citelist .refs .btn-ssrn {
   --bs-btn-color: #354c97;
   --bs-btn-border-color: #354c97;
   --bs-btn-hover-color: #fff;
@@ -3117,7 +3117,7 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-secondary, .citelist .refs .btn-publisher, .citelist .refs .btn-abstract {
+.btn-outline-secondary, .cite .btn-publisher, .cite .btn-abstract, .citelist .refs .btn-publisher, .citelist .refs .btn-abstract {
   --bs-btn-color: #000;
   --bs-btn-border-color: #000;
   --bs-btn-hover-color: #fff;
@@ -3134,7 +3134,7 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-success {
+.btn-outline-success, .cite .btn-website, .citelist .refs .btn-website {
   --bs-btn-color: #cc0000;
   --bs-btn-border-color: #cc0000;
   --bs-btn-hover-color: #fff;
@@ -3151,7 +3151,7 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-info, .citelist .refs .btn-draft {
+.btn-outline-info, .cite .btn-draft, .citelist .refs .btn-draft {
   --bs-btn-color: rgb(89, 195, 195);
   --bs-btn-border-color: rgb(89, 195, 195);
   --bs-btn-hover-color: #000;
@@ -3168,7 +3168,7 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-warning, .citelist .refs .btn-preprint {
+.btn-outline-warning, .cite .btn-preprint, .citelist .refs .btn-preprint {
   --bs-btn-color: #cc0000;
   --bs-btn-border-color: #cc0000;
   --bs-btn-hover-color: #fff;
@@ -13774,7 +13774,7 @@ progress {
   --bs-btn-disabled-border-color: #212529;
 }
 
-.btn-outline-primary, .citelist .refs .btn-supplemental, .citelist .refs .btn-ssrn {
+.btn-outline-primary, .cite .btn-supplemental, .cite .btn-ssrn, .citelist .refs .btn-supplemental, .citelist .refs .btn-ssrn {
   --bs-btn-color: #354c97;
   --bs-btn-border-color: #354c97;
   --bs-btn-hover-color: #fff;
@@ -13791,7 +13791,7 @@ progress {
   --bs-gradient: none;
 }
 
-.btn-outline-secondary, .citelist .refs .btn-publisher, .citelist .refs .btn-abstract {
+.btn-outline-secondary, .cite .btn-publisher, .cite .btn-abstract, .citelist .refs .btn-publisher, .citelist .refs .btn-abstract {
   --bs-btn-color: #000;
   --bs-btn-border-color: #000;
   --bs-btn-hover-color: #fff;
@@ -13808,7 +13808,7 @@ progress {
   --bs-gradient: none;
 }
 
-.btn-outline-success {
+.btn-outline-success, .cite .btn-website, .citelist .refs .btn-website {
   --bs-btn-color: #cc0000;
   --bs-btn-border-color: #cc0000;
   --bs-btn-hover-color: #fff;
@@ -13825,7 +13825,7 @@ progress {
   --bs-gradient: none;
 }
 
-.btn-outline-info, .citelist .refs .btn-draft {
+.btn-outline-info, .cite .btn-draft, .citelist .refs .btn-draft {
   --bs-btn-color: rgb(89, 195, 195);
   --bs-btn-border-color: rgb(89, 195, 195);
   --bs-btn-hover-color: #000;
@@ -13842,7 +13842,7 @@ progress {
   --bs-gradient: none;
 }
 
-.btn-outline-warning, .citelist .refs .btn-preprint {
+.btn-outline-warning, .cite .btn-preprint, .citelist .refs .btn-preprint {
   --bs-btn-color: #cc0000;
   --bs-btn-border-color: #cc0000;
   --bs-btn-hover-color: #fff;
@@ -14035,6 +14035,63 @@ img {
 }
 .newsbox h4, .newsbox .h4, .newsbox h5, .newsbox .h5 {
   color: #cc0000;
+}
+
+.card {
+  font-family: Roboto Condensed;
+  border: 2px solid #cc0000;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  background-color: #fff;
+}
+.card .card-title h4, .card .card-title .h4, .card .card-title h5, .card .card-title .h5 {
+  color: #cc0000;
+}
+.card .card-title a {
+  text-decoration: underline;
+  color: #354c97;
+}
+.card .card-topic {
+  color: #cc0000;
+}
+
+.job {
+  margin-top: 1rem;
+  text-align: center;
+  border: 2px solid;
+  font-family: Roboto Condensed;
+  font-size: 1.25rem;
+  line-height: 0.5;
+  background-color: #fff;
+}
+
+/*
+   .site-footer {
+   border-top: 1px solid $grey-color-light;
+   padding-top: get_map($spacers,5);
+   font-size: $font-size-sm;
+   margin: get_map($spacers,5);
+   }
+ */
+.cite .authors {
+  color: #000;
+}
+.cite .title {
+  color: #354c97;
+  font-weight: 700;
+}
+.cite .journal {
+  text-decoration: none;
+}
+.cite .modal-header {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.cite .modal-body {
+  line-height: 1.2rem;
+  margin: 0;
+  padding-top: 1px;
 }
 
 /*# sourceMappingURL=custom.css.map */

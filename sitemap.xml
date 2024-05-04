@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/computing/2021/08/10/numerical-underflow.html</loc>
-<lastmod>2021-08-10T00:00:00-05:00</lastmod>
+<loc>/posts_temp/2021-07-28-welcome-to-jekyll.html</loc>
+</url>
+<url>
+<loc>/posts_temp/2021-08-10-numerical-underflow.html</loc>
+</url>
+<url>
+<loc>/posts_temp/2022-01-02-ABtest.html</loc>
+</url>
+<url>
+<loc>/posts_temp/2022-01-02-test-post.html</loc>
 </url>
 <url>
 <loc>/about/</loc>
@@ -36,6 +44,10 @@
 <lastmod>2024-05-01T18:58:19-05:00</lastmod>
 </url>
 <url>
+<loc>/assets/documents/papers/Braun2024BMR_preprint.pdf</loc>
+<lastmod>2024-05-03T00:14:33-05:00</lastmod>
+</url>
+<url>
 <loc>/assets/documents/papers/BraunBonfrer2011a_preprint.pdf</loc>
 <lastmod>2011-09-07T12:06:27-05:00</lastmod>
 </url>
@@ -50,6 +62,10 @@
 <url>
 <loc>/assets/documents/papers/BraunDamien2016_pub.pdf</loc>
 <lastmod>2016-09-22T17:58:54-05:00</lastmod>
+</url>
+<url>
+<loc>/assets/documents/papers/BraunDeLanghe2024_preprint.pdf</loc>
+<lastmod>2024-05-03T21:59:57-05:00</lastmod>
 </url>
 <url>
 <loc>/assets/documents/papers/BraunFaderEtAl2006_preprint.pdf</loc>
@@ -84,8 +100,8 @@
 <lastmod>2018-11-07T12:16:25-06:00</lastmod>
 </url>
 <url>
-<loc>/assets/documents/papers/BraunSchwartz2021_draft.pdf</loc>
-<lastmod>2021-07-28T20:20:45-05:00</lastmod>
+<loc>/assets/documents/papers/BraunSchwartz2024_draft.pdf</loc>
+<lastmod>2024-05-03T21:07:44-05:00</lastmod>
 </url>
 <url>
 <loc>/assets/documents/papers/BraunSchweidel2011_preprint.pdf</loc>
@@ -120,8 +136,20 @@
 <lastmod>2021-08-06T22:40:44-05:00</lastmod>
 </url>
 <url>
+<loc>/assets/documents/papers/PML2024_draft.pdf</loc>
+<lastmod>2024-05-03T21:32:05-05:00</lastmod>
+</url>
+<url>
+<loc>/assets/documents/papers/TurnerWrightBraun2024_pub.pdf</loc>
+<lastmod>2024-05-03T21:48:23-05:00</lastmod>
+</url>
+<url>
 <loc>/assets/documents/papers/UrbanHauserSMR2009_pub.pdf</loc>
 <lastmod>2021-08-06T22:47:05-05:00</lastmod>
+</url>
+<url>
+<loc>/assets/documents/papers/old_BraunSchwartz2021_draft.pdf</loc>
+<lastmod>2021-07-28T20:20:45-05:00</lastmod>
 </url>
 <url>
 <loc>/assets/documents/teaching/MKTG_6201_Braun_2021_Spring_A_syllabus.pdf</loc>
