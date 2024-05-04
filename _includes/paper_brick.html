@@ -1,11 +1,11 @@
 
 
 {%if ref.DOI %}
-{% assign mainref = {{ref.DOI | prepend: "http://doi.org/"}} %}
+{% assign publink = {{ref.DOI | prepend: "http://doi.org/"}} %}
 {% elsif ref.URL%}
-{% assign mainref = {{ref.URL}} %}
+{% assign publink = {{ref.URL}} %}
 {% else %}
-{% assign mainref = false  %}
+{% assign publink= false%}
 {% endif %}
 
 {% capture vol-iss %}
@@ -24,14 +24,8 @@
     <div class='card-topic'>
       {{ ref.topic }}
     </div>
-    {% if mainref %}
-    <!-- <a class="card-title p-0 m-0" href="{{mainref}}" rel="noopener noreferrer">{{ ref.title }}</a>
-    -->   <a class="card-title p-0 m-0" data-bs-toggle="modal"  data-bs-target="{{ modalID | prepend: "#" }}">{{ ref.title }}</a>
-    {% else %}
-    <span class="card-title p-0 m-0">{{ ref.title }}</span>
-    {% endif %}
+    <a class="card-title p-0 m-0" data-bs-toggle="modal"  data-bs-target="{{ modalID | prepend: "#" }}">{{ ref.title }}</a>
     <div class="card-body p-0 m-0">
-      <!-- {{ref.year}}: <em>{{ref.container-title | append: vol-iss | strip}}</em> -->
       {{ref.year}}: <em>{{ref.container-title | strip}}</em>
 
       {% include authorlist2.html alist=ref %}
@@ -41,19 +35,7 @@
       . {{ref.publisher}}.
       {% endif %}
 
-      <!-- <ul class="notes">
-	   {% for note in ref.notes %}
-	   <li>{% if note.link %}
-	   <a href="{{ note.link }}" target="_blank" rel="noopener noreferrer"> {{ note.note }}</a>
-	   {% else %}
-	   {{ note.note }}
-	   {% endif %}</li>
-	   {% endfor %}
-	   </ul> -->
     </div> <!-- body -->
-    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="{{ modalID | prepend: "#" }}">
-	 {{ modalID | prepend : "#" }}
-	 </button> -->
   </div>  <!-- card -->
 
   <div class='modal fade ' id="{{ modalID }}" tabindex="-1">
@@ -75,8 +57,8 @@
 	  {% endif %}
 	  <!-- </div> -->
 
-	  {% if mainref %}
-	  <a class="btn btn-publisher btn-sm" href="{{mainref}}" target="_blank" rel="noopener noreferrer">Publisher</a>
+	  {% if publink %}
+	  <a class="btn btn-publisher btn-sm" href="{{publink}}" target="_blank" rel="noopener noreferrer">Publisher</a>
 	  {% endif %}
 	  {% if ref.website %}
 	  <a class="btn btn-website btn-sm" href="{{ ref.website }}">Website</a>
@@ -100,58 +82,3 @@
   </div>
 
 </div> <!-- column -->
-
-
-
-
-<!-- <div>
-     {% if ref.abstract %}
-     <a class="btn btn-abstract btn-sm" data-bs-target="#abstract-{{ref.id}}" data-bs-toggle="collapse">Abstract</a>
-     <div class="collapse" id="abstract-{{ref.id}}">
-     <div class="card card-body">
-     {{ref.abstract |  markdownify}}
-     </div>
-     </div>
-     {% endif %}
-     {% if mainref %}
-     <a class="btn btn-publisher btn-sm" href="{{mainref}}" target="_blank" rel="noopener noreferrer">Publisher</a>
-     {% endif %}
-     {% if ref.website %}
-     <a class="btn btn-website btn-sm" href="{{ ref.website }}">Website</a>
-     {% endif %}
-     {% if ref.draft %}
-     <a class="btn btn-draft btn-sm" href="/assets/documents/papers/{{ref.id}}_draft.pdf">Draft</a>
-     {% endif %}
-     {% if ref.preprint %}
-     <a class="btn btn-preprint btn-sm" href="/assets/documents/papers/{{ref.id}}_preprint.pdf" target="_blank"  rel="noopener noreferrer">Preprint</a>
-     {% endif %}
-     {% if ref.SSRN %}
-     <a class="btn btn-sm btn-ssrn" href="https://ssrn.com/abstract={{ref.SSRN}}" target="_blank" rel="noopener noreferrer">SSRN</a>
-     {% endif %}
-     {% if ref.supplemental %}
-     <a class="btn btn-sm btn-supplemental" href="/assets/documents/papers/{{ref.id}}_supplemental.pdf" target="_blank"  rel="noopener noreferrer">Supplemental</a>
-     {% endif %}
-     </div>
-     </div> -->
-
-
-
-
-
-
-
-
-
-<!-- {% if ref.type == "working-paper" %}
-     {% if ref.day %}
-     {% capture dateYM %}
-     {{ ref.year }}-{{ref.month}}-{{ref.day}}
-     {% endcapture %}
-     <em>Working paper</em> ({{ dateYM | date: "%Y-%B-%d" }})
-     {% else %}
-     {% capture dateYM %}
-     {{ ref.year }}-{{ref.month}}-01
-     {% endcapture %}
-     <em>Working paper</em> ({{ dateYM | date: "%Y-%B" }})
-     {% endif %}
-     {% endif %} -->

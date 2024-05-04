@@ -1,5 +1,5 @@
 ---
-layout: papers_list
+layout: papers_bricks
 title:  Published research and working papers
 permalink: /papers/
 ---
