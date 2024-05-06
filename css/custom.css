@@ -14045,12 +14045,9 @@ img {
   line-height: 1.4;
   background-color: #fff;
 }
-.card .card-title h4, .card .card-title .h4, .card .card-title h5, .card .card-title .h5 {
-  color: #cc0000;
-}
-.card .card-title a {
-  text-decoration: underline;
-  color: #354c97;
+.card:hover {
+  border: 4px solid #354c97;
+  padding: 0.85rem;
 }
 .card .card-topic {
   color: #cc0000;
