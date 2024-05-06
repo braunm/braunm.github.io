@@ -408,7 +408,7 @@ references:
   month: 5
   title: "Revisiting Scalable Targeted Marketing with Distributed Markov Chain Monte Carlo"
   container-title: Journal of Marketing Research
-  draft: true
+  preprint: true
   DOI: 10.1177/00222437241255307
   topic: Statistical Methodology
   abstract: Bumbaca, Misra, and Rossi (2020) propose a parallelizable algorithm for estimating a large number of customer-level parameters in a Bayesian hierarchical model. However, the algorithm follows from a mathematical error in the derivation of the target posterior density, which calls into question the theoretical support for the algorithm sampling from the specified model. Adapting the algorithm to be consistent with the corrected math nullifies the claimed benefits in scalability and efficiency. Notwithstanding that error, unbiasedness requires the number of customers to be asymptotic per computational node, which is more restrictive than being asymptotic in the size of the dataset as a whole. The more the algorithm is parallelized, the greater the bias. Potential adopters should be aware that the algorithm does not sample from the exact posterior distribution, and that its ability to take advantage of distributed computing infrastructure is limited.
