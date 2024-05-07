@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Michael H. Braun
+title: Michael Braun
 tagline: The website and blog of marketing professor Michael Braun
 url: https://braunm.github.io
 email: braunm@smu.edu
