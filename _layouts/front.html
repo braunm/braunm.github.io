@@ -1,14 +1,78 @@
 ---
-layout: page
+layout: default
 ---
 
 <div class="row g-0 justify-content-center">
   <img class='col-4' src='{{ page.pic1 }}'>
   <img class='col-4' src='{{ page.pic2 }}'>
   <img class="col-4" src='{{ page.pic3 }}'>
+</div>
 
-  <div class="row p-2 bg-light">
-    {{ content }}
+<div class="row justify-content-evenly mt-2" data-masonry='{"percentPosition": true }'>
+
+  <div class='col-sm-12 col-md-6'>
+    <div class='job pt-3 mx-1 my-1'>
+      <p>Corrigan Reserach Professor</p>
+      <p>Associate Professor of Marketing</p>
+    </div>
   </div>
+
+
+  <div class='col-sm-12 col-md-6'>
+    <div class='job pt-3 mx-1 my-1'>
+      <p>SMU Cox School of Business</p>
+      <p>Southern Methodist University</p>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<div class="my-3 p-3">
+  <h4>About me</h4>
+  <div class="row" data-masonry='{"percentPosition": true }'>
+    {% assign cards=site.data.aboutme.cards|sort: "order" %}
+    {% for card in cards %}
+    <div class="col-sm-{{ card.width[0] }} col-md-{{ card.width[1] }} col-lg-{{ card.width[2] }} col-xl-{{ card.width[3] }} py-1 my-1">
+      <div class="card">
+	<h5 class="card-topic"> {{ card.topic }} </h5>
+	<p class="card-title"> {{ card.title }}</p>
+	<div class="card-body pt-0">
+	  {{ card.body }}
+	</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+
+<div class="my-3 p-3">
+  <h4>News</h4>
+  <div class="row" data-masonry='{"percentPosition": true }'>
+
+    {% for post in site.posts %}
+    <div class='col-sm-12 col-md-4 col-lg-4 col-xl-3 py-1 my-1'>
+      <div class='card'>
+	<h5 class="card-topic">{{ post.categories }}</h5>
+	<p class="card-title"><a href="{{ post.url }}">
+	  {% if post.card_prefix %}{{ post.card_prefix }}: {% endif %} {{ post.title }}</a></p>
+	<div class='card-body pt-0'>
+	  {{ post.excerpt }}
+	</div>
+      </div>
+    </div>
+
+
+
+    {% endfor %}
+  </div>
+
+
+
+
 
 </div>

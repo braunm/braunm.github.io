@@ -19,7 +19,7 @@
     }
   }
 
-  .refs {
+  .refs  {
     line-height: $line-height-base;
     list-style-type: none;
     > li {
@@ -44,7 +44,6 @@
       @extend .btn-outline-secondary;
     }
 
-
     .btn-publisher {
       @extend .btn-outline-secondary;
     }
@@ -55,6 +54,11 @@
 
     .btn-draft {
       @extend .btn-outline-info;
+    }
+
+
+    .btn-website {
+      @extend .btn-outline-success;
     }
 
 

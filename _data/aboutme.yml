@@ -1,0 +1,48 @@
+cards:
+  - id: Interests
+    type: content
+    order: 1
+    topic: Research
+    title: Research interests
+    body: |
+      <ul class="list-group list-group-flush">
+      <li>Statistical methods for analyzing marketing data</li>
+      <li>Modeling customer value and retention</li>
+      <li>Measuring online advertising effectiveness</li>
+      <li>Criminal justice and marketing</li>
+      </ul>
+      <hr>
+      <div class="row justify-content-evenly">
+      <a class="col-5 btn btn-outline-primary" href="/papers/">Papers</a>
+      <a class="col-5 btn btn-outline-primary" href="/cv/">CV</a>
+      </div>
+    width: [12, 12, 6, 3]
+  - id: Courses
+    type: content
+    order: 2
+    width: [12, 12, 6, 3]
+    topic: Instruction
+    title: Courses I teach
+    body: |
+      <ul class="list-group list-group-flush">
+      <li>Marketing Management</li>
+      <li>Customer Analytics using Probability Models</li>
+      </ul>
+  - id: R packages
+    type: content
+    order: 4
+    width: [12, 12, 6, 3]
+    topic: Computing
+    title: R packages I've written
+    body: |
+      <ul class="list-group list-group-flush">
+      <li><a href="https://braunm.github.io/trustOptim">trustOptim</a></li>
+      <li><a href="https://braunm.github.io/sparseHessianFD">sparseHessianFD</a></li>
+      <li><a href="https://braunm.github.io/sparseMVN">sparseMVN</a></li>
+      </ul>
+  - id: Personal
+    order: 10
+    type: other
+    width: [12, 6, 6, 3]
+    topic: Personal
+    body: Something funny will go here, eventually

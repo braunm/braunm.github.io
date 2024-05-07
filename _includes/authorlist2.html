@@ -1,0 +1,28 @@
+
+<!-- assign array to alist and then  include this file -->
+
+{% assign alist = {{include.alist}} %}
+{% assign coauthors = alist.author | where_exp:"author","author.family != 'Braun' " %}
+ {% unless coauthors == empty %}<br>{% endunless %}
+{% for auth in coauthors %}
+{% capture name %}
+{{ auth.given }} {{ auth.family }}
+{% endcapture %}
+{% if forloop.first == true %}
+{% if forloop.last == true %}
+Co-author: {{ name | strip }}
+{% else %}
+{%if forloop.length > 1 %}
+Co-authors: {{ name | strip |append: ","}}
+{% else %}
+Co-author: {{ name | strip }}
+{% endif %}
+{% endif %}
+{% else %}
+{% if forloop.last == true %}
+and {{ name | strip }}
+{% else %}
+{{ name | strip | append: ","}}
+{% endif %}
+{% endif %}
+{% endfor %} <!-- end loop on authors -->

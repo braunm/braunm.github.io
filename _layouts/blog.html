@@ -1,17 +1,23 @@
 ---
-layout: page
+layout: default
 ---
 
-<ul>
+{{ content }}
+
+<table class="table table-hover table-sm table-borderless">
   {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
   {% assign year = y %}
-  <h5>{{ y }}</h5>
+  <thead>
+    <th>{{ y }}</th>
+  </thead>
   {% endif %}
-  <li>
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
+  <tr>
+    <td style="padding-left: 2rem;">
+      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%b %e" }}</time></td>
+    <td> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+    <td>{{ post.categories }}</td>
+  </tr>
   {% endfor %}
-</ul>
+</table>

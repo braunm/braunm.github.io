@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: About Prof. Michael Braun
 permalink: /about/
 ---
+
+# Professor Michael Braun
 
 <!-- [View my latest CV](/cv/) -->
 

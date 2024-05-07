@@ -4,27 +4,27 @@ title: Teaching
 permalink: /teaching/
 ---
 
-## Research leave
-I am on research leave for the 2021-22 academic year, and not teaching any courses at SMU during this time.
-
-
-##  Current and recent courses
-
-#### MKTG 6201:  Marketing Management
-
-This is the required graduate-level marketing course for the SMU Cox MBA and MS in Management programs.
 
 
 
+##  Current courses (2022-2025)
 
+####  MKTG 6201:  Marketing Management
 
-#### MAST 6252: Applied Probability Models
+In Spring B and Summer B terms, I teach the  required graduate-level marketing course in the Professional MBA (PMBA) and One-Year MBA programs. In the past I have also taught this course to MS in Management students.
 
-This is the required course taught in the MS in Business Analytics program, with a focus on customer valuation.
+##  Past courses
+
+####  MAST 6252: Customer Analytics using Probability Models
+
+This was a required course taught in the MS in Business Analytics (MSBA) program.
+
+####  MAST 6201: Managerial Statistics
+
+The required first-year statistics course for full-time MBA,  professional PMBA (PMBA), and MS in Management (MSM) students.
 
 
 ## Research graduate students and post-docs
-
 
 The Cox School of Business does not have a doctoral program.  If you are not currently a doctoral student at SMU or elsewhere, you should know that I have no admission slots to offer, or any way to fund your studies.
 

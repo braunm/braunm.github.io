@@ -1,0 +1,16 @@
+
+{% assign modalID =   card.id  | append: "fcard"  %}
+<!-- <div class='col-sm-12 col-md-4 col-lg-4 col-xl-3 py-1 my-1'> -->
+  <div class="card" data-bs-toggle="modal"  data-bs-target="{{ modalID | prepend: "#" }}">
+    <div class='card-topic'>
+      {{ card.id }}
+    </div>
+    {% if card.listtitle %}
+    <ul class="list-group list-group-flush">
+    {% for it in card.items %}
+    <li>{{ it.item }}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+<!-- </div> -->

@@ -36,25 +36,24 @@ references:
   preprint: true
   abstract:  When definitions of two distinct criminal offenses overlap, power to decide which definition to apply to an arrest devolves to local law enforcement agencies. This discretion can lead to unequal treatment and denial of due process, especially when disadvantaged populations are arrested for nonviolent property crimes. We present a Bayesian analysis of arrests under a vaguely worded statutory scheme for retail theft in Texas, in which a shoplifter who is guilty of property theft is also guilty of organized retail theft. Using arrest data from the Texas Department of Public Safety, we find wide variation across law enforcement agencies in initial charging categories, with black and Hispanic arrestees being charged for the more serious crime more than white arrestees. The racial discrepancy is greater for agencies serving cities with higher per-capita income. These results highlight consequences of ambiguous provisions of criminal codes, and suggest a method for identifying agencies whose policies may have disparate impact across racial and ethnic groups.
 
-- id: BraunSchwartz2021
+- id: BraunSchwartz2024
   type: working-paper
   author:
   - family: Braun
     given: Michael
   - family: Schwartz
     given: Eric
-  year: 2021
-  month: 7
-  day: 28
-  title: "The A/B Test Deception: Divergent Delivery, Ad Response
-  Heterogeneity, and Erroneous Inferences in Online Advertising Field
-  Experiments"
+  year: 2024
+  month: 5
+  day: 2
+  title: "Where A-B Testing Goes Wrong:  How Divergent Delivery Affects What Online Experiments Cannot  (and Can)  Tell You About How Customers Respond to Advertising"
   container-title: "Working paper"
+  website:  "https://braunm.github.io/ABTestDeception"
   DOI: 10.2139/ssrn.3896024
   SSRN: 3896024
   topic:  Advertising Optimization and Measurement
   draft: true
-  abstract: Advertisers and researchers use tools provided by advertising platforms to conduct randomized experiments for testing user responses to creative elements in online ads. Internally valid comparisons between ads require the mix of experimental users exposed to each ad to be similar across all ads. But that internal validity is threatened when platforms’ targeting algorithms deliver each ad to its own optimized mix of users, which diverges across ads. We extend the potential outcomes model of causal inference to treat random assignment of ads and the user exposure states for each ad as two separate decisions. We then demonstrate how targeting ads to users leads advertisers to incorrectly infer which ad performs better, based on aggregate test results. Through analysis and simulation, we characterize how bias in the aggregate estimate of the difference between two ads’ lifts is driven by the interplay between heterogeneous responses to different ads and how platforms deliver ads to divergent subsets of users. We also identify conditions for an undetectable “Simpson’s reversal,” in which all unobserved types of users may prefer ad A over ad B, but the advertiser mistakenly infers from aggregate experimental results that users prefer ad B over ad A.
+  abstract: Marketers use online advertising platforms to compare user responses to different ad content. However, platforms’ experimentation tools deliver ads to distinct, optimized, undetectable mixes of users that vary across ads, even during the test. As a result, the estimated A-B comparison from the data reflects the combination of ad content and algorithmic selection of users, which is different than what would have occurred under random exposure. We empirically demonstrate this “divergent delivery” pattern using data from an A-B test that we ran on a major ad platform. This paper explains how algorithmic targeting, user heterogeneity, and data aggregation conspire to confound the magnitude, and even the sign, of ad A-B test results, and what the implications are for different roles in the marketing organization with varying experimentation goals. We also consider the counterfactual case of disabling divergent delivery, where user types are balanced across ads. By extending the potential outcomes model of causal inference, we treat random assignment of ads and user exposure to ads as independent decisions. Since not all marketers have the same decision-making goals for these ad A-B tests, we offer prescriptive guidance to experimenters based on their needs.
 
 - id: BraunMuermann04
   type: article-journal
@@ -76,6 +75,7 @@ references:
   topic:  Customer Preferences for Insurance
   notes:
     - note: 2014 Robert I. Mehr Award (10-year impact), American Risk and Insurance Association
+  abstract: We examine optimal insurance purchase decisions of individuals that ex- hibit behavior consistent with Regret Theory. Our model incorporates a utility function that assigns a disutility to outcomes that are ex post suboptimal, and predicts that individuals with regret-theoretical preferences adjust away from the extremes of full insurance and no insurance coverage. This prediction holds for both coinsurance and deductible contracts, and can explain the frequently observed preferences for low deductibles in markets for personal insurance.
 
 - id: BraunFaderEtAl2006
   type: article-journal
@@ -185,17 +185,18 @@ references:
   abstract: Online advertising campaigns often consist of multiple ads, each with different creative content. We consider how various creatives in a campaign differentially affect behavior given the targeted individual’s ad impression history, as characterized by the timing and mix of previously seen ad creatives. Specifically, we examine the impact that each ad impression has on visiting and conversion behavior at the advertised brand’s website. We accommodate both observed and unobserved individual heterogeneity and take into account corre- lations among the rates of ad impressions, website visits, and conversions. We also allow for the accumulation and decay of advertising effects, as well as ad wearout and restoration effects. Our results highlight the importance of accommodating both the existence of multiple ad creatives in an ad campaign and the impact of an individual’s ad impression history. Simulation results suggest that online advertisers can increase the number of website visits and conversions by varying the creative content shown to an individual according to that person’s history of previous ad impressions. For our data, we show a 12.7% increase in the expected number of visits and a 13.8% increase in the expected number of conversions.
 
 - id: R_trustOptim
+  author:
+    - family: Braun
+      given: Michael
   type: article-journal
   author:
   - family: Braun
-    given: Michael
-  year: 2014
-  month: 9
   title: "trustOptim: An R Package for Trust Region Optimization with Sparse Hessians"
   container-title: Journal of Statistical Software
   page: 1-16
   volume: '60'
   issue: '4'
+  year: 2014
   DOI: 10.18637/jss.v060.i04
   topic: Statistical Methodology
   abstract: Trust region algorithms are nonlinear optimization tools that tend to be stable and reliable when the objective function is non-concave, ill-conditioned, or exhibits regions that are nearly flat. Additionally, most freely-available optimization routines do not exploit the sparsity of the Hessian when such sparsity exists, as in log posterior densities of Bayesian hierarchical models. The _trustOptim_ package for the R programming language addresses both of these issues. It is intended to be robust, scalable and efficient for a large class of nonlinear optimization problems that are often encountered in statistics, such as finding posterior modes. The user must supply the objective function, gradient and Hessian. However, when used in conjunction with the _sparseHessianFD_ package, the user does not need to supply the exact sparse Hessian, as long as the sparsity structure is known in advance. For models with a large number of parameters, but for which most of the cross-partial derivatives are zero (i.e., the Hessian is sparse), _trustOptim_ offers dramatic performance improvements over existing options, in terms of computational time and memory footprint.
@@ -397,3 +398,105 @@ references:
   preprint: true
   topic: Statistical Methodology
   abstract: Despite recent advances in high-speed computing, Bayesian inference in high dimensional hierarchical models remains a non-trivial undertaking. Markov chain Monte Carlo (MCMC) methods have come a long way in resolving several problems in this regard, but these methods have, in turn, introduced a different set of computational issues like monitoring convergence rates. Such issues, typically, get accentuated in marketing research and practice when non- conjugate Bayesian hierarchical models are used. Here, we use a new method to generate independent samples from posterior distributions in these types of Bayesian models, obviating many of the difficulties associated with MCMC algorithms. Challenging illustrative analysis exemplifies the ease with which one can implement this method.
+
+- id: Braun2024BMR
+  type: working-paper
+  author:
+    - family: Braun
+      given: Michael
+  year: 2024
+  month: 5
+  title: "Revisiting Scalable Targeted Marketing with Distributed Markov Chain Monte Carlo"
+  container-title: Journal of Marketing Research
+  preprint: true
+  DOI: 10.1177/00222437241255307
+  topic: Statistical Methodology
+  abstract: Bumbaca, Misra, and Rossi (2020) propose a parallelizable algorithm for estimating a large number of customer-level parameters in a Bayesian hierarchical model. However, the algorithm follows from a mathematical error in the derivation of the target posterior density, which calls into question the theoretical support for the algorithm sampling from the specified model. Adapting the algorithm to be consistent with the corrected math nullifies the claimed benefits in scalability and efficiency. Notwithstanding that error, unbiasedness requires the number of customers to be asymptotic per computational node, which is more restrictive than being asymptotic in the size of the dataset as a whole. The more the algorithm is parallelized, the greater the bias. Potential adopters should be aware that the algorithm does not sample from the exact posterior distribution, and that its ability to take advantage of distributed computing infrastructure is limited.
+
+- id: PML2024
+  type: working-paper
+  author:
+    - given: Ryan
+      family: Dew
+    - given: Nicolas
+      family: Padilla
+    - given: Lan E.
+      family: Luo
+    - given: Shin
+      family: Oblander
+    - given: Asim
+      family: Ansari
+    - given: Khaled
+      family: Boughanmi
+    - given: Michael
+      family: Braun
+    - given: Fred
+      family: Feinberg
+    - given: Jia
+      family: Liu
+    - given: Thomas
+      family: Otter
+    - given: Longxiu
+      family: Tian
+    - given: Yixin
+      family: Wang
+    - given: Mingzhang
+      family: Yin
+  title: "Probabilistic Machine Learning: New Frontiers for Modeling Consumers and their Choices"
+  SSRN: 4790799
+  DOI: 10.2139/ssrn.4790799
+  topic: Statistical Methodology
+  draft: true
+  year: 2024
+  container-title: "Working paper"
+
+- id: TurnerWrightBraun2024
+  type: article-journal
+  container-title: Duke Law Journal
+  author:
+    - family: Turner
+      given: Jenia I.
+    - family: Wright
+      given: Ronald F.
+    - family: Braun
+      given: Michael
+  title: Neglected Discovery
+  topic: Criminal Justice
+  year: 2024
+  URL: https://scholarship.law.duke.edu/dlj/vol73/iss6/1
+  download: /assets/papers/TurnerWrightBraun2024_pub
+  abstract: In recent decades, many states have expanded discovery in criminal cases. These reforms were designed to make the criminal process fairer and more efficient. The success of these changes, however, depends on whether defense attorneys actually use the new discovery opportunities to represent their clients more effectively. Records from digital evidence platforms reveal that defense attorneys sometimes fail to carry out their professional duty to review discovery. Analyzing a novel dataset we obtained from digital evidence platforms used in Texas, we found that defense attorneys never accessed any available electronic discovery in a substantial number of felony cases between 2018 and 2020. We also found that the access rate varied by county, year, offense type, attorney category, attorney experience, and file type.
+
+- id: BWT2024
+  type: working-paper
+  container-title: "Working paper"
+  author:
+    - family: Braun
+      given: Michael
+    - family: Wright
+      given: Ronald F.
+    - family: Turner
+      given: Jenia I.
+  title: "Defense Use of Digital Discovery in Criminal Cases:  A Quantitative Analysis"
+  topic: Criminal Justice
+  year: 2024
+  draft: true
+  abstract: Recent criminal court reforms have required prosecutors to provide defense attorneys with broader and earlier discovery of evidence. For these discovery reforms to fulfill their aims of improved fairness and efficiency, defense attorneys must take advantage of the evidence disclosed by the prosecution. Prior studies suggest, however, that a range of factors, including low pay and high caseloads, impede effective defense representation. If similar factors hinder defense attorneys from reviewing discovery, discovery reforms would fail to meet their goals, and defendants would receive sub-standard representation. The recent adoption of digital evidence platforms by local jurisdictions allows us to study whether defense attorneys consistently fulfill their duty to review discovery. Analyzing data from digital evidence platforms used in felony cases in four Texas counties between 2018 and 2020, we examine whether and when defense attorneys fail to access evidence disclosed by the prosecution. We find that a substantial number of defense attorneys never access the discovery. The access rate varies by county, year, offense seriousness, attorney category, attorney experience, and file type. Drawing on review of prior scholarship and Bayesian analysis of the data, we discuss plausible interpretations of these variations.
+
+- id: BraunDeLanghe2024
+  type: article-journal
+  year: 2024
+  author:
+    - family: Braun
+      given: Michael
+    - family: De Langhe
+      given: Bart
+    - family: Puntoni
+      given: Stefano
+    - family: Schwartz
+      given: Eric M.
+  title: Leveraging Digital Advertising Platforms for Consumer Research
+  container-title: Journal of Consumer Research
+  topic: Advertising Optimization and Measurement
+  preprint: true
+  abstract: "Digital advertising platforms have emerged as a widely utilized data source in consumer research; yet, the interpretation of such data remains a source of confusion for many researchers. This article aims to address this issue by offering a comprehensive and accessible review of four prominent data collection methods proposed in the marketing literature: informal studies, multiple-ad studies without holdout, single-ad studies with holdout, and multiple-ad studies with holdout. By outlining the strengths and limitations of each method, we aim to enhance understanding regarding the inferences that can and cannot be drawn from the collected data. Furthermore, we present seven recommendations to effectively leverage these tools for programmatic consumer research. These recommendations provide guidance on how to use these tools to obtain causal and non-causal evidence for the effects of marketing interventions, and the asso- ciated psychological processes, in a digital environment regulated by targeting algorithms. We also give recommendations for how to describe the testing tools and the data they generate and urge platforms to be more transparent on how these tools work."

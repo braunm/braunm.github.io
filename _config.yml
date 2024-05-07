@@ -22,10 +22,12 @@ title: Michael Braun
 tagline: The website and blog of marketing professor Michael Braun
 url: https://braunm.github.io
 email: braunm@smu.edu
+
 description: >- # this means to ignore newlines until "baseurl:"
  Michael Braun, Associate Professor of Marketing, SMU Cox School of Business
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site,
+baseurl: / # the subpath of your site, e.g. /blog
+url: https://braunm.github.io # the base hostname & protocol for your site,
+domain: braunm.github.io
 # e.g. http://example.com
 
 twitter_username: mbraun92
@@ -36,7 +38,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
 
 
 ## destination: "/Users/braunm/Sites/braunm.github.io"
@@ -53,15 +54,16 @@ sass:
 # include: ["node_modules", "/"]
 # exclude: []
 
-# lsi: false
-# safe: true
-# incremental: false
-# highlighter: rouge
-# gist:
-#   noscript: false
-# kramdown:
-#   math_engine: mathjax
-#   syntax_highlighter: rouge
+lsi: false
+safe: true
+source:
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 
 # Exclude from processing.
