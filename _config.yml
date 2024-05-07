@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Michael Braun
+title: Michael H. Braun
 tagline: The website and blog of marketing professor Michael Braun
 url: https://braunm.github.io
 email: braunm@smu.edu
@@ -29,6 +29,8 @@ baseurl: / # the subpath of your site, e.g. /blog
 url: https://braunm.github.io # the base hostname & protocol for your site,
 domain: braunm.github.io
 # e.g. http://example.com
+
+destination: docs
 
 twitter_username: mbraun92
 github_username:  braunm
