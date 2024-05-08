@@ -3,6 +3,7 @@ cards:
     type: content
     target: papers
     order: 1
+    width: [12, 12, 6, 3]
     listtitle: Research interests
     items:
       - item: Statistical methods for analyzing marketing data
@@ -14,6 +15,7 @@ cards:
     type: content
     target: teaching
     order: 2
+    width: [12, 12, 6, 3]
     listtitle: Courses I teach
     items:
       - item: Marketing Management
@@ -22,6 +24,8 @@ cards:
   - id: Computing
     type: content
     target: computing
+    order: 3
+    width: [12, 12, 6, 3]
     listtitle: R packages I've written
     items:
       - item: trustOptim

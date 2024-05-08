@@ -25,10 +25,14 @@ a {
     font-weight: 1000;
     font-size: $font-size-lg;
   }
+
+
 }
 
+
+
 .navbar-dark {
-  background-color: $primary;
+    background-color: $primary;
   .navbar-nav {
     .nav-link {
       color: white;
@@ -44,6 +48,7 @@ a {
     }
   }
 }
+
 
 
 footer {

@@ -34,7 +34,7 @@ destination: docs
 
 twitter_username: mbraun92
 github_username:  braunm
-emfi
+
 # Build settings
 plugins:
   - jekyll-feed
