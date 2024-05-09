@@ -4343,7 +4343,7 @@ textarea.form-control-lg {
   border-top: 0;
 }
 
-.card-body {
+.card-body, .card .body {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
@@ -14043,9 +14043,6 @@ img {
 }
 .card .title {
   color: rgb(89, 195, 195);
-}
-.card .body {
-  font-style: italic;
 }
 .card .topic {
   color: #cc0000;

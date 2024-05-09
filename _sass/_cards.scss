@@ -22,7 +22,7 @@
   }
 
   .body {
-      font-style: italic;
+      @extend .card-body;
   }
 
   .topic {
