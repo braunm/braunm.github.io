@@ -13993,14 +13993,6 @@ img {
   width: 300px;
 }
 
-/*
-   .site-footer {
-   border-top: 1px solid $grey-color-light;
-   padding-top: get_map($spacers,5);
-   font-size: $font-size-sm;
-   margin: get_map($spacers,5);
-   }
- */
 .citelist h2, .citelist .h2, .citelist h3, .citelist .h3 {
   font-weight: 700;
 }
@@ -14049,8 +14041,21 @@ img {
   border: 4px solid #354c97;
   padding: 0.85rem;
 }
-.card .card-topic {
+.card .title {
+  color: rgb(89, 195, 195);
+}
+.card .body {
+  font-style: italic;
+}
+.card .topic {
   color: #cc0000;
+}
+.card .journal {
+  font-family: serif;
+  font-style: italic;
+}
+.card .authors {
+  font-style: normal;
 }
 
 .job {
@@ -14063,14 +14068,6 @@ img {
   background-color: #fff;
 }
 
-/*
-   .site-footer {
-   border-top: 1px solid $grey-color-light;
-   padding-top: get_map($spacers,5);
-   font-size: $font-size-sm;
-   margin: get_map($spacers,5);
-   }
- */
 .cite .authors {
   color: #000;
 }

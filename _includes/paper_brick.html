@@ -21,14 +21,18 @@
 {% assign modalID =   ref.id  | append: "Modal"  %}
 <div class='col-sm-12 col-md-4 col-lg-4 col-xl-3 py-1 my-1'>
   <div class="card" data-bs-toggle="modal"  data-bs-target="{{ modalID | prepend: "#" }}">
-    <div class='card-topic'>
+    <div class="topic border">
       {{ ref.topic }}
     </div>
-    <span class="card-title p-0 m-0">{{ ref.title }}</span>
-    <div class="card-body p-0 m-0">
-      {{ref.year}}: <em>{{ref.container-title | strip}}</em>
-      {% include authorlist2.html alist=ref %}
-      <br>
+    <span class="title p-0 m-0 border">{{ ref.title }}</span>
+    <div class="card-body px-0 py-1 m-0">
+      <div class="journal py-0 m-0 border">
+        {{ref.year}}: {{ref.container-title | strip}}
+      </div>
+      <div class="authors py-0 m-0 border">
+        {% include authorlist2.html alist=ref %}
+      </div>
+
 
       {% if ref.publisher %}
       . {{ref.publisher}}.
@@ -36,6 +40,8 @@
 
     </div> <!-- body -->
   </div>  <!-- card -->
+
+  <!-- modal:  what's under the click of the brick  -->
 
   <div class='modal fade ' id="{{ modalID }}" tabindex="-1">
     <div class='modal-dialog  modal-dialog-centered'>

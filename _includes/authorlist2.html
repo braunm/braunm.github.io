@@ -3,7 +3,7 @@
 
 {% assign alist = {{include.alist}} %}
 {% assign coauthors = alist.author | where_exp:"author","author.family != 'Braun' " %}
- {% unless coauthors == empty %}<br>{% endunless %}
+ {% unless coauthors == empty %}{% endunless %}
 {% for auth in coauthors %}
 {% capture name %}
 {{ auth.given }} {{ auth.family }}
