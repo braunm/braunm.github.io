@@ -2,7 +2,7 @@
 {% assign modalID =   card.id  | append: "fcard"  %}
 <div class='col-sm-12 col-md-6 col-lg-6 col-xl-3 py-1 my-1'>
   <div class="card" data-bs-toggle="modal"  data-bs-target="{{ modalID | prepend: "#" }}">
-    <div class='card-topic'>
+    <div class="topic">
       {{ card.id }}
     </div>
     {% if card.listtitle %}

@@ -1,11 +1,4 @@
-/*
-   .site-footer {
-   border-top: 1px solid $grey-color-light;
-   padding-top: get_map($spacers,5);
-   font-size: $font-size-sm;
-   margin: get_map($spacers,5);
-   }
- */
+
 .cite {
 
   $modal-inner-padding: 1px;
@@ -23,14 +16,11 @@
     text-decoration: none;
   }
 
+  // .modal-header {
 
-
-
-  .modal-header {
-
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
+  //   padding-top: 0.5rem;
+  //   padding-bottom: 0.5rem;
+  // }
 
   .modal-body {
     line-height: 1.2rem;
@@ -39,37 +29,30 @@
   }
 
 
-
     // Colors and variant for each button
 
-    .btn-abstract {
+  .btn-abstract {
       @extend .btn-outline-secondary;
-    }
+  }
 
-    .btn-publisher {
+  .btn-publisher {
       @extend .btn-outline-secondary;
-    }
+  }
 
-    .btn-preprint {
+  .btn-preprint {
       @extend .btn-outline-warning;
-    }
+  }
 
-    .btn-draft {
+  .btn-draft {
       @extend .btn-outline-info;
-    }
-
-
-    .btn-website {
+  }
+  .btn-website {
       @extend .btn-outline-success;
-    }
-
-
-    .btn-ssrn {
+  }
+  .btn-ssrn {
       @extend .btn-outline-primary;
-    }
-
-    .btn-supplemental {
+  }
+  .btn-supplemental {
       @extend .btn-outline-primary;
-    }
-
+  }
 }

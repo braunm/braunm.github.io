@@ -19,27 +19,25 @@
 {% endcapture %}
 
 {% assign modalID =   ref.id  | append: "Modal"  %}
-<div class='col-sm-12 col-md-4 col-lg-4 col-xl-3 py-1 my-1'>
-  <div class="card" data-bs-toggle="modal"  data-bs-target="{{ modalID | prepend: "#" }}">
-    <div class="topic border">
-      {{ ref.topic }}
-    </div>
-    <span class="title p-0 m-0 border">{{ ref.title }}</span>
-    <div class="card-body px-0 py-1 m-0">
-      <div class="journal py-0 m-0 border">
-        {{ref.year}}: {{ref.container-title | strip}}
+ <div class='col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 px-2 py-1 my-1'>
+   <div class="paper-card" data-bs-toggle="modal"  data-bs-target="{{ modalID | prepend: "#" }}">
+     <div>
+    <div class="topic">{{ ref.topic }}</div>
+    <div class="title">{{ ref.title }} </div>
+    <div class="body">
+      <div class="journal">
+        {{ref.container-title | strip}} <span class="year">({{ref.year}})</span>
+        {% if ref.publisher %}
+        <span class="publisher">{{ref.publisher}}</span>
+        {% endif %}
       </div>
-      <div class="authors py-0 m-0 border">
+      <div class="authors">
         {% include authorlist2.html alist=ref %}
       </div>
-
-
-      {% if ref.publisher %}
-      . {{ref.publisher}}.
-      {% endif %}
-
     </div> <!-- body -->
-  </div>  <!-- card -->
+     </div>
+   </div>
+  <!-- card -->
 
   <!-- modal:  what's under the click of the brick  -->
 
@@ -48,6 +46,7 @@
       <div class='modal-content cite'>
 	<div class='modal-header'>
 	  <span class="title"> {{ ref.title }}</span>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 	</div>
 	<div class='modal-body'>
 	  <p class="authors"> {% include authorlist2.html alist=ref %} </p>
@@ -80,7 +79,7 @@
 	  {% if ref.supplemental %}
 	  <a class="btn btn-sm btn-supplemental" href="/assets/documents/papers/{{ref.id}}_supplemental.pdf" target="_blank"  rel="noopener noreferrer">Supplemental</a>
 	  {% endif %}
-	  <button type="button" class="btn-sm btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+	  <!-- <button type="button" class="btn-sm btn-outline-secondary" data-bs-dismiss="modal">Close</button> -->
 	</div> <!-- modal-footer -->
       </div>
     </div>

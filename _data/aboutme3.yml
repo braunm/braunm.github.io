@@ -1,0 +1,45 @@
+cards:
+  - id: Interests
+    type: content
+    order: 1
+    topic: Research interests
+    title:
+    body:
+      items:
+        - Statistical methods for analyzing marketing data
+        - Modeling customer value and retention
+        - Measuring online advertising effectiveness
+        - Criminal justice and marketing
+      # <hr>
+      # <div class="row justify-content-evenly">
+      # <a class="col-5 btn btn-outline-primary" href="/papers/">Papers</a>
+      # <a class="col-5 btn btn-outline-primary" href="/cv/">CV</a>
+      # </div>
+    width: [12, 12, 6, 3]
+  - id: Courses
+    type: content
+    order: 2
+    width: [12, 12, 6, 3]
+    topic: Courses I teach
+    title:
+    body:
+      items:
+        - Marketing Management
+        - Customer Analytics using Probability Models
+  - id: R packages
+    type: content
+    order: 4
+    width: [12, 12, 6, 3]
+    topic: R packages I've written
+    title:
+    body:
+      items:
+        - <a href="https://braunm.github.io/trustOptim">trustOptim</a>
+        - <a href="https://braunm.github.io/sparseHessianFD">sparseHessianFD</a>
+        - <a href="https://braunm.github.io/sparseMVN">sparseMVN</a>
+  # - id: Personal
+  #   order: 10
+  #   type: other
+  #   width: [12, 6, 6, 3]
+  #   topic: Personal
+  #   body: Something funny will go here, eventually

@@ -57,8 +57,8 @@ $font-weight-bolder:          bolder;
 
 $font-weight-base:            $font-weight-normal;
 
-$line-height-base:            1.5;
-$line-height-sm:              1.25;
+$line-height-base:            1.4;
+$line-height-sm:              1.2;
 $line-height-lg:              2;
 
 $h1-font-size:                $font-size-base * 1.4;
@@ -77,6 +77,8 @@ body {
 $navbar-dark-color: $light;
 $navbar-light-color: $info;
 
+$enable-shadows: true;
+
 
 @import "bootstrap/scss/bootstrap";
 @import "bootstrap/scss/variables";
@@ -94,6 +96,6 @@ $navbar-light-color: $info;
 "base",
 "papers",
 "newsbox",
-"frontcard",
+"cards",
 "modal"
 ;

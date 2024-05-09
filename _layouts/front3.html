@@ -11,7 +11,7 @@ layout: default
 <div class="row justify-content-evenly mt-2" data-masonry='{"percentPosition": true }'>
 
   <div class='col-sm-12 col-md-6'>
-    <div class='job pt-3 mx-1 my-1 rounded'>
+    <div class='job pt-3 mx-1 my-1 rounded shadow'>
       <p>Corrigan Reserach Professor</p>
       <p>Associate Professor of Marketing</p>
     </div>
@@ -19,7 +19,7 @@ layout: default
 
 
   <div class='col-sm-12 col-md-6'>
-    <div class='job pt-3 mx-1 my-1 rounded'>
+    <div class='job pt-3 mx-1 my-1 rounded shadow'>
       <p>SMU Cox School of Business</p>
       <p>Southern Methodist University</p>
     </div>
@@ -30,14 +30,26 @@ layout: default
 
 
 
-<div class="col-12 my-3 p-3">
+<div class="my-3 p-3">
+  <h4>About me</h4>
   <div class="row" data-masonry='{"percentPosition": true }'>
-    {% assign cards=site.data.aboutme2.cards|sort: "order" %}
-      <!-- <div class='row' data-masonry='{"percentPosition": true }'> -->
+    {% assign cards=site.data.aboutme3.cards|sort: "order" %}
     {% for card in cards %}
-      {% include datacard.html %}
+    <!-- <div class="col-sm-{{ card.width[0] }} col-md-{{ card.width[1] }} col-lg-{{ card.width[2] }} col-xl-{{ card.width[3] }} py-1 my-1"> -->
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 py-1 my-1">
+      <div class="card shadow">
+	<h5 class="topic"> {{ card.topic }} </h5>
+	<div class="body">
+          <ul>
+          {% for line in card.body.items %}
+	 <li> {{ line }} </li>
+          {% endfor %}
+           </ul>
+	</div>
+      </div>
+    </div>
     {% endfor %}
-  <!-- </div> -->
+  </div>
 </div>
 
 
@@ -48,7 +60,7 @@ layout: default
 
     {% for post in site.posts %}
     <div class='col-sm-12 col-md-4 col-lg-4 col-xl-3 py-1 my-1'>
-      <div class='card'>
+      <div class='card shadow'>
 	<h5 class="card-topic">{{ post.categories }}</h5>
 	<p class="card-title"><a href="{{ post.url }}">
 	  {% if post.card_prefix %}{{ post.card_prefix }}: {% endif %} {{ post.title }}</a></p>

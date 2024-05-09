@@ -1,11 +1,7 @@
-/*
-   .site-footer {
-   border-top: 1px solid $grey-color-light;
-   padding-top: get_map($spacers,5);
-   font-size: $font-size-sm;
-   margin: get_map($spacers,5);
-   }
- */
+
+// List of papers.
+// btn styles are only used for list class (with buttons)
+
 .citelist {
 
   h2, h3 {
@@ -55,12 +51,9 @@
     .btn-draft {
       @extend .btn-outline-info;
     }
-
-
     .btn-website {
       @extend .btn-outline-success;
     }
-
 
     .btn-ssrn {
       @extend .btn-outline-primary;
@@ -69,8 +62,5 @@
     .btn-supplemental {
       @extend .btn-outline-primary;
     }
-
-
-
   }
 }

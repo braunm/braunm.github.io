@@ -28,6 +28,6 @@ cards:
     width: [12, 12, 6, 3]
     listtitle: R packages I've written
     items:
-      - item: trustOptim
+      - item: trustOptim - trust region optimizer
       - item: sparseHessianFD
       - item: sparseMVN
