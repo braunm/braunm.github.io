@@ -10,12 +10,12 @@
 {% endcapture %}
 {% if forloop.first == true %}
 {% if forloop.last == true %}
-Co-author: {{ name | strip }}
+with {{ name | strip }}
 {% else %}
 {%if forloop.length > 1 %}
-Co-authors: {{ name | strip |append: ","}}
+with  {{ name | strip |append: ","}}
 {% else %}
-Co-author: {{ name | strip }}
+with  {{ name | strip }}
 {% endif %}
 {% endif %}
 {% else %}

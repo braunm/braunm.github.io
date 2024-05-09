@@ -16,11 +16,11 @@
     text-decoration: none;
   }
 
-  .modal-header {
+  // .modal-header {
 
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
+  //   padding-top: 0.5rem;
+  //   padding-bottom: 0.5rem;
+  // }
 
   .modal-body {
     line-height: 1.2rem;
@@ -46,19 +46,13 @@
   .btn-draft {
       @extend .btn-outline-info;
   }
-
-
   .btn-website {
       @extend .btn-outline-success;
   }
-
-
   .btn-ssrn {
       @extend .btn-outline-primary;
   }
-
   .btn-supplemental {
       @extend .btn-outline-primary;
   }
-
 }

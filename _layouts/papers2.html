@@ -8,11 +8,10 @@ layout: default
 
 
 
-
+{% assign allrefs=site.data.papers.references %}
+{% assign wps = allrefs | where: "type", "working-paper" %}
 <div class="citelist">
-  {% assign allrefs=site.data.papers.references %}
   <h2 class="type">Working papers</h2>
-  {% assign wps = allrefs | where: "type", "working-paper" %}
   <div class='row' data-masonry='{"percentPosition": true }'>
     {% for ref in wps %}
     {% include paper2.html %}
@@ -25,8 +24,8 @@ layout: default
 <div class="citelist">
   <h2 class="type">Published articles</h2>
   <div class='row' data-masonry='{"percentPosition": true }'>
-    {% assign articles = allrefs | where_exp: "allrefs", "allrefs.type contains 'article'" %}
-    {% for ref in articles %}
+    {% assign articles = allrefs | where_exp: "allrefs", "allrefs.type contains 'article'" | sort: "year" %}
+    {% for ref in articles reversed %}
     {% include paper2.html topic = ref.topic  %}
     {% endfor %} <!-- End loop on refs within topic -->
   </div>

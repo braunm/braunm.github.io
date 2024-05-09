@@ -4,45 +4,69 @@
 .card {
   font-family: $font-family-sans-serif;
   border: 2px solid $success;
-  padding: $spacer;
+ // padding: .5 * $spacer;
+  padding: 3px 8px 3px 8px;
   font-size: $font-size-base;
-  line-height: 1.4;
+  line-height: $line-height-base;
   background-color: $light;
 
-  &:hover {
-      border: 4px solid $primary;
-      padding: $spacer * .85;
+  .topic {
+      color: $success;
+      text-align: left;
+      font-size: $font-size-lg;
+  }
+
+  .body {
+      ul {
+          list-style-position: inside;
+          padding: 1px;
+      }
+  }
+}
+
+.paper-card {
+    @extend .card, .shadow;
+
+    &:hover {
+   //     @extend .shadow;
+      border: 3px solid $primary;
+      padding: inherit;
+  }
+
+  .topic {
+      @extend .card-title;
+      color: $success;
+      text-align: right;
+      font-size: $font-size-sm;
   }
 
   .title {
-    // h4, h5  {
-      color: $info;
-    // }
-
+      @extend .card-subtitle;
+      color: $primary;
+      font-weight: $font-weight-normal;
   }
 
   .body {
       @extend .card-body;
-  }
-
-  .topic {
-      color: $success;
+      border: none;
+      padding: 4px;
+      padding-left: 8px;
   }
 
   .journal {
-      font-family: serif;
       font-style: italic;
   }
-
   .authors {
       font-style: normal;
+      font-size: $font-size-sm;
   }
-
-
-
-
+  .year {
+      font-style: normal;
+  }
+  .publisher {
+      font-size: $font-size-sm;
+  }
 }
-
 
 // For job on front
 .job {
