@@ -1,5 +1,5 @@
 ---
-layout: front3
+layout: front
 pic1: /assets/images/Braun_2018_with_tie_square.png
 pic2: /assets/images/MB_Fox4_2015_sq3.png
 pic3: /assets/images/MB_MDC_2018.png

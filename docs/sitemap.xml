@@ -16,9 +16,6 @@
 <loc>https://braunm.github.io/about/</loc>
 </url>
 <url>
-<loc>https://braunm.github.io/bio/</loc>
-</url>
-<url>
 <loc>https://braunm.github.io/blog/</loc>
 </url>
 <url>
@@ -154,6 +151,14 @@
 <url>
 <loc>https://braunm.github.io/assets/documents/papers/old_BraunSchwartz2021_draft.pdf</loc>
 <lastmod>2024-05-07T14:22:45-05:00</lastmod>
+</url>
+<url>
+<loc>https://braunm.github.io/assets/documents/papers/sparseHessianFD_preprint.pdf</loc>
+<lastmod>2018-02-04T22:07:42-06:00</lastmod>
+</url>
+<url>
+<loc>https://braunm.github.io/assets/documents/papers/trustOptim_preprint.pdf</loc>
+<lastmod>2015-08-06T10:29:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://braunm.github.io/assets/documents/teaching/MKTG_6201_Braun_2021_Spring_A_syllabus.pdf</loc>
