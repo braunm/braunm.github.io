@@ -3110,7 +3110,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #212529;
 }
 
-.btn-outline-primary, .cite .btn-supplemental, .cite .btn-ssrn, .citelist .refs .btn-supplemental, .citelist .refs .btn-ssrn {
+.btn-outline-primary, .paper-modal .btn-supplemental, .paper-modal .btn-ssrn, .citelist .refs .btn-supplemental, .citelist .refs .btn-ssrn {
   --bs-btn-color: #354c97;
   --bs-btn-border-color: #354c97;
   --bs-btn-hover-color: #fff;
@@ -3127,7 +3127,7 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-secondary, .cite .btn-publisher, .cite .btn-abstract, .citelist .refs .btn-publisher, .citelist .refs .btn-abstract {
+.btn-outline-secondary, .paper-modal .btn-publisher, .paper-modal .btn-abstract, .citelist .refs .btn-publisher, .citelist .refs .btn-abstract {
   --bs-btn-color: #000;
   --bs-btn-border-color: #000;
   --bs-btn-hover-color: #fff;
@@ -3144,7 +3144,7 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-success, .cite .btn-website, .citelist .refs .btn-website {
+.btn-outline-success, .paper-modal .btn-website, .citelist .refs .btn-website {
   --bs-btn-color: #cc0000;
   --bs-btn-border-color: #cc0000;
   --bs-btn-hover-color: #fff;
@@ -3161,7 +3161,7 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-info, .cite .btn-draft, .citelist .refs .btn-draft {
+.btn-outline-info, .paper-modal .btn-draft, .citelist .refs .btn-draft {
   --bs-btn-color: rgb(89, 195, 195);
   --bs-btn-border-color: rgb(89, 195, 195);
   --bs-btn-hover-color: #000;
@@ -3178,7 +3178,7 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-warning, .cite .btn-preprint, .citelist .refs .btn-preprint {
+.btn-outline-warning, .paper-modal .btn-preprint, .citelist .refs .btn-preprint {
   --bs-btn-color: #cc0000;
   --bs-btn-border-color: #cc0000;
   --bs-btn-hover-color: #fff;
@@ -13817,7 +13817,7 @@ progress {
   --bs-btn-disabled-border-color: #212529;
 }
 
-.btn-outline-primary, .cite .btn-supplemental, .cite .btn-ssrn, .citelist .refs .btn-supplemental, .citelist .refs .btn-ssrn {
+.btn-outline-primary, .paper-modal .btn-supplemental, .paper-modal .btn-ssrn, .citelist .refs .btn-supplemental, .citelist .refs .btn-ssrn {
   --bs-btn-color: #354c97;
   --bs-btn-border-color: #354c97;
   --bs-btn-hover-color: #fff;
@@ -13834,7 +13834,7 @@ progress {
   --bs-gradient: none;
 }
 
-.btn-outline-secondary, .cite .btn-publisher, .cite .btn-abstract, .citelist .refs .btn-publisher, .citelist .refs .btn-abstract {
+.btn-outline-secondary, .paper-modal .btn-publisher, .paper-modal .btn-abstract, .citelist .refs .btn-publisher, .citelist .refs .btn-abstract {
   --bs-btn-color: #000;
   --bs-btn-border-color: #000;
   --bs-btn-hover-color: #fff;
@@ -13851,7 +13851,7 @@ progress {
   --bs-gradient: none;
 }
 
-.btn-outline-success, .cite .btn-website, .citelist .refs .btn-website {
+.btn-outline-success, .paper-modal .btn-website, .citelist .refs .btn-website {
   --bs-btn-color: #cc0000;
   --bs-btn-border-color: #cc0000;
   --bs-btn-hover-color: #fff;
@@ -13868,7 +13868,7 @@ progress {
   --bs-gradient: none;
 }
 
-.btn-outline-info, .cite .btn-draft, .citelist .refs .btn-draft {
+.btn-outline-info, .paper-modal .btn-draft, .citelist .refs .btn-draft {
   --bs-btn-color: rgb(89, 195, 195);
   --bs-btn-border-color: rgb(89, 195, 195);
   --bs-btn-hover-color: #000;
@@ -13885,7 +13885,7 @@ progress {
   --bs-gradient: none;
 }
 
-.btn-outline-warning, .cite .btn-preprint, .citelist .refs .btn-preprint {
+.btn-outline-warning, .paper-modal .btn-preprint, .citelist .refs .btn-preprint {
   --bs-btn-color: #cc0000;
   --bs-btn-border-color: #cc0000;
   --bs-btn-hover-color: #fff;
@@ -14085,9 +14085,14 @@ img {
   text-align: left;
   font-size: 1.25rem;
 }
+.card .title, .paper-card .title {
+  color: #354c97;
+  text-align: left;
+  font-size: 1rem;
+}
 .card .body ul, .paper-card .body ul {
-  list-style-position: inside;
-  padding: 1px;
+  list-style-position: outside;
+  margin: 0px;
 }
 
 .paper-card:hover {
@@ -14122,30 +14127,29 @@ img {
   font-size: 0.875rem;
 }
 
+.paper-modal .authors {
+  color: #000;
+}
+.paper-modal .title {
+  color: #354c97;
+  font-weight: 700;
+}
+.paper-modal .journal {
+  text-decoration: none;
+}
+.paper-modal .modal-body {
+  line-height: 1.2rem;
+  margin: 0;
+  padding-top: 1px;
+}
 .job {
   margin-top: 1rem;
   text-align: center;
   border: 2px solid;
   font-family: Roboto Condensed;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 0.5;
   background-color: #fff;
-}
-
-.cite .authors {
-  color: #000;
-}
-.cite .title {
-  color: #354c97;
-  font-weight: 700;
-}
-.cite .journal {
-  text-decoration: none;
-}
-.cite .modal-body {
-  line-height: 1.2rem;
-  margin: 0;
-  padding-top: 1px;
 }
 
 /*# sourceMappingURL=custom.css.map */

@@ -22,4 +22,6 @@ Professor Braun’s teaching interests are to train the next generation of busin
 
 Michael Braun earned his Ph.D. from the Wharton School of the University of Pennsylvania.  He holds an A.B. with Honors in Economics from Princeton University, and an M.B.A. from the Fuqua School of Business at Duke University.  Before entering academia, he worked on the development and deployment of broadband Internet products for such companies as Comcast, Marcus Cable and Charter Communications. From 1999 to 2002, he was Vice President for Global Affiliate Operations of Chello Broadband, the Amsterdam-based Internet arm of United Pan-Europe Communications.
 
+Back
+
 <!-- He also worked as a production assistant at ESPN, and as a researcher for NBC at the 1992 Summer Olympics in Barcelona. -->
