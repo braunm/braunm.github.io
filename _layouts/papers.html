@@ -18,16 +18,16 @@ layout: default
     {% endfor %}
   </div>
 </div>
-
 <hr>
 
 <div class="citelist">
   <h2 class="type">Published articles</h2>
   <div class='row' data-masonry='{"percentPosition": true }'>
-    {% assign articles = allrefs | where_exp: "allrefs", "allrefs.type contains 'article'" | sort: "year" %}
+    {% assign articles = allrefs | where_exp: "allrefs", "allrefs.type contains 'article'" | sort:"year" %}
     {% for ref in articles reversed %}
     {% include paper.html topic = ref.topic  %}
-    {% endfor %} <!-- End loop on refs within topic -->
+    {% endfor %}
+
   </div>
 </div>
 

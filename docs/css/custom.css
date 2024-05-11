@@ -4375,7 +4375,7 @@ textarea.form-control-lg {
   color: var(--bs-card-color);
 }
 
-.card-title, .paper-card .topic {
+.card-title, .paper-card .year, .paper-card .topic {
   margin-bottom: var(--bs-card-title-spacer-y);
   color: var(--bs-card-title-color);
 }
@@ -14122,6 +14122,9 @@ img {
 }
 .paper-card .year {
   font-style: normal;
+  text-align: left;
+  font-size: 0.875rem;
+  color: #cc0000;
 }
 .paper-card .publisher {
   font-size: 0.875rem;
