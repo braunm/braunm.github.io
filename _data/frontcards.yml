@@ -10,16 +10,6 @@ cards:
         - Modeling customer value and retention
         - Measuring online advertising effectiveness
         - Criminal justice and marketing
-      buttons:
-        - label: Papers
-          href: /papers/
-        - label: CV
-          href: /cv/
-      # <hr>
-      # <div class="row justify-content-evenly">
-      # <a class="col-5 btn btn-outline-primary" href="/papers/">Papers</a>
-      # <a class="col-5 btn btn-outline-primary" href="/cv/">CV</a>
-      # </div>
   - id: Courses
     type: content
     order: 2

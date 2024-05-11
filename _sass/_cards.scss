@@ -46,6 +46,7 @@
       font-size: $font-size-sm;
   }
 
+
   .title {
       @extend .card-subtitle;
       color: $primary;
@@ -67,7 +68,11 @@
       font-size: $font-size-sm;
   }
   .year {
+         @extend .card-title;
       font-style: normal;
+      text-align: left;
+      font-size: $font-size-sm;
+      color: $success;
   }
   .publisher {
       font-size: $font-size-sm;

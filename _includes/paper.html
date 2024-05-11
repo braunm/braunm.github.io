@@ -22,11 +22,14 @@
  <div class='col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 px-2 py-1 my-1'>
    <div class="paper-card" data-bs-toggle="modal"  data-bs-target="{{ modalID | prepend: "#" }}">
      <div>
-    <div class="topic">{{ ref.topic }}</div>
+       <div class="d-flex justify-content-apart">
+         <span class="col-2 text-left year">{{ref.year}}</span>
+         <span class="col-10 text-right topic">{{ ref.topic }}</span>
+       </div>
     <div class="title">{{ ref.title }} </div>
     <div class="body">
-      <div class="journal">
-        {{ref.container-title | strip}} <span class="year">({{ref.year}})</span>
+      <div class="journal py-2">
+        {{ref.container-title | strip}}
         {% if ref.publisher %}
         <span class="publisher">{{ref.publisher}}</span>
         {% endif %}
