@@ -1,0 +1,16 @@
+packages:
+- name: trustOptim
+  type: R-package
+  version: 0.8.7.2
+  description: Trust Region Optimization for Nonlinear Functions with Sparse Hessians
+  website: braunm.github.io/trustOptim
+- name: sparseHessianFD
+  type: R-package
+  version: 0.3.3.7
+  description: Numerical Estimation of Sparse Hessians
+  website: braunm.github.io/sparseHessianFD
+- name: sparseMVN
+  type: R-package
+  version: 0.2.2
+  description: Multivariate Normal Functions for Sparse Covariance and Precision Matrices
+  website: braunm.github.io/sparseMVN

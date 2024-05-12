@@ -17,10 +17,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
 
-<link rel="stylesheet" href="https://braunm.github.io//css/custom.css">
+<link rel="stylesheet" href="http://localhost:4000//css/custom.css">
 
 
-  <link type="application/atom+xml" rel="alternate" href="https://braunm.github.io/feed.xml" title="Michael Braun" />
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Michael Braun" />
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Computing | Michael Braun</title>
 <meta name="generator" content="Jekyll v4.3.3" />
@@ -28,18 +28,18 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Michael Braun, Associate Professor of Marketing, SMU Cox School of Business" />
 <meta property="og:description" content="Michael Braun, Associate Professor of Marketing, SMU Cox School of Business" />
-<link rel="canonical" href="https://braunm.github.io/computing/" />
-<meta property="og:url" content="https://braunm.github.io/computing/" />
+<link rel="canonical" href="http://localhost:4000/computing/" />
+<meta property="og:url" content="http://localhost:4000/computing/" />
 <meta property="og:site_name" content="Michael Braun" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Computing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Michael Braun, Associate Professor of Marketing, SMU Cox School of Business","headline":"Computing","url":"https://braunm.github.io/computing/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Michael Braun, Associate Professor of Marketing, SMU Cox School of Business","headline":"Computing","url":"http://localhost:4000/computing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <link rel="alternate" type="application/rss+xml" title="Michael Braun" href="https://braunm.github.io//feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Michael Braun" href="http://localhost:4000//feed.xml" />
 
 
 
@@ -107,46 +107,89 @@
       
 <h1 id="computing">Computing</h1>
 
-<p>I am the author and current maintainer of three packages for the R statistical programming language.  I also have a library of code snippets for R, emacs, and LaTeX that I will post from time to time, as I clean them up for public review.</p>
-
-<hr />
-
 <h2 id="r-packages">R packages</h2>
 
-<div class="d-flex justify-content-evenly fg-info bg-light">
-   <a class="btn btn-outline-primary" align="center" href="https://braunm.github.io/trustOptim/">trustOptim</a>
-   <a class="btn btn-outline-primary" align="center" href="https://braunm.github.io/sparseHessianFD/">sparseHessianFD</a>
-   <a class="btn btn-outline-primary" align="center" href="https://braunm.github.io/sparseMVN/">sparseMVN</a>
- </div>
+<p>I am the author and current maintainer of three packages for the R statistical programming language.  I also have a library of code snippets for R, emacs, and LaTeX that I will post from time to time, as I clean them up for public review.</p>
 
-<hr />
+<div class="row" data-masonry="{&quot;percentPosition&quot;: true }">
 
-<h2 id="my-computing-setup">My computing setup</h2>
 
-<ul>
-  <li>
-    <p>I write <em>everything</em> in Emacs: code, reviews, manuscripts, lecture slides, and even recommendation letters.  Specifically, I use <a href="http://aquamacs.org" target="_blank" rel="nofollow noreferrer noopener">Aquamacs Emacs</a>, an emacs port for MacOS.  GNU Emacs has been around since 1985, so it is just plain <strong>solid</strong>, with a huge user base for support, and thousands of packages and modes that can do anything from syntax highlighting of your favorite programming language (<code class="language-plaintext highlighter-rouge">ess-r-mode</code>) to psychotherapy (<code class="language-plaintext highlighter-rouge">doctor</code>).  By using the same program for ever a fully-featured platform, I can use the same program (and thus, the same keybindings) for everything I do.</p>
+<div class="col-sm-12 col-md-4 col-lg-4 px-2 py-1 my-1">
+    <div class="paper-card">
+        <div class="d-flex justify-content-apart">
+            <span class="col-3 text-left year">0.8.7.2</span>
+            <span class="col-9 text-right topic">R-package</span>
+        </div>
+            <a class="title" href="https://braunm.github.io/trustOptim">trustOptim </a>
+      <a class="body" href="https://braunm.github.io/trustOptim">Trust Region Optimization for Nonlinear Functions with Sparse Hessians</a>
+    </div>
+  </div>
 
-    <p>Emacs is easy to use.  <strong>Configuring</strong> Emacs can be hard.  Someday I will post my configuration file, which has evolved quite a bit over the last decade.</p>
-  </li>
-  <li>
-    <p>For statistical computing, I code in the <a href="https://www.r-project.org" target="_blank" rel="nofollow noreferrer noopener">R language</a>, using Emacs with the  <a href="https://ess.r-project.org">ESS</a>  package (<strong>E</strong> macs <strong>S</strong> peaks <strong>S</strong> tatistics). ESS let’s me have both my R source document and an active R session open at the same time, in the same Emacs session. It saves a lot of time to be able to send a chunk of source code directly into R with two keystrokes.</p>
-  </li>
-  <li>Writing papers:  I write my research papers directly in Emacs, marked up with <a href="www.latex-project.org" target="_blank" rel="nofollow noreferrer noopener">LaTeX</a>. The <a href="https://www.gnu.org/software/auctex/" target="_blank" rel="nofollow noreferrer noopener">AuCTeX</a> Emacs package provides lots of time-saving functions, macros, and keymaps that have become so automatic to me that I can just focus on the writing.
-    <ul>
-      <li>I compile my LaTeX documents with <a href="www.luatex.org" target="_blank" rel="nofollow noreferrer noopener">LuaTeX</a> (instead of pdfTeX) for a few reasons:
-        <ul>
-          <li>With <a href="https://texdoc.org/pkg/fontspec" target="_blank" rel="nofollow noreferrer noopener">fontspec</a> and <a href="https://texdoc.org/pkg/unicode-math" target="_blank" rel="nofollow noreferrer noopener">unicode-math</a>, I can create documents using any installed font, rather than being limited to fonts provided in LaTeX packages.</li>
-          <li>Sometimes there is a need to run calculations as part of the document, such as when drawing figures using <a href="https://texdoc.org/pkg/tikz" target="_blank" rel="nofollow noreferrer noopener">TikZ</a>.</li>
-          <li>Some LaTeX packages require LuaTeX.  An example is lua-check-hyphen, which generates a list of all hyphenated words in the document, so I can confirm that they are hyphenated at the right places.</li>
-        </ul>
-      </li>
-      <li>The <a href="https://www.gnu.org/software/auctex/manual/preview-latex.htmlpackage" target="_blank" rel="nofollow noreferrer noopener">preview-latex</a> (now included in AuCTeX) embeds compiled chunks of rendered LaTeX (e.g., math symbols and equations) directly in the emacs frame. That way I can see the all of the content – text and math – together in the same frame I am writing in, without having to glance to the output pdf.</li>
-      <li>Reference management:  I use <a href="https://texdoc.org/pkg/biber" target="_blank" rel="nofollow noreferrer noopener">biber</a> (http://biblatex-biber.sourceforge.net){:xn} and  <a href="https://texdoc.org/pkg/biblatex" target="_blank" rel="nofollow noreferrer noopener">biblatex</a>  to insert citations and create bibliographies. Biblatex is designed to be more flexible and customizable than bibtex,  but my references are stored in bibtex format. My bibtex database (which I maintain using <a href="https://bibdesk.sourceforge.io" target="_blank" rel="nofollow noreferrer noopener">BibDesk</a> contains 1,800 references (and in most cases, pdfs) of academic papers I have downloaded, read, intend to read, intended to read, or otherwise needed for some reason, collected since I was a graduate student.</li>
-    </ul>
-  </li>
-  <li>I built this website with <a href="https://www.jekyllrb.com" target="_blank" rel="nofollow noreferrer noopener">Jekyll</a>, mainly for blog management. The HTML includes Bootstrap 5 classes.  As with everything else, I wrote both the site code (<code class="language-plaintext highlighter-rouge">web-mode</code>) and text content (<code class="language-plaintext highlighter-rouge">markdown-mode</code>) in Emacs.</li>
-</ul>
+
+<div class="col-sm-12 col-md-4 col-lg-4 px-2 py-1 my-1">
+    <div class="paper-card">
+        <div class="d-flex justify-content-apart">
+            <span class="col-3 text-left year">0.3.3.7</span>
+            <span class="col-9 text-right topic">R-package</span>
+        </div>
+            <a class="title" href="https://braunm.github.io/sparseHessianFD">sparseHessianFD </a>
+      <a class="body" href="https://braunm.github.io/sparseHessianFD">Numerical Estimation of Sparse Hessians</a>
+    </div>
+  </div>
+
+
+<div class="col-sm-12 col-md-4 col-lg-4 px-2 py-1 my-1">
+    <div class="paper-card">
+        <div class="d-flex justify-content-apart">
+            <span class="col-3 text-left year">0.2.2</span>
+            <span class="col-9 text-right topic">R-package</span>
+        </div>
+            <a class="title" href="https://braunm.github.io/sparseMVN">sparseMVN </a>
+      <a class="body" href="https://braunm.github.io/sparseMVN">Multivariate Normal Functions for Sparse Covariance and Precision Matrices</a>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="posts-about-computing">Posts about computing</h2>
+
+<p>Excerpts of some computing-related blog posts. Click for the full post.</p>
+
+<div class="row" data-masonry="{&quot;percentPosition&quot;: true }">
+  
+  
+  <div class="col-sm-12 col-lg-6 col-xl-4 px-2 py-1 my-1">
+    <div class="paper-card" data-bs-toggle="modal" data-bs-target="#2024-01-05-emacs.mdpop">
+      <div class="d-flex justify-content-apart">
+        <span class="col-6 text-left year">05 Jan 2024</span>
+        <span class="col-6 text-right topic">Computing</span>
+      </div>
+      <div class="title">Why I use emacs </div>
+      <div class="body">
+<p>I write <em>everything</em> in Emacs: code, reviews, manuscripts, lecture slides, and even recommendation letters.</p>
+
+
+</div>
+    </div>
+  </div>
+
+  
+  <div class="col-sm-12 col-lg-6 col-xl-4 px-2 py-1 my-1">
+    <div class="paper-card" data-bs-toggle="modal" data-bs-target="#2023-12-01-latex.mdpop">
+      <div class="d-flex justify-content-apart">
+        <span class="col-6 text-left year">01 Dec 2023</span>
+        <span class="col-6 text-right topic">Computing</span>
+      </div>
+      <div class="title">My LaTeX setup </div>
+      <div class="body">
+<p>I write my research papers directly in Emacs, marked up with <a href="www.latex-project.org">LaTeX</a>. The <a href="https://www.gnu.org/software/auctex/">AuCTeX</a> Emacs package provides lots of time-saving functions, macros, and keymaps that have become so automatic to me that I can just focus on the writing.</p>
+
+
+</div>
+    </div>
+  </div>
+
+</div>
 
     </div>
 

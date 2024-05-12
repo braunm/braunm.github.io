@@ -43,7 +43,7 @@ plugins:
 
 
 ## destination: "/Users/braunm/Sites/braunm.github.io"
-
+page_excerpts: true
 markdown: kramdown
 
 ## tell Jekyll where to find sass files, including bootstrap
