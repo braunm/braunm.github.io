@@ -25,8 +25,8 @@ I am the author and current maintainer of three packages for the R statistical p
             <span class="col-3 text-left year">{{pack.version}}</span>
             <span class="col-9 text-right topic">{{pack.type }}</span>
         </div>
-            <a class='title'  href='{{pack.website | prepend: "https://"}}'>{{pack.name }} </a>
-      <a class="body"  href='{{pack.website | prepend: "https://"}}'>{{pack.description}}</a>
+            <a class='title stretched-link'  href='{{pack.website | prepend: "https://"}}'>{{pack.name }} </a>
+      <span class="body" >{{pack.description}}</span>
     </div >
   </div>
 {% endfor %}
@@ -46,8 +46,8 @@ Excerpts of some computing-related blog posts. Click for the full post.
       <div class="d-flex justify-content-apart">
         <span class="col-6 text-left year">{{post.date | date_to_string }}</span>
         <span class="col-6 text-right topic">{{post.category }}</span>
-      </div>
-      <div class="title">{{post.title }} </div>
+     </div>
+      <a  class="title stretched-link" href="{{ post.url }}">{{post.title }} </a>
       <div class="body">
 {{ post.excerpt }}
 </div>
