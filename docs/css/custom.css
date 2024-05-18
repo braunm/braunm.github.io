@@ -13999,9 +13999,13 @@ code {
 
 a {
   text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 a:hover {
   color: #cc0000;
+  cursor: pointer;
 }
 
 .navbar {
@@ -14034,6 +14038,14 @@ footer {
 
 img {
   width: 300px;
+}
+
+.link-primary:hover {
+  color: rgb(89, 195, 195);
+}
+
+article {
+  font-family: Roboto Condensed;
 }
 
 .citelist h2, .citelist .h2, .citelist h3, .citelist .h3 {

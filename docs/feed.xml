@@ -1,25 +1,162 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://braunm.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://braunm.github.io/" rel="alternate" type="text/html" /><updated>2024-05-13T13:47:59-05:00</updated><id>https://braunm.github.io/feed.xml</id><title type="html">Michael Braun</title><subtitle>Michael Braun, Associate Professor of Marketing, SMU Cox School of Business</subtitle><entry><title type="html">test post</title><link href="https://braunm.github.io/test%20category/2024/05/13/post-test.html" rel="alternate" type="text/html" title="test post" /><published>2024-05-13T00:00:00-05:00</published><updated>2024-05-13T00:00:00-05:00</updated><id>https://braunm.github.io/test%20category/2024/05/13/post-test</id><content type="html" xml:base="https://braunm.github.io/test%20category/2024/05/13/post-test.html"><![CDATA[<p>Test post excerpt.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://braunm.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://braunm.github.io/" rel="alternate" type="text/html" /><updated>2024-05-17T21:14:38-05:00</updated><id>https://braunm.github.io/feed.xml</id><title type="html">Michael Braun</title><subtitle>Michael Braun, Associate Professor of Marketing, SMU Cox School of Business</subtitle><entry><title type="html">New paper on using A-B tests for academic research</title><link href="https://braunm.github.io/research/2024/05/17/jcr-abtests.html" rel="alternate" type="text/html" title="New paper on using A-B tests for academic research" /><published>2024-05-17T00:00:00-05:00</published><updated>2024-05-17T00:00:00-05:00</updated><id>https://braunm.github.io/research/2024/05/17/jcr-abtests</id><content type="html" xml:base="https://braunm.github.io/research/2024/05/17/jcr-abtests.html"><![CDATA[<div class="modal fade " id="BraunDeLanghe2024Modal" tabindex="-1">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content paper-modal">
+      <div class="modal-header">
+        <span class="title"> Leveraging Digital Advertising Platforms for Consumer Research</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>  <!-- modal header -->
+      <div class="modal-body">
+        <p class="authors"> 
+<!-- assign array to alist and then  include this file -->
+
+
+
+ 
+
+
+
+
+
+with  Bart De Langhe,
+
+
+
+
+
+
+
+Stefano Puntoni,
+
+
+
+
+
+
+and Eric M. Schwartz
+
+
+ <!-- end loop on authors -->
+ </p>
+        <p class="journal"> 2024: <em>Journal of Consumer Research</em></p>
+        
+        <a class="btn btn-abstract btn-sm" data-bs-target="#abstract-BraunDeLanghe2024" data-bs-toggle="collapse">Abstract</a>
+        <div class="collapse" id="abstract-BraunDeLanghe2024">
+          <div class="card card-body">
+            <p>Digital advertising platforms have emerged as a widely utilized data source in consumer research; yet, the interpretation of such data remains a source of confusion for many researchers. This article aims to address this issue by offering a comprehensive and accessible review of four prominent data collection methods proposed in the marketing literature: informal studies, multiple-ad studies without holdout, single-ad studies with holdout, and multiple-ad studies with holdout. By outlining the strengths and limitations of each method, we aim to enhance understanding regarding the inferences that can and cannot be drawn from the collected data. Furthermore, we present seven recommendations to effectively leverage these tools for programmatic consumer research. These recommendations provide guidance on how to use these tools to obtain causal and non-causal evidence for the effects of marketing interventions, and the associated psychological processes, in a digital environment regulated by targeting algorithms. We also give recommendations for how to describe the testing tools and the data they generate and urge platforms to be more transparent on how these tools work.</p>
+
+          </div> <!-- card-body -->
+        </div> <!-- abstract collapse -->
+         <!-- abstract -->
+
+        
+        <a class="btn btn-publisher btn-sm" href="https://academic.oup.com/jcr/article/51/1/119/7672972?utm_source=authortollfreelink&amp;utm_campaign=jcr&amp;utm_medium=email&amp;guestAccessKey=db0a4b3c-7d8e-486a-96b0-b1852f81b2c7" target="_blank" rel="noopener noreferrer">Publisher</a>
+        
+        
+        
+        
+        <a class="btn btn-preprint btn-sm" href="/assets/documents/papers/BraunDeLanghe2024_preprint.pdf" target="_blank" rel="noopener noreferrer">Preprint</a>
+        
+        
+        
+      </div> <!-- modal-body -->
+    </div> <!-- modal-content -->
+  </div> <!-- modal-dialog -->
+</div>
+<p><!-- modal fade --></p>
+
+<div class="modal fade " id="BraunSchwartz2024Modal" tabindex="-1">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content paper-modal">
+      <div class="modal-header">
+        <span class="title"> Where A-B Testing Goes Wrong:  How Divergent Delivery Affects What Online Experiments Cannot  (and Can)  Tell You About How Customers Respond to Advertising</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>  <!-- modal header -->
+      <div class="modal-body">
+        <p class="authors"> 
+<!-- assign array to alist and then  include this file -->
+
+
+
+ 
+
+
+
+
+with Eric Schwartz
+
+
+ <!-- end loop on authors -->
+ </p>
+        <p class="journal"> 2024: <em>Working paper</em></p>
+        
+        <a class="btn btn-abstract btn-sm" data-bs-target="#abstract-BraunSchwartz2024" data-bs-toggle="collapse">Abstract</a>
+        <div class="collapse" id="abstract-BraunSchwartz2024">
+          <div class="card card-body">
+            <p>Marketers use online advertising platforms to compare user responses to different ad content. However, platforms’ experimentation tools deliver ads to distinct, optimized, undetectable mixes of users that vary across ads, even during the test. As a result, the estimated A-B comparison from the data reflects the combination of ad content and algorithmic selection of users, which is different than what would have occurred under random exposure. We empirically demonstrate this “divergent delivery” pattern using data from an A-B test that we ran on a major ad platform. This paper explains how algorithmic targeting, user heterogeneity, and data aggregation conspire to confound the magnitude, and even the sign, of ad A-B test results, and what the implications are for different roles in the marketing organization with varying experimentation goals. We also consider the counterfactual case of disabling divergent delivery, where user types are balanced across ads. By extending the potential outcomes model of causal inference, we treat random assignment of ads and user exposure to ads as independent decisions. Since not all marketers have the same decision-making goals for these ad A-B tests, we offer prescriptive guidance to experimenters based on their needs.</p>
+
+          </div> <!-- card-body -->
+        </div> <!-- abstract collapse -->
+         <!-- abstract -->
+
+        
+        
+        <a class="btn btn-website btn-sm" href="https://braunm.github.io/ABTestDeception">Website</a>
+        
+        
+        <a class="btn btn-draft btn-sm" href="/assets/documents/papers/BraunSchwartz2024_draft.pdf">Draft</a>
+        
+        
+        
+        <a class="btn btn-sm btn-ssrn" href="https://ssrn.com/abstract=3896024" target="_blank" rel="noopener noreferrer">SSRN</a>
+        
+        
+      </div> <!-- modal-body -->
+    </div> <!-- modal-content -->
+  </div> <!-- modal-dialog -->
+</div>
+<p><!-- modal fade --></p>
+
+<p>Online A-B tests using targeted ad platforms are  not randomized experiments.  That can put the internal validity of your study in doubt.  This is the subject of my new paper, published in  the <em>Journal of Consumer Research</em>.</p>
+
+<!--x-->
+
+<p>In <a href="" class="link-primary" data-bs-toggle="modal" data-bs-target="#BraunDeLanghe2024Modal">“Leveraging Digital Advertising Platforms for Consumer Research,”</a>  <a href="https://www.vlerick.com/en/find-faculty-and-experts/bart-de-langhe/" target="_blank">Bart De Langhe</a>  (Vlerick),
+<a href="https://marketing.wharton.upenn.edu/profile/puntoni/" target="_blank">Stefano Puntoni</a>  (Wharton),  <a href="https://michiganross.umich.edu/faculty-research/faculty/eric-schwartz" target="_blank">Eric Schwartz</a> (Michigan), and I explain why experiments using digital advertising platforms are likely not answering the question you are asking.</p>
+
+<p>Many online advertising platforms provide tools to help researchers conduct experiments on the relative effectiveness of ads.  But  platforms target different users to different ads, based on the content of those ads.  This creates a confound that makes it impossible to separate the effect of the ad from the effect from how an online platform’s targeting algorithm decides which users see those ads. As a result,  which of the platform’s users are included in the experiment, and how experimental subjects are selected to be exposed to each treatment, are <strong>not randomized</strong>.</p>
+
+<p>Our paper lays out this problem from the perspective of academic researchers who may be considering conducting field experiments using these tools.  We want these researchers to understand the trade-offs between the convenience of only A-B testing and the threats to internal validity that result from ad targeting.  In this paper, we provide a set of guidelines for researchers (and editors) to follow when determining whether certain online experimental designs are appropriate, and how much weight should be placed on the resulting inferences.</p>
+
+<p>Eric and I also have  a <a class="link-primary" data-bs-toggle="modal" data-bs-target="#BraunSchwartz2024Modal"> complementary paper </a>  that goes into some quantitative  detail about how   <em>divergent delivery</em> of different ads to different users generates bias in A-B test results. This paper takes the perspective of the practicing marketer who uses A-B test results to make strategic decisions based on which creative elements of ads are most effective.</p>
+
+<!-- <div class="paper-card" data-bs-toggle="modal" data-bs-target="#BraunSchwartz2024Modal"> -->
+<!-- <a class="stretched-link"> modal link </a> -->
+<!-- </div> -->
+
+<h5 id="heres-the-full-abstract-of-the-jcr-paper">Here’s the full abstract of the <em>JCR</em> paper:</h5>
+
+<blockquote>
+  <p>Abstract</p>
+</blockquote>
+
+<p>Digital advertising platforms have emerged as a widely utilized data source in consumer research; yet, the interpretation of such data remains a source of confusion for many researchers. This article aims to address this issue by offering a comprehensive and accessible review of four prominent data collection methods proposed in the marketing literature: informal studies, multiple-ad studies without holdout, single-ad studies with holdout, and multiple-ad studies with holdout. By outlining the strengths and limitations of each method, we aim to enhance understanding regarding the inferences that can and cannot be drawn from the collected data. Furthermore, we present seven recommendations to effectively leverage these tools for programmatic consumer research. These recommendations provide guidance on how to use these tools to obtain causal and non-causal evidence for the effects of marketing interventions, and the associated psychological processes, in a digital environment regulated by targeting algorithms. We also give recommendations for how to describe the testing tools and the data they generate and urge platforms to be more transparent on how these tools work.</p>]]></content><author><name>Michael Braun</name></author><category term="Research" /><summary type="html"><![CDATA[Leveraging Digital Advertising Platforms for Consumer Research with Bart De Langhe, Stefano Puntoni, and Eric M. Schwartz 2024: Journal of Consumer Research Abstract Digital advertising platforms have emerged as a widely utilized data source in consumer research; yet, the interpretation of such data remains a source of confusion for many researchers. This article aims to address this issue by offering a comprehensive and accessible review of four prominent data collection methods proposed in the marketing literature: informal studies, multiple-ad studies without holdout, single-ad studies with holdout, and multiple-ad studies with holdout. By outlining the strengths and limitations of each method, we aim to enhance understanding regarding the inferences that can and cannot be drawn from the collected data. Furthermore, we present seven recommendations to effectively leverage these tools for programmatic consumer research. These recommendations provide guidance on how to use these tools to obtain causal and non-causal evidence for the effects of marketing interventions, and the associated psychological processes, in a digital environment regulated by targeting algorithms. We also give recommendations for how to describe the testing tools and the data they generate and urge platforms to be more transparent on how these tools work. Publisher Preprint Where A-B Testing Goes Wrong: How Divergent Delivery Affects What Online Experiments Cannot (and Can) Tell You About How Customers Respond to Advertising with Eric Schwartz 2024: Working paper Abstract Marketers use online advertising platforms to compare user responses to different ad content. However, platforms’ experimentation tools deliver ads to distinct, optimized, undetectable mixes of users that vary across ads, even during the test. As a result, the estimated A-B comparison from the data reflects the combination of ad content and algorithmic selection of users, which is different than what would have occurred under random exposure. We empirically demonstrate this “divergent delivery” pattern using data from an A-B test that we ran on a major ad platform. This paper explains how algorithmic targeting, user heterogeneity, and data aggregation conspire to confound the magnitude, and even the sign, of ad A-B test results, and what the implications are for different roles in the marketing organization with varying experimentation goals. We also consider the counterfactual case of disabling divergent delivery, where user types are balanced across ads. By extending the potential outcomes model of causal inference, we treat random assignment of ads and user exposure to ads as independent decisions. Since not all marketers have the same decision-making goals for these ad A-B tests, we offer prescriptive guidance to experimenters based on their needs. Website Draft SSRN Online A-B tests using targeted ad platforms are not randomized experiments. That can put the internal validity of your study in doubt. This is the subject of my new paper, published in the Journal of Consumer Research.]]></summary></entry><entry><title type="html">Why I use emacs</title><link href="https://braunm.github.io/computing/2024/01/05/emacs.html" rel="alternate" type="text/html" title="Why I use emacs" /><published>2024-01-05T00:00:00-06:00</published><updated>2024-01-05T00:00:00-06:00</updated><id>https://braunm.github.io/computing/2024/01/05/emacs</id><content type="html" xml:base="https://braunm.github.io/computing/2024/01/05/emacs.html"><![CDATA[<p>I write <em>everything</em> in Emacs: code, reviews, manuscripts, lecture slides, and even recommendation letters.</p>
 
 <hr />
 
-<p>Rest of post.</p>]]></content><author><name></name></author><category term="Test Category" /><summary type="html"><![CDATA[Test post excerpt.]]></summary></entry><entry><title type="html">Why I use emacs</title><link href="https://braunm.github.io/computing/2024/01/05/emacs.html" rel="alternate" type="text/html" title="Why I use emacs" /><published>2024-01-05T00:00:00-06:00</published><updated>2024-01-05T00:00:00-06:00</updated><id>https://braunm.github.io/computing/2024/01/05/emacs</id><content type="html" xml:base="https://braunm.github.io/computing/2024/01/05/emacs.html"><![CDATA[<p>I write <em>everything</em> in Emacs: code, reviews, manuscripts, lecture slides, and even recommendation letters.</p>
+<p>Specifically, I use <a href="http://aquamacs.org" target="_blank" rel="nofollow noreferrer noopener">Aquamacs Emacs</a>, an emacs port for MacOS.  GNU Emacs has been around since 1985, so it is just plain <strong>solid</strong>, with a huge user base for support, and thousands of packages and modes that can do anything from syntax highlighting of your favorite programming language (<code class="language-plaintext highlighter-rouge">ess-r-mode</code>) to psychotherapy (<code class="language-plaintext highlighter-rouge">doctor</code>).  By using the same program for ever a fully-featured platform, I can use the same program (and thus, the same keybindings) for everything I do.</p>
 
-<hr />
-
-<p>Specifically, I use <a href="http://aquamacs.org">Aquamacs Emacs</a>, an emacs port for MacOS.  GNU Emacs has been around since 1985, so it is just plain <strong>solid</strong>, with a huge user base for support, and thousands of packages and modes that can do anything from syntax highlighting of your favorite programming language (<code class="language-plaintext highlighter-rouge">ess-r-mode</code>) to psychotherapy (<code class="language-plaintext highlighter-rouge">doctor</code>).  By using the same program for ever a fully-featured platform, I can use the same program (and thus, the same keybindings) for everything I do.</p>
-
-<p>Emacs is easy to use.  <strong>Configuring</strong> Emacs can be hard.  Someday I will post my configuration file, which has evolved quite a bit over the last decade.</p>]]></content><author><name></name></author><category term="Computing" /><summary type="html"><![CDATA[I write everything in Emacs: code, reviews, manuscripts, lecture slides, and even recommendation letters.]]></summary></entry><entry><title type="html">My LaTeX setup</title><link href="https://braunm.github.io/computing/2023/12/01/latex.html" rel="alternate" type="text/html" title="My LaTeX setup" /><published>2023-12-01T00:00:00-06:00</published><updated>2023-12-01T00:00:00-06:00</updated><id>https://braunm.github.io/computing/2023/12/01/latex</id><content type="html" xml:base="https://braunm.github.io/computing/2023/12/01/latex.html"><![CDATA[<p>I write my research papers directly in Emacs, marked up with <a href="www.latex-project.org">LaTeX</a>. The <a href="https://www.gnu.org/software/auctex/">AuCTeX</a> Emacs package provides lots of time-saving functions, macros, and keymaps that have become so automatic to me that I can just focus on the writing.</p>
+<p>Emacs is easy to use.  <strong>Configuring</strong> Emacs can be hard.  Someday I will post my configuration file, which has evolved quite a bit over the last decade.</p>]]></content><author><name></name></author><category term="Computing" /></entry><entry><title type="html">My LaTeX setup</title><link href="https://braunm.github.io/computing/2023/12/01/latex.html" rel="alternate" type="text/html" title="My LaTeX setup" /><published>2023-12-01T00:00:00-06:00</published><updated>2023-12-01T00:00:00-06:00</updated><id>https://braunm.github.io/computing/2023/12/01/latex</id><content type="html" xml:base="https://braunm.github.io/computing/2023/12/01/latex.html"><![CDATA[<p>I write my research papers directly in Emacs, marked up with <a href="www.latex-project.org" target="_blank" rel="nofollow noreferrer noopener">LaTeX</a>. The <a href="https://www.gnu.org/software/auctex/" target="_blank" rel="nofollow noreferrer noopener">AuCTeX</a> Emacs package provides lots of time-saving functions, macros, and keymaps that have become so automatic to me that I can just focus on the writing.</p>
 
 <hr />
 
 <ul>
-  <li>I compile my LaTeX documents with <a href="www.luatex.org">LuaTeX</a> (instead of pdfTeX) for a few reasons:
+  <li>I compile my LaTeX documents with <a href="www.luatex.org" target="_blank" rel="nofollow noreferrer noopener">LuaTeX</a> (instead of pdfTeX) for a few reasons:
     <ul>
-      <li>With <a href="fontspec">fontspec</a> and <a href="unicode-math">unicode-math</a>, I can create documents using any installed font, rather than being limited to fonts provided in LaTeX packages.</li>
-      <li>Sometimes there is a need to run calculations as part of the document, such as when drawing figures using <a href="tikz">TikZ</a>.</li>
+      <li>With <a href="https://texdoc.org/pkg/fontspec" target="_blank" rel="nofollow noreferrer noopener">fontspec</a> and <a href="https://texdoc.org/pkg/unicode-math" target="_blank" rel="nofollow noreferrer noopener">unicode-math</a>, I can create documents using any installed font, rather than being limited to fonts provided in LaTeX packages.</li>
+      <li>Sometimes there is a need to run calculations as part of the document, such as when drawing figures using <a href="https://texdoc.org/pkg/tikz" target="_blank" rel="nofollow noreferrer noopener">TikZ</a>.</li>
       <li>Some LaTeX packages require LuaTeX.  An example is lua-check-hyphen, which generates a list of all hyphenated words in the document, so I can confirm that they are hyphenated at the right places.</li>
     </ul>
   </li>
-  <li>The <a href="https://www.gnu.org/software/auctex/manual/preview-latex.htmlpackage">preview-latex</a> (now included in AuCTeX) embeds compiled chunks of rendered LaTeX (e.g., math symbols and equations) directly in the emacs frame. That way I can see the all of the content – text and math – together in the same frame I am writing in, without having to glance to the output pdf.</li>
-  <li>Reference management:  I use <a href="biber">biber</a> (http://biblatex-biber.sourceforge.net){:xn} and  <a href="biblatex">biblatex</a>  to insert citations and create bibliographies. Biblatex is designed to be more flexible and customizable than bibtex,  but my references are stored in bibtex format. My bibtex database (which I maintain using <a href="https://bibdesk.sourceforge.io">BibDesk</a> contains 1,800 references (and in most cases, pdfs) of academic papers I have downloaded, read, intend to read, intended to read, or otherwise needed for some reason, collected since I was a graduate student. I write <em>everything</em> in Emacs: code, reviews, manuscripts, lecture slides, and even recommendation letters.  Specifically, I use <a href="http://aquamacs.org">Aquamacs Emacs</a>, an emacs port for MacOS.  GNU Emacs has been around since 1985, so it is just plain <strong>solid</strong>, with a huge user base for support, and thousands of packages and modes that can do anything from syntax highlighting of your favorite programming language (<code class="language-plaintext highlighter-rouge">ess-r-mode</code>) to psychotherapy (<code class="language-plaintext highlighter-rouge">doctor</code>).  By using the same program for ever a fully-featured platform, I can use the same program (and thus, the same keybindings) for everything I do.</li>
-</ul>]]></content><author><name></name></author><category term="Computing" /><summary type="html"><![CDATA[I write my research papers directly in Emacs, marked up with LaTeX. The AuCTeX Emacs package provides lots of time-saving functions, macros, and keymaps that have become so automatic to me that I can just focus on the writing.]]></summary></entry></feed>
+  <li>The <a href="https://www.gnu.org/software/auctex/manual/preview-latex.htmlpackage" target="_blank" rel="nofollow noreferrer noopener">preview-latex</a> (now included in AuCTeX) embeds compiled chunks of rendered LaTeX (e.g., math symbols and equations) directly in the emacs frame. That way I can see the all of the content – text and math – together in the same frame I am writing in, without having to glance to the output pdf.</li>
+  <li>Reference management:  I use <a href="https://texdoc.org/pkg/biber" target="_blank" rel="nofollow noreferrer noopener">biber</a> (http://biblatex-biber.sourceforge.net){:xn} and  <a href="https://texdoc.org/pkg/biblatex" target="_blank" rel="nofollow noreferrer noopener">biblatex</a>  to insert citations and create bibliographies. Biblatex is designed to be more flexible and customizable than bibtex,  but my references are stored in bibtex format. My bibtex database (which I maintain using <a href="https://bibdesk.sourceforge.io" target="_blank" rel="nofollow noreferrer noopener">BibDesk</a> contains 1,800 references (and in most cases, pdfs) of academic papers I have downloaded, read, intend to read, intended to read, or otherwise needed for some reason, collected since I was a graduate student. I write <em>everything</em> in Emacs: code, reviews, manuscripts, lecture slides, and even recommendation letters.  Specifically, I use <a href="http://aquamacs.org" target="_blank" rel="nofollow noreferrer noopener">Aquamacs Emacs</a>, an emacs port for MacOS.  GNU Emacs has been around since 1985, so it is just plain <strong>solid</strong>, with a huge user base for support, and thousands of packages and modes that can do anything from syntax highlighting of your favorite programming language (<code class="language-plaintext highlighter-rouge">ess-r-mode</code>) to psychotherapy (<code class="language-plaintext highlighter-rouge">doctor</code>).  By using the same program for ever a fully-featured platform, I can use the same program (and thus, the same keybindings) for everything I do.</li>
+</ul>]]></content><author><name></name></author><category term="Computing" /></entry></feed>

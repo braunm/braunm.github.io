@@ -1,13 +1,10 @@
 ---
-layout: default
+layout: page
 title: Computing
 permalink: /computing/
-texdoc: "https://texdoc.org/pkg/"
 ---
 
-{:xn: target="_blank" rel="nofollow noreferrer noopener"}
 
-# Computing
 
 ## R packages
 

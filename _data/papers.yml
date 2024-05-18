@@ -49,7 +49,7 @@ references:
   title: "Where A-B Testing Goes Wrong:  How Divergent Delivery Affects What Online Experiments Cannot  (and Can)  Tell You About How Customers Respond to Advertising"
   container-title: "Working paper"
   website:  "https://braunm.github.io/ABTestDeception"
-  DOI: 10.2139/ssrn.3896024
+#  DOI: 10.2139/ssrn.3896024
   SSRN: 3896024
   topic:  Advertising Optimization and Measurement
   draft: true
@@ -504,4 +504,5 @@ references:
   container-title: Journal of Consumer Research
   topic: Advertising Optimization and Measurement
   preprint: true
-  abstract: "Digital advertising platforms have emerged as a widely utilized data source in consumer research; yet, the interpretation of such data remains a source of confusion for many researchers. This article aims to address this issue by offering a comprehensive and accessible review of four prominent data collection methods proposed in the marketing literature: informal studies, multiple-ad studies without holdout, single-ad studies with holdout, and multiple-ad studies with holdout. By outlining the strengths and limitations of each method, we aim to enhance understanding regarding the inferences that can and cannot be drawn from the collected data. Furthermore, we present seven recommendations to effectively leverage these tools for programmatic consumer research. These recommendations provide guidance on how to use these tools to obtain causal and non-causal evidence for the effects of marketing interventions, and the asso- ciated psychological processes, in a digital environment regulated by targeting algorithms. We also give recommendations for how to describe the testing tools and the data they generate and urge platforms to be more transparent on how these tools work."
+  URL: https://academic.oup.com/jcr/article/51/1/119/7672972?utm_source=authortollfreelink&utm_campaign=jcr&utm_medium=email&guestAccessKey=db0a4b3c-7d8e-486a-96b0-b1852f81b2c7
+  abstract: "Digital advertising platforms have emerged as a widely utilized data source in consumer research; yet, the interpretation of such data remains a source of confusion for many researchers. This article aims to address this issue by offering a comprehensive and accessible review of four prominent data collection methods proposed in the marketing literature: informal studies, multiple-ad studies without holdout, single-ad studies with holdout, and multiple-ad studies with holdout. By outlining the strengths and limitations of each method, we aim to enhance understanding regarding the inferences that can and cannot be drawn from the collected data. Furthermore, we present seven recommendations to effectively leverage these tools for programmatic consumer research. These recommendations provide guidance on how to use these tools to obtain causal and non-causal evidence for the effects of marketing interventions, and the associated psychological processes, in a digital environment regulated by targeting algorithms. We also give recommendations for how to describe the testing tools and the data they generate and urge platforms to be more transparent on how these tools work."

@@ -1,4 +1,6 @@
 
+{% assign ref=include.ref %}
+{% assign modalID =   ref.id  | append: "Modal"  %}
 
 {%if ref.DOI %}
 {% assign publink = {{ref.DOI | prepend: "http://doi.org/"}} %}
@@ -18,74 +20,25 @@
 {% endif %}
 {% endcapture %}
 
-{% assign modalID =   ref.id  | append: "Modal"  %}
- <div class='col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 px-2 py-1 my-1'>
-   <div class="paper-card" data-bs-toggle="modal"  data-bs-target="{{ modalID | prepend: "#" }}">
-     <div>
-       <div class="d-flex justify-content-apart">
-         <span class="col-2 text-left year">{{ref.year}}</span>
-         <span class="col-10 text-right topic">{{ ref.topic }}</span>
-       </div>
-    <div class="title">{{ ref.title }} </div>
-    <div class="body">
-      <div class="journal py-2">
-        {{ref.container-title | strip}}
-        {% if ref.publisher %}
-        <span class="publisher">{{ref.publisher}}</span>
-        {% endif %}
-      </div>
-      <div class="authors">
-        {% include authorlist2.html alist=ref %}
-      </div>
-    </div> <!-- body -->
-     </div>
-   </div>
-  <!-- card -->
 
-  <!-- modal:  what's under the click of the brick  -->
-
-  <div class='modal fade ' id="{{ modalID }}" tabindex="-1">
-    <div class='modal-dialog  modal-dialog-centered'>
-      <div class='modal-content paper-modal'>
-	<div class='modal-header'>
-	  <span class="title"> {{ ref.title }}</span>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-	</div>
-	<div class='modal-body'>
-	  <p class="authors"> {% include authorlist2.html alist=ref %} </p>
-	  <p class="journal"> {{ref.year}}: <em>{{ref.container-title | append: vol-iss | strip}}</em></p>
-	  {% if ref.abstract %}
-	  <a class="btn btn-abstract btn-sm" data-bs-target="#abstract-{{ref.id}}" data-bs-toggle="collapse">Abstract</a>
-	  <div class="collapse" id="abstract-{{ref.id}}">
-	    <div class="card card-body">
-	      {{ref.abstract |  markdownify}}
-	    </div>
-	  </div>
-	  {% endif %}
-	  <!-- </div> -->
-
-	  {% if publink %}
-	  <a class="btn btn-publisher btn-sm" href="{{publink}}" target="_blank" rel="noopener noreferrer">Publisher</a>
-	  {% endif %}
-	  {% if ref.website %}
-	  <a class="btn btn-website btn-sm" href="{{ ref.website }}">Website</a>
-	  {% endif %}
-	  {% if ref.draft %}
-	  <a class="btn btn-draft btn-sm" href="/assets/documents/papers/{{ref.id}}_draft.pdf">Draft</a>
-	  {% endif %}
-	  {% if ref.preprint %}
-	  <a class="btn btn-preprint btn-sm" href="/assets/documents/papers/{{ref.id}}_preprint.pdf" target="_blank"  rel="noopener noreferrer">Preprint</a>
-	  {% endif %}
-	  {% if ref.SSRN %}
-	  <a class="btn btn-sm btn-ssrn" href="https://ssrn.com/abstract={{ref.SSRN}}" target="_blank" rel="noopener noreferrer">SSRN</a>
-	  {% endif %}
-	  {% if ref.supplemental %}
-	  <a class="btn btn-sm btn-supplemental" href="/assets/documents/papers/{{ref.id}}_supplemental.pdf" target="_blank"  rel="noopener noreferrer">Supplemental</a>
-	  {% endif %}
-	  <!-- <button type="button" class="btn-sm btn-outline-secondary" data-bs-dismiss="modal">Close</button> -->
-	</div> <!-- modal-footer -->
-      </div>
-    </div>
+<div class="paper-card" data-bs-toggle="modal"  data-bs-target="{{ modalID | prepend: "#" }}">
+  <div class="d-flex justify-content-apart">
+    <span class="col-2 text-left year">{{ref.year}}</span>
+    <span class="col-10 text-right topic">{{ ref.topic }}</span>
   </div>
+  <div class="title">{{ ref.title }} </div>
+  <div class="body">
+    <div class="journal py-2">
+      {{ref.container-title | strip}}
+      {% if ref.publisher %}
+      <span class="publisher">{{ref.publisher}}</span>
+      {% endif %}
+    </div> <!-- journal -->
+    <div class="authors">
+      {% include authorlist2.html alist=ref %}
+    </div>  <!-- authors -->
+  </div> <!-- body -->
+</div> <!-- card -->
 
-</div> <!-- column -->
+
+{% include modal.html rx=ref %}

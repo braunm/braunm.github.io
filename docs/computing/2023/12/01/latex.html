@@ -26,8 +26,8 @@
 <meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="My LaTeX setup" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="I write my research papers directly in Emacs, marked up with LaTeX. The AuCTeX Emacs package provides lots of time-saving functions, macros, and keymaps that have become so automatic to me that I can just focus on the writing." />
-<meta property="og:description" content="I write my research papers directly in Emacs, marked up with LaTeX. The AuCTeX Emacs package provides lots of time-saving functions, macros, and keymaps that have become so automatic to me that I can just focus on the writing." />
+<meta name="description" content="Michael Braun, Associate Professor of Marketing, SMU Cox School of Business" />
+<meta property="og:description" content="Michael Braun, Associate Professor of Marketing, SMU Cox School of Business" />
 <link rel="canonical" href="https://braunm.github.io/computing/2023/12/01/latex.html" />
 <meta property="og:url" content="https://braunm.github.io/computing/2023/12/01/latex.html" />
 <meta property="og:site_name" content="Michael Braun" />
@@ -36,7 +36,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="My LaTeX setup" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-01T00:00:00-06:00","datePublished":"2023-12-01T00:00:00-06:00","description":"I write my research papers directly in Emacs, marked up with LaTeX. The AuCTeX Emacs package provides lots of time-saving functions, macros, and keymaps that have become so automatic to me that I can just focus on the writing.","headline":"My LaTeX setup","mainEntityOfPage":{"@type":"WebPage","@id":"https://braunm.github.io/computing/2023/12/01/latex.html"},"url":"https://braunm.github.io/computing/2023/12/01/latex.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-01T00:00:00-06:00","datePublished":"2023-12-01T00:00:00-06:00","description":"Michael Braun, Associate Professor of Marketing, SMU Cox School of Business","headline":"My LaTeX setup","mainEntityOfPage":{"@type":"WebPage","@id":"https://braunm.github.io/computing/2023/12/01/latex.html"},"url":"https://braunm.github.io/computing/2023/12/01/latex.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -104,40 +104,35 @@
 
 
 
-    <div class="container-md border">
-      <div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">My LaTeX setup</h1>
-    <p class="post-meta">Posted on December 1, 2023 by 
-
-  in
-  
-  <a href="/categories/#Computing" title="Computing">Computing</a>&nbsp;
-  
-
-
-</p>
+    <div class="container-md">
+      <div>
+  <header>
+    <h1>My LaTeX setup</h1>
+    <h5>Posted on December 1, 2023 by
+      </h5>
   </header>
 
-  <article class="post-content">
-    <p>I write my research papers directly in Emacs, marked up with <a href="www.latex-project.org">LaTeX</a>. The <a href="https://www.gnu.org/software/auctex/">AuCTeX</a> Emacs package provides lots of time-saving functions, macros, and keymaps that have become so automatic to me that I can just focus on the writing.</p>
+  <div class="container-md col-9">
+  <article>
+    
+<p>I write my research papers directly in Emacs, marked up with <a href="www.latex-project.org" target="_blank" rel="nofollow noreferrer noopener">LaTeX</a>. The <a href="https://www.gnu.org/software/auctex/" target="_blank" rel="nofollow noreferrer noopener">AuCTeX</a> Emacs package provides lots of time-saving functions, macros, and keymaps that have become so automatic to me that I can just focus on the writing.</p>
 
 <hr />
 
 <ul>
-  <li>I compile my LaTeX documents with <a href="www.luatex.org">LuaTeX</a> (instead of pdfTeX) for a few reasons:
+  <li>I compile my LaTeX documents with <a href="www.luatex.org" target="_blank" rel="nofollow noreferrer noopener">LuaTeX</a> (instead of pdfTeX) for a few reasons:
     <ul>
-      <li>With <a href="fontspec">fontspec</a> and <a href="unicode-math">unicode-math</a>, I can create documents using any installed font, rather than being limited to fonts provided in LaTeX packages.</li>
-      <li>Sometimes there is a need to run calculations as part of the document, such as when drawing figures using <a href="tikz">TikZ</a>.</li>
+      <li>With <a href="https://texdoc.org/pkg/fontspec" target="_blank" rel="nofollow noreferrer noopener">fontspec</a> and <a href="https://texdoc.org/pkg/unicode-math" target="_blank" rel="nofollow noreferrer noopener">unicode-math</a>, I can create documents using any installed font, rather than being limited to fonts provided in LaTeX packages.</li>
+      <li>Sometimes there is a need to run calculations as part of the document, such as when drawing figures using <a href="https://texdoc.org/pkg/tikz" target="_blank" rel="nofollow noreferrer noopener">TikZ</a>.</li>
       <li>Some LaTeX packages require LuaTeX.  An example is lua-check-hyphen, which generates a list of all hyphenated words in the document, so I can confirm that they are hyphenated at the right places.</li>
     </ul>
   </li>
-  <li>The <a href="https://www.gnu.org/software/auctex/manual/preview-latex.htmlpackage">preview-latex</a> (now included in AuCTeX) embeds compiled chunks of rendered LaTeX (e.g., math symbols and equations) directly in the emacs frame. That way I can see the all of the content – text and math – together in the same frame I am writing in, without having to glance to the output pdf.</li>
-  <li>Reference management:  I use <a href="biber">biber</a> (http://biblatex-biber.sourceforge.net){:xn} and  <a href="biblatex">biblatex</a>  to insert citations and create bibliographies. Biblatex is designed to be more flexible and customizable than bibtex,  but my references are stored in bibtex format. My bibtex database (which I maintain using <a href="https://bibdesk.sourceforge.io">BibDesk</a> contains 1,800 references (and in most cases, pdfs) of academic papers I have downloaded, read, intend to read, intended to read, or otherwise needed for some reason, collected since I was a graduate student. I write <em>everything</em> in Emacs: code, reviews, manuscripts, lecture slides, and even recommendation letters.  Specifically, I use <a href="http://aquamacs.org">Aquamacs Emacs</a>, an emacs port for MacOS.  GNU Emacs has been around since 1985, so it is just plain <strong>solid</strong>, with a huge user base for support, and thousands of packages and modes that can do anything from syntax highlighting of your favorite programming language (<code class="language-plaintext highlighter-rouge">ess-r-mode</code>) to psychotherapy (<code class="language-plaintext highlighter-rouge">doctor</code>).  By using the same program for ever a fully-featured platform, I can use the same program (and thus, the same keybindings) for everything I do.</li>
+  <li>The <a href="https://www.gnu.org/software/auctex/manual/preview-latex.htmlpackage" target="_blank" rel="nofollow noreferrer noopener">preview-latex</a> (now included in AuCTeX) embeds compiled chunks of rendered LaTeX (e.g., math symbols and equations) directly in the emacs frame. That way I can see the all of the content – text and math – together in the same frame I am writing in, without having to glance to the output pdf.</li>
+  <li>Reference management:  I use <a href="https://texdoc.org/pkg/biber" target="_blank" rel="nofollow noreferrer noopener">biber</a> (http://biblatex-biber.sourceforge.net){:xn} and  <a href="https://texdoc.org/pkg/biblatex" target="_blank" rel="nofollow noreferrer noopener">biblatex</a>  to insert citations and create bibliographies. Biblatex is designed to be more flexible and customizable than bibtex,  but my references are stored in bibtex format. My bibtex database (which I maintain using <a href="https://bibdesk.sourceforge.io" target="_blank" rel="nofollow noreferrer noopener">BibDesk</a> contains 1,800 references (and in most cases, pdfs) of academic papers I have downloaded, read, intend to read, intended to read, or otherwise needed for some reason, collected since I was a graduate student. I write <em>everything</em> in Emacs: code, reviews, manuscripts, lecture slides, and even recommendation letters.  Specifically, I use <a href="http://aquamacs.org" target="_blank" rel="nofollow noreferrer noopener">Aquamacs Emacs</a>, an emacs port for MacOS.  GNU Emacs has been around since 1985, so it is just plain <strong>solid</strong>, with a huge user base for support, and thousands of packages and modes that can do anything from syntax highlighting of your favorite programming language (<code class="language-plaintext highlighter-rouge">ess-r-mode</code>) to psychotherapy (<code class="language-plaintext highlighter-rouge">doctor</code>).  By using the same program for ever a fully-featured platform, I can use the same program (and thus, the same keybindings) for everything I do.</li>
 </ul>
 
   </article>
+  </div>
 
 </div>
 

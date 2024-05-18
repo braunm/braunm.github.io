@@ -8,7 +8,7 @@ From time to time I will post thoughts on various subjects.
 
 
 {% for cat in site.categories  %}
-<h4> {{ cat[0]  }} </h4>
+<h4> {{ cat[0]  }} </h4>   <!-- Category header -->
 <div class='row' data-masonry='{"percentPosition": true }'>
 {% for post in cat[1] %}
  <div class='col-sm-6  col-lg-4 col-xl-4 px-2 py-1 my-1'>
