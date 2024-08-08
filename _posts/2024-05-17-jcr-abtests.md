@@ -32,10 +32,6 @@ Our paper lays out this problem from the perspective of academic researchers who
 Eric and I also have  a <a class="link-primary" data-bs-toggle="modal" data-bs-target="#BraunSchwartz2024Modal"> complementary paper </a>  that goes into some quantitative  detail about how   _divergent delivery_ of different ads to different users generates bias in A-B test results. This paper takes the perspective of the practicing marketer who uses A-B test results to make strategic decisions based on which creative elements of ads are most effective.
 
 
-<!-- <div class="paper-card" data-bs-toggle="modal" data-bs-target="#BraunSchwartz2024Modal"> -->
-<!-- <a class="stretched-link"> modal link </a> -->
-<!-- </div> -->
-
 
 #####  Here's the full abstract of the _JCR_ paper:
 

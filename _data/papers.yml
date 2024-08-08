@@ -37,19 +37,19 @@ references:
   abstract:  When definitions of two distinct criminal offenses overlap, power to decide which definition to apply to an arrest devolves to local law enforcement agencies. This discretion can lead to unequal treatment and denial of due process, especially when disadvantaged populations are arrested for nonviolent property crimes. We present a Bayesian analysis of arrests under a vaguely worded statutory scheme for retail theft in Texas, in which a shoplifter who is guilty of property theft is also guilty of organized retail theft. Using arrest data from the Texas Department of Public Safety, we find wide variation across law enforcement agencies in initial charging categories, with black and Hispanic arrestees being charged for the more serious crime more than white arrestees. The racial discrepancy is greater for agencies serving cities with higher per-capita income. These results highlight consequences of ambiguous provisions of criminal codes, and suggest a method for identifying agencies whose policies may have disparate impact across racial and ethnic groups.
 
 - id: BraunSchwartz2024
-  type: working-paper
+  type: article-journal
   author:
   - family: Braun
     given: Michael
   - family: Schwartz
     given: Eric
   year: 2024
-  month: 5
-  day: 2
+  month: 8
+  day: 8
   title: "Where A-B Testing Goes Wrong:  How Divergent Delivery Affects What Online Experiments Cannot  (and Can)  Tell You About How Customers Respond to Advertising"
-  container-title: "Accepted at Journal of Marketing"
-  website:  "https://braunm.github.io/ABTestDeception"
-#  DOI: 10.2139/ssrn.3896024
+  container-title: Journal of Marketing
+#  website:  "https://braunm.github.io/ABTestDeception"
+  DOI: 10/nb5p
 #  SSRN: 3896024
   topic:  Advertising Optimization and Measurement
   preprint: true
