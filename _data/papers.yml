@@ -411,7 +411,7 @@ references:
   title: "Revisiting Scalable Targeted Marketing with Distributed Markov Chain Monte Carlo"
   container-title: Accepted at Journal of Marketing Research
   preprint: true
-  DOI: 10.1177/00222437241255307
+  # DOI: 10.1177/00222437241255307
   topic: Statistical Methodology
   abstract: Bumbaca, Misra, and Rossi (2020) propose a parallelizable algorithm for estimating a large number of customer-level parameters in a Bayesian hierarchical model. However, the algorithm follows from a mathematical error in the derivation of the target posterior density, which calls into question the theoretical support for the algorithm sampling from the specified model. Adapting the algorithm to be consistent with the corrected math nullifies the claimed benefits in scalability and efficiency. Notwithstanding that error, unbiasedness requires the number of customers to be asymptotic per computational node, which is more restrictive than being asymptotic in the size of the dataset as a whole. The more the algorithm is parallelized, the greater the bias. Potential adopters should be aware that the algorithm does not sample from the exact posterior distribution, and that its ability to take advantage of distributed computing infrastructure is limited.
 
@@ -446,11 +446,11 @@ references:
       family: Yin
   title: "Probabilistic Machine Learning: New Frontiers for Modeling Consumers and their Choices"
   SSRN: 4790799
-  DOI: 10.2139/ssrn.4790799
+  # DOI: 10.2139/ssrn.4790799
   topic: Statistical Methodology
   draft: true
   year: 2024
-  container-title: "Under review"
+  container-title: "Under revision"
   abstract: |
     Making sense of massive, individual-level data is challenging: marketing researchers and analysts need flexible models that can accommodate rich patterns of heterogeneity and dynamics, work with and link diverse data types, and scale to modern data sizes. Practitioners also need tools that can quantify uncertainty in models and predictions of consumer behavior to inform optimal decision-making. In this paper, we demonstrate the promise of probabilistic machine learning (PML), which refers to the pairing of probabilistic modeling and machine learning methods, in pushing the frontier of combining flexibility, scalability, interpretability, and un- certainty quantification for building better models of consumers and their choices. Specifically, we overview both PML models and inference methods, and highlight their utility for addressing four common classes of marketing problems: (1) uncovering heterogeneity, (2) flexibly modeling nonlinearities and dynamics, (3) handling high-dimensional and unstructured data, and (4) addressing missingness, often via data fusion. We also discuss promising directions in enriching marketing models, reflecting recent developments in representation learning, causal inference, experimentation and decision-making, and theory-based behavioral modeling.
 
