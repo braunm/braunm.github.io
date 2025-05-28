@@ -36,16 +36,15 @@ references:
   preprint: true
   abstract:  When definitions of two distinct criminal offenses overlap, power to decide which definition to apply to an arrest devolves to local law enforcement agencies. This discretion can lead to unequal treatment and denial of due process, especially when disadvantaged populations are arrested for nonviolent property crimes. We present a Bayesian analysis of arrests under a vaguely worded statutory scheme for retail theft in Texas, in which a shoplifter who is guilty of property theft is also guilty of organized retail theft. Using arrest data from the Texas Department of Public Safety, we find wide variation across law enforcement agencies in initial charging categories, with black and Hispanic arrestees being charged for the more serious crime more than white arrestees. The racial discrepancy is greater for agencies serving cities with higher per-capita income. These results highlight consequences of ambiguous provisions of criminal codes, and suggest a method for identifying agencies whose policies may have disparate impact across racial and ethnic groups.
 
-- id: BraunSchwartz2024
+- id: BraunSchwartz2025
   type: article-journal
   author:
   - family: Braun
     given: Michael
   - family: Schwartz
     given: Eric
-  year: 2024
-  month: 8
-  day: 8
+  year: 2025
+  month: 1
   title: "Where A-B Testing Goes Wrong:  How Divergent Delivery Affects What Online Experiments Cannot  (and Can)  Tell You About How Customers Respond to Advertising"
   container-title: Journal of Marketing
 #  website:  "https://braunm.github.io/ABTestDeception"
@@ -53,6 +52,7 @@ references:
 #  SSRN: 3896024
   topic:  Advertising Optimization and Measurement
   preprint: true
+  download: pub
   abstract:   Marketers use online advertising platforms to compare user responses to different ad content.  But platforms' experimentation tools deliver different ads to distinct and undetectably optimized mixes of users that vary across ads, even during the test. Because exposure to ads in the test is non-random, the estimated comparisons confound the effect of the ad content with the effect of algorithmic targeting.  This means experimenters may not be learning what they think they are learning from ad A-B tests.  The authors document these "divergent delivery" patterns during an online experiment for the first time. They explain how algorithmic targeting, user heterogeneity, and data aggregation conspire to confound the magnitude, and even the sign, of ad A-B test results. Analytically, the paper extends the potential outcomes model of causal inference to treat random assignment of ads and user exposure to ads as separate experimental design elements.  Managerially, the authors explain why platforms lack incentives to allow experimenters to untangle the effects of ad content from proprietary algorithmic selection of users when running A-B tests.  Given that experimenters have diverse reasons for comparing user responses to ads, the authors offer tailored prescriptive guidance to experimenters based on their specific goals.
 
 - id: BraunMuermann04
@@ -402,21 +402,21 @@ references:
   abstract: Despite recent advances in high-speed computing, Bayesian inference in high dimensional hierarchical models remains a non-trivial undertaking. Markov chain Monte Carlo (MCMC) methods have come a long way in resolving several problems in this regard, but these methods have, in turn, introduced a different set of computational issues like monitoring convergence rates. Such issues, typically, get accentuated in marketing research and practice when non- conjugate Bayesian hierarchical models are used. Here, we use a new method to generate independent samples from posterior distributions in these types of Bayesian models, obviating many of the difficulties associated with MCMC algorithms. Challenging illustrative analysis exemplifies the ease with which one can implement this method.
 
 - id: Braun2024BMR
-  type: working-paper
+  type: article-journal
   author:
     - family: Braun
       given: Michael
-  year: 2024
-  month: 5
+  year: 2025
+  month: 6
   title: "Revisiting Scalable Targeted Marketing with Distributed Markov Chain Monte Carlo"
-  container-title: Accepted at Journal of Marketing Research
+  container-title: Journal of Marketing Research
   preprint: true
   # DOI: 10.1177/00222437241255307
   topic: Statistical Methodology
   abstract: Bumbaca, Misra, and Rossi (2020) propose a parallelizable algorithm for estimating a large number of customer-level parameters in a Bayesian hierarchical model. However, the algorithm follows from a mathematical error in the derivation of the target posterior density, which calls into question the theoretical support for the algorithm sampling from the specified model. Adapting the algorithm to be consistent with the corrected math nullifies the claimed benefits in scalability and efficiency. Notwithstanding that error, unbiasedness requires the number of customers to be asymptotic per computational node, which is more restrictive than being asymptotic in the size of the dataset as a whole. The more the algorithm is parallelized, the greater the bias. Potential adopters should be aware that the algorithm does not sample from the exact posterior distribution, and that its ability to take advantage of distributed computing infrastructure is limited.
 
 - id: PML2024
-  type: working-paper
+  type: article-journal
   author:
     - given: Ryan
       family: Dew
@@ -446,11 +446,11 @@ references:
       family: Yin
   title: "Probabilistic Machine Learning: New Frontiers for Modeling Consumers and their Choices"
   SSRN: 4790799
-  # DOI: 10.2139/ssrn.4790799
+  DOI: 10.1016/j.ijresmar.2024.11.002
   topic: Statistical Methodology
   draft: true
   year: 2024
-  container-title: "Under revision"
+  container-title: International Journal of Research in Marketing
   abstract: |
     Making sense of massive, individual-level data is challenging: marketing researchers and analysts need flexible models that can accommodate rich patterns of heterogeneity and dynamics, work with and link diverse data types, and scale to modern data sizes. Practitioners also need tools that can quantify uncertainty in models and predictions of consumer behavior to inform optimal decision-making. In this paper, we demonstrate the promise of probabilistic machine learning (PML), which refers to the pairing of probabilistic modeling and machine learning methods, in pushing the frontier of combining flexibility, scalability, interpretability, and un- certainty quantification for building better models of consumers and their choices. Specifically, we overview both PML models and inference methods, and highlight their utility for addressing four common classes of marketing problems: (1) uncovering heterogeneity, (2) flexibly modeling nonlinearities and dynamics, (3) handling high-dimensional and unstructured data, and (4) addressing missingness, often via data fusion. We also discuss promising directions in enriching marketing models, reflecting recent developments in representation learning, causal inference, experimentation and decision-making, and theory-based behavioral modeling.
 
@@ -472,9 +472,9 @@ references:
   download: /assets/papers/TurnerWrightBraun2024_pub
   abstract: In recent decades, many states have expanded discovery in criminal cases. These reforms were designed to make the criminal process fairer and more efficient. The success of these changes, however, depends on whether defense attorneys actually use the new discovery opportunities to represent their clients more effectively. Records from digital evidence platforms reveal that defense attorneys sometimes fail to carry out their professional duty to review discovery. Analyzing a novel dataset we obtained from digital evidence platforms used in Texas, we found that defense attorneys never accessed any available electronic discovery in a substantial number of felony cases between 2018 and 2020. We also found that the access rate varied by county, year, offense type, attorney category, attorney experience, and file type.
 
-- id: BWT2024
-  type: working-paper
-  container-title: "Under revision"
+- id: BWT2025
+  type: article-journal
+  container-title: Justice Quarterly
   author:
     - family: Braun
       given: Michael
@@ -484,8 +484,10 @@ references:
       given: Jenia I.
   title: "Defense Use of Digital Discovery in Criminal Cases:  A Quantitative Analysis"
   topic: Criminal Justice
-  year: 2024
-  draft: true
+  year: 2025
+  preprint: true
+  download: pub
+  DOI: 10.1080/07418825.2025.2460587
   abstract: Recent criminal court reforms have required prosecutors to provide defense attorneys with broader and earlier discovery of evidence. For these discovery reforms to fulfill their aims of improved fairness and efficiency, defense attorneys must take advantage of the evidence disclosed by the prosecution. Prior studies suggest, however, that a range of factors, including low pay and high caseloads, impede effective defense representation. If similar factors hinder defense attorneys from reviewing discovery, discovery reforms would fail to meet their goals, and defendants would receive sub-standard representation. The recent adoption of digital evidence platforms by local jurisdictions allows us to study whether defense attorneys consistently fulfill their duty to review discovery. Analyzing data from digital evidence platforms used in felony cases in four Texas counties between 2018 and 2020, we examine whether and when defense attorneys fail to access evidence disclosed by the prosecution. We find that a substantial number of defense attorneys never access the discovery. The access rate varies by county, year, offense seriousness, attorney category, attorney experience, and file type. Drawing on review of prior scholarship and Bayesian analysis of the data, we discuss plausible interpretations of these variations.
 
 - id: BraunDeLanghe2024
