@@ -7,7 +7,7 @@ permalink: /teaching/
 
 
 
-##  Current courses (2022-2025)
+##  Current courses (2022-2027)
 
 ####  MKTG 6201:  Marketing Management
 

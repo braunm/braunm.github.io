@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Another A-B testing paper
+title: New article on the dangers of A-B testing
 author: Michael Braun
 category: Research
 excerpt_separator: <!--x-->
 ---
 
-{% assign paper=site.data.papers.references | where:   "id", "BraunSchwartz2024"  %}
+{% assign paper=site.data.papers.references | where:   "id", "BraunSchwartz2025"  %}
 {% assign jm = paper[0] %}
 {% include modal.html rx=jm   %}
 
 
-{% assign ABtest = site.data.papers.references | where:   "id", "BraunSchwartz2024"  %}
+{% assign ABtest = site.data.papers.references | where:   "id", "BraunSchwartz2025"  %}
 {% assign ab = ABtest[0] %}
 {% include modal.html rx=ab   %}
 
@@ -19,7 +19,7 @@ Your A-B tests may not be telling you what you think they are!  Read about the d
 
 <!--x-->
 
- [Eric Schwartz](https://michiganross.umich.edu/faculty-research/faculty/eric-schwartz){:target="_blank"} (Michigan) and I have written ["Where A-B Testing Goes Wrong: How Divergent Delivery Affects What Online Experiments Cannot (and Can) Tell You About How Customers Respond to Advertising,"](){: class="link-primary" data-bs-toggle="modal" data-bs-target="#BraunSchwartz2024Modal"}, which last week was accepted for publication in the [Journal of Marketing](https://shortdoi.org/nb5p).
+ [Eric Schwartz](https://michiganross.umich.edu/faculty-research/faculty/eric-schwartz){:target="_blank"} (Michigan) and I have written ["Where A-B Testing Goes Wrong: How Divergent Delivery Affects What Online Experiments Cannot (and Can) Tell You About How Customers Respond to Advertising,"](){: class="link-primary" data-bs-toggle="modal" data-bs-target="#BraunSchwartz2025Modal"}, which last week was accepted for publication in the [Journal of Marketing](https://shortdoi.org/nb5p).
 
 
  This article will be of interest to anyone who is considering using  ad platforms' freely available experimentation tools to compare the effectiveness of different creative elements (images, copy, messaging) in online advertising.  Divergent delivery occurs when a platform targets  different users to different ads, based on the content of those ads.  This makes it impossible for an advertiser to separate the effect of the ad from the effect from how an online platform's targeting algorithm decides which users see those ads.  We take the perspective of the practicing marketer who uses A-B test results to make strategic decisions based on which creative elements of ads are most effective.

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://braunm.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://braunm.github.io/" rel="alternate" type="text/html" /><updated>2025-05-27T23:02:14-05:00</updated><id>https://braunm.github.io/feed.xml</id><title type="html">Michael Braun</title><subtitle>Michael Braun, Associate Professor of Marketing, SMU Cox School of Business</subtitle><entry><title type="html">Another A-B testing paper</title><link href="https://braunm.github.io/research/2024/08/08/jm-abtests.html" rel="alternate" type="text/html" title="Another A-B testing paper" /><published>2024-08-08T00:00:00-05:00</published><updated>2024-08-08T00:00:00-05:00</updated><id>https://braunm.github.io/research/2024/08/08/jm-abtests</id><content type="html" xml:base="https://braunm.github.io/research/2024/08/08/jm-abtests.html"><![CDATA[<div class="modal fade " id="Modal" tabindex="-1">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://braunm.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://braunm.github.io/" rel="alternate" type="text/html" /><updated>2026-04-24T14:26:56-05:00</updated><id>https://braunm.github.io/feed.xml</id><title type="html">Michael Braun</title><subtitle>Michael Braun, Associate Professor of Marketing, SMU Cox School of Business</subtitle><entry><title type="html">Finalist for Best Paper Award</title><link href="https://braunm.github.io/research/2026/04/24/jm-finalist.html" rel="alternate" type="text/html" title="Finalist for Best Paper Award" /><published>2026-04-24T00:00:00-05:00</published><updated>2026-04-24T00:00:00-05:00</updated><id>https://braunm.github.io/research/2026/04/24/jm-finalist</id><content type="html" xml:base="https://braunm.github.io/research/2026/04/24/jm-finalist.html"><![CDATA[<div class="modal fade " id="BraunSchwartz2025Modal" tabindex="-1">
   <div class="modal-dialog  modal-dialog-centered">
     <div class="modal-content paper-modal">
       <div class="modal-header">
-        <span class="title"> </span>
+        <span class="title"> Where A-B Testing Goes Wrong:  How Divergent Delivery Affects What Online Experiments Cannot  (and Can)  Tell You About How Customers Respond to Advertising</span>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>  <!-- modal header -->
       <div class="modal-body">
@@ -12,14 +12,33 @@
 
 
  
+
+
+
+
+with Eric Schwartz
+
+
  <!-- end loop on authors -->
  </p>
-        <p class="journal"> : <em></em></p>
+        <p class="journal"> 2025: <em>Journal of Marketing</em></p>
+        
+        <a class="btn btn-abstract btn-sm" data-bs-target="#abstract-BraunSchwartz2025" data-bs-toggle="collapse">Abstract</a>
+        <div class="collapse" id="abstract-BraunSchwartz2025">
+          <div class="card card-body">
+            <p>Marketers use online advertising platforms to compare user responses to different ad content.  But platforms’ experimentation tools deliver different ads to distinct and undetectably optimized mixes of users that vary across ads, even during the test. Because exposure to ads in the test is non-random, the estimated comparisons confound the effect of the ad content with the effect of algorithmic targeting.  This means experimenters may not be learning what they think they are learning from ad A-B tests.  The authors document these “divergent delivery” patterns during an online experiment for the first time. They explain how algorithmic targeting, user heterogeneity, and data aggregation conspire to confound the magnitude, and even the sign, of ad A-B test results. Analytically, the paper extends the potential outcomes model of causal inference to treat random assignment of ads and user exposure to ads as separate experimental design elements.  Managerially, the authors explain why platforms lack incentives to allow experimenters to untangle the effects of ad content from proprietary algorithmic selection of users when running A-B tests.  Given that experimenters have diverse reasons for comparing user responses to ads, the authors offer tailored prescriptive guidance to experimenters based on their specific goals.</p>
+
+          </div> <!-- card-body -->
+        </div> <!-- abstract collapse -->
          <!-- abstract -->
 
         
+        <a class="btn btn-publisher btn-sm" href="http://doi.org/10/nb5p" target="_blank" rel="noopener noreferrer">Publisher</a>
         
         
+        
+        
+        <a class="btn btn-preprint btn-sm" href="/assets/documents/papers/BraunSchwartz2025_preprint.pdf" target="_blank" rel="noopener noreferrer">Preprint</a>
         
         
         
@@ -29,11 +48,11 @@
 </div>
 <p><!-- modal fade --></p>
 
-<div class="modal fade " id="Modal" tabindex="-1">
+<div class="modal fade " id="BraunSchwartz2025Modal" tabindex="-1">
   <div class="modal-dialog  modal-dialog-centered">
     <div class="modal-content paper-modal">
       <div class="modal-header">
-        <span class="title"> </span>
+        <span class="title"> Where A-B Testing Goes Wrong:  How Divergent Delivery Affects What Online Experiments Cannot  (and Can)  Tell You About How Customers Respond to Advertising</span>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>  <!-- modal header -->
       <div class="modal-body">
@@ -43,14 +62,275 @@
 
 
  
+
+
+
+
+with Eric Schwartz
+
+
  <!-- end loop on authors -->
  </p>
-        <p class="journal"> : <em></em></p>
+        <p class="journal"> 2025: <em>Journal of Marketing</em></p>
+        
+        <a class="btn btn-abstract btn-sm" data-bs-target="#abstract-BraunSchwartz2025" data-bs-toggle="collapse">Abstract</a>
+        <div class="collapse" id="abstract-BraunSchwartz2025">
+          <div class="card card-body">
+            <p>Marketers use online advertising platforms to compare user responses to different ad content.  But platforms’ experimentation tools deliver different ads to distinct and undetectably optimized mixes of users that vary across ads, even during the test. Because exposure to ads in the test is non-random, the estimated comparisons confound the effect of the ad content with the effect of algorithmic targeting.  This means experimenters may not be learning what they think they are learning from ad A-B tests.  The authors document these “divergent delivery” patterns during an online experiment for the first time. They explain how algorithmic targeting, user heterogeneity, and data aggregation conspire to confound the magnitude, and even the sign, of ad A-B test results. Analytically, the paper extends the potential outcomes model of causal inference to treat random assignment of ads and user exposure to ads as separate experimental design elements.  Managerially, the authors explain why platforms lack incentives to allow experimenters to untangle the effects of ad content from proprietary algorithmic selection of users when running A-B tests.  Given that experimenters have diverse reasons for comparing user responses to ads, the authors offer tailored prescriptive guidance to experimenters based on their specific goals.</p>
+
+          </div> <!-- card-body -->
+        </div> <!-- abstract collapse -->
          <!-- abstract -->
 
         
+        <a class="btn btn-publisher btn-sm" href="http://doi.org/10/nb5p" target="_blank" rel="noopener noreferrer">Publisher</a>
         
         
+        
+        
+        <a class="btn btn-preprint btn-sm" href="/assets/documents/papers/BraunSchwartz2025_preprint.pdf" target="_blank" rel="noopener noreferrer">Preprint</a>
+        
+        
+        
+      </div> <!-- modal-body -->
+    </div> <!-- modal-content -->
+  </div> <!-- modal-dialog -->
+</div>
+<p><!-- modal fade --></p>
+
+<p><a href="" class="link-primary" data-bs-toggle="modal" data-bs-target="#BraunSchwartz2025Modal">“Where A-B Testing Goes Wrong: How Divergent Delivery Affects What Online Experiments Cannot (and Can) Tell You About How Customers Respond to Advertising,”</a> is one of three  finalists for the 2025 AMA Marketing Science Institute/H. Paul Root Award.</p>
+
+<!--x-->
+
+<p>This award is given to the <a href="https://www.doi.org/10/nb5p" target="_blank"><em>Journal of Marketing</em></a> article that has made the most significant contribution to the advancement of the practice of marketing in a calendar year. It is cosponsored by the American Marketing Association and the Marketing Science Institute.</p>
+
+<p>My co-author <a href="https://michiganross.umich.edu/faculty-research/faculty/eric-schwartz" target="_blank">Eric Schwartz</a> (Michigan) and I congratulate the <a href="https://www.ama.org/press-releases/neeraj-arora-ishita-chakraborty-and-yohei-nishimura-win-the-2025-ama-marketing-science-institute-h-paul-root-award/" target="_blank">winners of this award</a>:  Neeraj Arora, Ishita Chakraborty, and Yohei Nishimura, whose article on AI-Human Hybrids for Marketing Research is truly deserving.</p>
+
+<p>Our article explains how <strong>divergent delivery</strong> may lead to your A-B tests not  telling you what you think they are.   It will be of interest to anyone who is considering using  ad platforms’ freely available experimentation tools to compare the effectiveness of different creative elements (images, copy, messaging) in online advertising.  Divergent delivery occurs when a platform targets  different users to different ads, based on the content of those ads.  This makes it impossible for an advertiser to separate the effect of the ad from the effect from how an online platform’s targeting algorithm decides which users see those ads.  We take the perspective of the practicing marketer who uses A-B test results to make strategic decisions based on which creative elements of ads are most effective.</p>
+
+<p>And there is a lot to say about how targeting policies, user heterogeneity, and data aggregation conspire to bias the magnitude, <em>and even the sign</em> of A-B test results. We provide evidence that platforms engage in divergent delivery even during the course of a seemingly randomized experiment.  And we also explain why platforms have no incentive to fix the problem.</p>]]></content><author><name>Michael Braun</name></author><category term="Research" /><summary type="html"><![CDATA[Where A-B Testing Goes Wrong: How Divergent Delivery Affects What Online Experiments Cannot (and Can) Tell You About How Customers Respond to Advertising with Eric Schwartz 2025: Journal of Marketing Abstract Marketers use online advertising platforms to compare user responses to different ad content. But platforms’ experimentation tools deliver different ads to distinct and undetectably optimized mixes of users that vary across ads, even during the test. Because exposure to ads in the test is non-random, the estimated comparisons confound the effect of the ad content with the effect of algorithmic targeting. This means experimenters may not be learning what they think they are learning from ad A-B tests. The authors document these “divergent delivery” patterns during an online experiment for the first time. They explain how algorithmic targeting, user heterogeneity, and data aggregation conspire to confound the magnitude, and even the sign, of ad A-B test results. Analytically, the paper extends the potential outcomes model of causal inference to treat random assignment of ads and user exposure to ads as separate experimental design elements. Managerially, the authors explain why platforms lack incentives to allow experimenters to untangle the effects of ad content from proprietary algorithmic selection of users when running A-B tests. Given that experimenters have diverse reasons for comparing user responses to ads, the authors offer tailored prescriptive guidance to experimenters based on their specific goals. Publisher Preprint Where A-B Testing Goes Wrong: How Divergent Delivery Affects What Online Experiments Cannot (and Can) Tell You About How Customers Respond to Advertising with Eric Schwartz 2025: Journal of Marketing Abstract Marketers use online advertising platforms to compare user responses to different ad content. But platforms’ experimentation tools deliver different ads to distinct and undetectably optimized mixes of users that vary across ads, even during the test. Because exposure to ads in the test is non-random, the estimated comparisons confound the effect of the ad content with the effect of algorithmic targeting. This means experimenters may not be learning what they think they are learning from ad A-B tests. The authors document these “divergent delivery” patterns during an online experiment for the first time. They explain how algorithmic targeting, user heterogeneity, and data aggregation conspire to confound the magnitude, and even the sign, of ad A-B test results. Analytically, the paper extends the potential outcomes model of causal inference to treat random assignment of ads and user exposure to ads as separate experimental design elements. Managerially, the authors explain why platforms lack incentives to allow experimenters to untangle the effects of ad content from proprietary algorithmic selection of users when running A-B tests. Given that experimenters have diverse reasons for comparing user responses to ads, the authors offer tailored prescriptive guidance to experimenters based on their specific goals. Publisher Preprint “Where A-B Testing Goes Wrong: How Divergent Delivery Affects What Online Experiments Cannot (and Can) Tell You About How Customers Respond to Advertising,” is one of three finalists for the 2025 AMA Marketing Science Institute/H. Paul Root Award.]]></summary></entry><entry><title type="html">Data Show that Many Defense Attorneys Skip Reviewing Discovery Evidence</title><link href="https://braunm.github.io/research/2026/01/20/jq-discovery.html" rel="alternate" type="text/html" title="Data Show that Many Defense Attorneys Skip Reviewing Discovery Evidence" /><published>2026-01-20T00:00:00-06:00</published><updated>2026-01-20T00:00:00-06:00</updated><id>https://braunm.github.io/research/2026/01/20/jq-discovery</id><content type="html" xml:base="https://braunm.github.io/research/2026/01/20/jq-discovery.html"><![CDATA[<div class="modal fade " id="BWT2025Modal" tabindex="-1">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content paper-modal">
+      <div class="modal-header">
+        <span class="title"> Defense Use of Digital Discovery in Criminal Cases:  A Quantitative Analysis</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>  <!-- modal header -->
+      <div class="modal-body">
+        <p class="authors"> 
+<!-- assign array to alist and then  include this file -->
+
+
+
+ 
+
+
+
+
+
+with  Ronald F. Wright,
+
+
+
+
+
+
+
+and Jenia I. Turner
+
+
+ <!-- end loop on authors -->
+ </p>
+        <p class="journal"> 2026: <em>Justice Quarterly
+
+
+43:1</em></p>
+        
+        <a class="btn btn-abstract btn-sm" data-bs-target="#abstract-BWT2025" data-bs-toggle="collapse">Abstract</a>
+        <div class="collapse" id="abstract-BWT2025">
+          <div class="card card-body">
+            <p>Recent criminal court reforms have required prosecutors to provide defense attorneys with broader and earlier discovery of evidence. For these discovery reforms to fulfill their aims of improved fairness and efficiency, defense attorneys must take advantage of the evidence disclosed by the prosecution. Prior studies suggest, however, that a range of factors, including low pay and high caseloads, impede effective defense representation. If similar factors hinder defense attorneys from reviewing discovery, discovery reforms would fail to meet their goals, and defendants would receive sub-standard representation. The recent adoption of digital evidence platforms by local jurisdictions allows us to study whether defense attorneys consistently fulfill their duty to review discovery. Analyzing data from digital evidence platforms used in felony cases in four Texas counties between 2018 and 2020, we examine whether and when defense attorneys fail to access evidence disclosed by the prosecution. We find that a substantial number of defense attorneys never access the discovery. The access rate varies by county, year, offense seriousness, attorney category, attorney experience, and file type. Drawing on review of prior scholarship and Bayesian analysis of the data, we discuss plausible interpretations of these variations.</p>
+
+          </div> <!-- card-body -->
+        </div> <!-- abstract collapse -->
+         <!-- abstract -->
+
+        
+        <a class="btn btn-publisher btn-sm" href="http://doi.org/10/ppqp" target="_blank" rel="noopener noreferrer">Publisher</a>
+        
+        
+        
+        
+        <a class="btn btn-preprint btn-sm" href="/assets/documents/papers/BWT2025_preprint.pdf" target="_blank" rel="noopener noreferrer">Preprint</a>
+        
+        
+        
+      </div> <!-- modal-body -->
+    </div> <!-- modal-content -->
+  </div> <!-- modal-dialog -->
+</div>
+<p><!-- modal fade --></p>
+
+<div class="modal fade " id="BWT2025Modal" tabindex="-1">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content paper-modal">
+      <div class="modal-header">
+        <span class="title"> Defense Use of Digital Discovery in Criminal Cases:  A Quantitative Analysis</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>  <!-- modal header -->
+      <div class="modal-body">
+        <p class="authors"> 
+<!-- assign array to alist and then  include this file -->
+
+
+
+ 
+
+
+
+
+
+with  Ronald F. Wright,
+
+
+
+
+
+
+
+and Jenia I. Turner
+
+
+ <!-- end loop on authors -->
+ </p>
+        <p class="journal"> 2026: <em>Justice Quarterly
+
+
+43:1</em></p>
+        
+        <a class="btn btn-abstract btn-sm" data-bs-target="#abstract-BWT2025" data-bs-toggle="collapse">Abstract</a>
+        <div class="collapse" id="abstract-BWT2025">
+          <div class="card card-body">
+            <p>Recent criminal court reforms have required prosecutors to provide defense attorneys with broader and earlier discovery of evidence. For these discovery reforms to fulfill their aims of improved fairness and efficiency, defense attorneys must take advantage of the evidence disclosed by the prosecution. Prior studies suggest, however, that a range of factors, including low pay and high caseloads, impede effective defense representation. If similar factors hinder defense attorneys from reviewing discovery, discovery reforms would fail to meet their goals, and defendants would receive sub-standard representation. The recent adoption of digital evidence platforms by local jurisdictions allows us to study whether defense attorneys consistently fulfill their duty to review discovery. Analyzing data from digital evidence platforms used in felony cases in four Texas counties between 2018 and 2020, we examine whether and when defense attorneys fail to access evidence disclosed by the prosecution. We find that a substantial number of defense attorneys never access the discovery. The access rate varies by county, year, offense seriousness, attorney category, attorney experience, and file type. Drawing on review of prior scholarship and Bayesian analysis of the data, we discuss plausible interpretations of these variations.</p>
+
+          </div> <!-- card-body -->
+        </div> <!-- abstract collapse -->
+         <!-- abstract -->
+
+        
+        <a class="btn btn-publisher btn-sm" href="http://doi.org/10/ppqp" target="_blank" rel="noopener noreferrer">Publisher</a>
+        
+        
+        
+        
+        <a class="btn btn-preprint btn-sm" href="/assets/documents/papers/BWT2025_preprint.pdf" target="_blank" rel="noopener noreferrer">Preprint</a>
+        
+        
+        
+      </div> <!-- modal-body -->
+    </div> <!-- modal-content -->
+  </div> <!-- modal-dialog -->
+</div>
+<p><!-- modal fade --></p>
+
+<p>Many defense attorneys never review the discovery evidence that is provided by prosecutors.  These findings are described <a href="" class="link-primary" data-bs-toggle="modal" data-bs-target="#BWT2025Modal">“Defense Use of Digital Discovery in Criminal Cases: A Quantitative Analysis,”</a>, which was recently published in <a href="https://shortdoi.org/ppqp"><em>Justice Quarterly</em></a>.</p>
+
+<!--x-->
+
+<p>This paper was co-authored with <a href="https://www.smu.edu/law/faculty/profiles/turner-jenia-iontcheva">Jenia Iontcheva Turner</a> (SMU Dedman School of Law) and <a href="https://directory.law.wfu.edu/wrightrf/">Ronald Wright</a> (Wake Forest).</p>
+
+<h5 id="heres-the-full-abstract-of-the-paper">Here’s the full abstract of the paper:</h5>
+
+<p>Recent criminal court reforms have required prosecutors to provide defense attorneys with broader and earlier discovery of evidence. For these discovery reforms to fulfill their aims of improved fairness and efficiency, defense attorneys must take advantage of the evidence disclosed by the prosecution. Prior studies suggest, however, that a range of factors, including low pay and high caseloads, impede effective defense representation. If similar factors hinder defense attorneys from reviewing discovery, discovery reforms would fail to meet their goals, and defendants would receive sub-standard representation. The recent adoption of digital evidence platforms by local jurisdictions allows us to study whether defense attorneys consistently fulfill their duty to review discovery. Analyzing data from digital evidence platforms used in felony cases in four Texas counties between 2018 and 2020, we examine whether and when defense attorneys fail to access evidence disclosed by the prosecution. We find that a substantial number of defense attorneys never access the discovery. The access rate varies by county, year, offense seriousness, attorney category, attorney experience, and file type. Drawing on review of prior scholarship and Bayesian analysis of the data, we discuss plausible interpretations of these variations.</p>]]></content><author><name>Michael Braun</name></author><category term="Research" /><summary type="html"><![CDATA[Defense Use of Digital Discovery in Criminal Cases: A Quantitative Analysis with Ronald F. Wright, and Jenia I. Turner 2026: Justice Quarterly 43:1 Abstract Recent criminal court reforms have required prosecutors to provide defense attorneys with broader and earlier discovery of evidence. For these discovery reforms to fulfill their aims of improved fairness and efficiency, defense attorneys must take advantage of the evidence disclosed by the prosecution. Prior studies suggest, however, that a range of factors, including low pay and high caseloads, impede effective defense representation. If similar factors hinder defense attorneys from reviewing discovery, discovery reforms would fail to meet their goals, and defendants would receive sub-standard representation. The recent adoption of digital evidence platforms by local jurisdictions allows us to study whether defense attorneys consistently fulfill their duty to review discovery. Analyzing data from digital evidence platforms used in felony cases in four Texas counties between 2018 and 2020, we examine whether and when defense attorneys fail to access evidence disclosed by the prosecution. We find that a substantial number of defense attorneys never access the discovery. The access rate varies by county, year, offense seriousness, attorney category, attorney experience, and file type. Drawing on review of prior scholarship and Bayesian analysis of the data, we discuss plausible interpretations of these variations. Publisher Preprint Defense Use of Digital Discovery in Criminal Cases: A Quantitative Analysis with Ronald F. Wright, and Jenia I. Turner 2026: Justice Quarterly 43:1 Abstract Recent criminal court reforms have required prosecutors to provide defense attorneys with broader and earlier discovery of evidence. For these discovery reforms to fulfill their aims of improved fairness and efficiency, defense attorneys must take advantage of the evidence disclosed by the prosecution. Prior studies suggest, however, that a range of factors, including low pay and high caseloads, impede effective defense representation. If similar factors hinder defense attorneys from reviewing discovery, discovery reforms would fail to meet their goals, and defendants would receive sub-standard representation. The recent adoption of digital evidence platforms by local jurisdictions allows us to study whether defense attorneys consistently fulfill their duty to review discovery. Analyzing data from digital evidence platforms used in felony cases in four Texas counties between 2018 and 2020, we examine whether and when defense attorneys fail to access evidence disclosed by the prosecution. We find that a substantial number of defense attorneys never access the discovery. The access rate varies by county, year, offense seriousness, attorney category, attorney experience, and file type. Drawing on review of prior scholarship and Bayesian analysis of the data, we discuss plausible interpretations of these variations. Publisher Preprint Many defense attorneys never review the discovery evidence that is provided by prosecutors. These findings are described “Defense Use of Digital Discovery in Criminal Cases: A Quantitative Analysis,”, which was recently published in Justice Quarterly.]]></summary></entry><entry><title type="html">New article on the dangers of A-B testing</title><link href="https://braunm.github.io/research/2024/08/08/jm-abtests.html" rel="alternate" type="text/html" title="New article on the dangers of A-B testing" /><published>2024-08-08T00:00:00-05:00</published><updated>2024-08-08T00:00:00-05:00</updated><id>https://braunm.github.io/research/2024/08/08/jm-abtests</id><content type="html" xml:base="https://braunm.github.io/research/2024/08/08/jm-abtests.html"><![CDATA[<div class="modal fade " id="BraunSchwartz2025Modal" tabindex="-1">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content paper-modal">
+      <div class="modal-header">
+        <span class="title"> Where A-B Testing Goes Wrong:  How Divergent Delivery Affects What Online Experiments Cannot  (and Can)  Tell You About How Customers Respond to Advertising</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>  <!-- modal header -->
+      <div class="modal-body">
+        <p class="authors"> 
+<!-- assign array to alist and then  include this file -->
+
+
+
+ 
+
+
+
+
+with Eric Schwartz
+
+
+ <!-- end loop on authors -->
+ </p>
+        <p class="journal"> 2025: <em>Journal of Marketing</em></p>
+        
+        <a class="btn btn-abstract btn-sm" data-bs-target="#abstract-BraunSchwartz2025" data-bs-toggle="collapse">Abstract</a>
+        <div class="collapse" id="abstract-BraunSchwartz2025">
+          <div class="card card-body">
+            <p>Marketers use online advertising platforms to compare user responses to different ad content.  But platforms’ experimentation tools deliver different ads to distinct and undetectably optimized mixes of users that vary across ads, even during the test. Because exposure to ads in the test is non-random, the estimated comparisons confound the effect of the ad content with the effect of algorithmic targeting.  This means experimenters may not be learning what they think they are learning from ad A-B tests.  The authors document these “divergent delivery” patterns during an online experiment for the first time. They explain how algorithmic targeting, user heterogeneity, and data aggregation conspire to confound the magnitude, and even the sign, of ad A-B test results. Analytically, the paper extends the potential outcomes model of causal inference to treat random assignment of ads and user exposure to ads as separate experimental design elements.  Managerially, the authors explain why platforms lack incentives to allow experimenters to untangle the effects of ad content from proprietary algorithmic selection of users when running A-B tests.  Given that experimenters have diverse reasons for comparing user responses to ads, the authors offer tailored prescriptive guidance to experimenters based on their specific goals.</p>
+
+          </div> <!-- card-body -->
+        </div> <!-- abstract collapse -->
+         <!-- abstract -->
+
+        
+        <a class="btn btn-publisher btn-sm" href="http://doi.org/10/nb5p" target="_blank" rel="noopener noreferrer">Publisher</a>
+        
+        
+        
+        
+        <a class="btn btn-preprint btn-sm" href="/assets/documents/papers/BraunSchwartz2025_preprint.pdf" target="_blank" rel="noopener noreferrer">Preprint</a>
+        
+        
+        
+      </div> <!-- modal-body -->
+    </div> <!-- modal-content -->
+  </div> <!-- modal-dialog -->
+</div>
+<p><!-- modal fade --></p>
+
+<div class="modal fade " id="BraunSchwartz2025Modal" tabindex="-1">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content paper-modal">
+      <div class="modal-header">
+        <span class="title"> Where A-B Testing Goes Wrong:  How Divergent Delivery Affects What Online Experiments Cannot  (and Can)  Tell You About How Customers Respond to Advertising</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>  <!-- modal header -->
+      <div class="modal-body">
+        <p class="authors"> 
+<!-- assign array to alist and then  include this file -->
+
+
+
+ 
+
+
+
+
+with Eric Schwartz
+
+
+ <!-- end loop on authors -->
+ </p>
+        <p class="journal"> 2025: <em>Journal of Marketing</em></p>
+        
+        <a class="btn btn-abstract btn-sm" data-bs-target="#abstract-BraunSchwartz2025" data-bs-toggle="collapse">Abstract</a>
+        <div class="collapse" id="abstract-BraunSchwartz2025">
+          <div class="card card-body">
+            <p>Marketers use online advertising platforms to compare user responses to different ad content.  But platforms’ experimentation tools deliver different ads to distinct and undetectably optimized mixes of users that vary across ads, even during the test. Because exposure to ads in the test is non-random, the estimated comparisons confound the effect of the ad content with the effect of algorithmic targeting.  This means experimenters may not be learning what they think they are learning from ad A-B tests.  The authors document these “divergent delivery” patterns during an online experiment for the first time. They explain how algorithmic targeting, user heterogeneity, and data aggregation conspire to confound the magnitude, and even the sign, of ad A-B test results. Analytically, the paper extends the potential outcomes model of causal inference to treat random assignment of ads and user exposure to ads as separate experimental design elements.  Managerially, the authors explain why platforms lack incentives to allow experimenters to untangle the effects of ad content from proprietary algorithmic selection of users when running A-B tests.  Given that experimenters have diverse reasons for comparing user responses to ads, the authors offer tailored prescriptive guidance to experimenters based on their specific goals.</p>
+
+          </div> <!-- card-body -->
+        </div> <!-- abstract collapse -->
+         <!-- abstract -->
+
+        
+        <a class="btn btn-publisher btn-sm" href="http://doi.org/10/nb5p" target="_blank" rel="noopener noreferrer">Publisher</a>
+        
+        
+        
+        
+        <a class="btn btn-preprint btn-sm" href="/assets/documents/papers/BraunSchwartz2025_preprint.pdf" target="_blank" rel="noopener noreferrer">Preprint</a>
         
         
         
@@ -64,7 +344,7 @@
 
 <!--x-->
 
-<p><a href="https://michiganross.umich.edu/faculty-research/faculty/eric-schwartz" target="_blank">Eric Schwartz</a> (Michigan) and I have written <a href="" class="link-primary" data-bs-toggle="modal" data-bs-target="#BraunSchwartz2024Modal">“Where A-B Testing Goes Wrong: How Divergent Delivery Affects What Online Experiments Cannot (and Can) Tell You About How Customers Respond to Advertising,”</a>, which last week was accepted for publication in the <a href="https://shortdoi.org/nb5p">Journal of Marketing</a>.</p>
+<p><a href="https://michiganross.umich.edu/faculty-research/faculty/eric-schwartz" target="_blank">Eric Schwartz</a> (Michigan) and I have written <a href="" class="link-primary" data-bs-toggle="modal" data-bs-target="#BraunSchwartz2025Modal">“Where A-B Testing Goes Wrong: How Divergent Delivery Affects What Online Experiments Cannot (and Can) Tell You About How Customers Respond to Advertising,”</a>, which last week was accepted for publication in the <a href="https://shortdoi.org/nb5p">Journal of Marketing</a>.</p>
 
 <p>This article will be of interest to anyone who is considering using  ad platforms’ freely available experimentation tools to compare the effectiveness of different creative elements (images, copy, messaging) in online advertising.  Divergent delivery occurs when a platform targets  different users to different ads, based on the content of those ads.  This makes it impossible for an advertiser to separate the effect of the ad from the effect from how an online platform’s targeting algorithm decides which users see those ads.  We take the perspective of the practicing marketer who uses A-B test results to make strategic decisions based on which creative elements of ads are most effective.</p>
 
@@ -74,7 +354,9 @@
 
 <blockquote>
   <p>Abstract</p>
-</blockquote>]]></content><author><name>Michael Braun</name></author><category term="Research" /><summary type="html"><![CDATA[: : Your A-B tests may not be telling you what you think they are! Read about the dangers of divergent delivery in a my new paper, soon to be published in the Journal of Marketing.]]></summary></entry><entry><title type="html">New paper on using A-B tests for academic research</title><link href="https://braunm.github.io/research/2024/05/17/jcr-abtests.html" rel="alternate" type="text/html" title="New paper on using A-B tests for academic research" /><published>2024-05-17T00:00:00-05:00</published><updated>2024-05-17T00:00:00-05:00</updated><id>https://braunm.github.io/research/2024/05/17/jcr-abtests</id><content type="html" xml:base="https://braunm.github.io/research/2024/05/17/jcr-abtests.html"><![CDATA[<div class="modal fade " id="BraunDeLanghe2024Modal" tabindex="-1">
+</blockquote>
+
+<p>Marketers use online advertising platforms to compare user responses to different ad content.  But platforms’ experimentation tools deliver different ads to distinct and undetectably optimized mixes of users that vary across ads, even during the test. Because exposure to ads in the test is non-random, the estimated comparisons confound the effect of the ad content with the effect of algorithmic targeting.  This means experimenters may not be learning what they think they are learning from ad A-B tests.  The authors document these “divergent delivery” patterns during an online experiment for the first time. They explain how algorithmic targeting, user heterogeneity, and data aggregation conspire to confound the magnitude, and even the sign, of ad A-B test results. Analytically, the paper extends the potential outcomes model of causal inference to treat random assignment of ads and user exposure to ads as separate experimental design elements.  Managerially, the authors explain why platforms lack incentives to allow experimenters to untangle the effects of ad content from proprietary algorithmic selection of users when running A-B tests.  Given that experimenters have diverse reasons for comparing user responses to ads, the authors offer tailored prescriptive guidance to experimenters based on their specific goals.</p>]]></content><author><name>Michael Braun</name></author><category term="Research" /><summary type="html"><![CDATA[Where A-B Testing Goes Wrong: How Divergent Delivery Affects What Online Experiments Cannot (and Can) Tell You About How Customers Respond to Advertising with Eric Schwartz 2025: Journal of Marketing Abstract Marketers use online advertising platforms to compare user responses to different ad content. But platforms’ experimentation tools deliver different ads to distinct and undetectably optimized mixes of users that vary across ads, even during the test. Because exposure to ads in the test is non-random, the estimated comparisons confound the effect of the ad content with the effect of algorithmic targeting. This means experimenters may not be learning what they think they are learning from ad A-B tests. The authors document these “divergent delivery” patterns during an online experiment for the first time. They explain how algorithmic targeting, user heterogeneity, and data aggregation conspire to confound the magnitude, and even the sign, of ad A-B test results. Analytically, the paper extends the potential outcomes model of causal inference to treat random assignment of ads and user exposure to ads as separate experimental design elements. Managerially, the authors explain why platforms lack incentives to allow experimenters to untangle the effects of ad content from proprietary algorithmic selection of users when running A-B tests. Given that experimenters have diverse reasons for comparing user responses to ads, the authors offer tailored prescriptive guidance to experimenters based on their specific goals. Publisher Preprint Where A-B Testing Goes Wrong: How Divergent Delivery Affects What Online Experiments Cannot (and Can) Tell You About How Customers Respond to Advertising with Eric Schwartz 2025: Journal of Marketing Abstract Marketers use online advertising platforms to compare user responses to different ad content. But platforms’ experimentation tools deliver different ads to distinct and undetectably optimized mixes of users that vary across ads, even during the test. Because exposure to ads in the test is non-random, the estimated comparisons confound the effect of the ad content with the effect of algorithmic targeting. This means experimenters may not be learning what they think they are learning from ad A-B tests. The authors document these “divergent delivery” patterns during an online experiment for the first time. They explain how algorithmic targeting, user heterogeneity, and data aggregation conspire to confound the magnitude, and even the sign, of ad A-B test results. Analytically, the paper extends the potential outcomes model of causal inference to treat random assignment of ads and user exposure to ads as separate experimental design elements. Managerially, the authors explain why platforms lack incentives to allow experimenters to untangle the effects of ad content from proprietary algorithmic selection of users when running A-B tests. Given that experimenters have diverse reasons for comparing user responses to ads, the authors offer tailored prescriptive guidance to experimenters based on their specific goals. Publisher Preprint Your A-B tests may not be telling you what you think they are! Read about the dangers of divergent delivery in a my new paper, soon to be published in the Journal of Marketing.]]></summary></entry><entry><title type="html">New paper on using A-B tests for academic research</title><link href="https://braunm.github.io/research/2024/05/17/jcr-abtests.html" rel="alternate" type="text/html" title="New paper on using A-B tests for academic research" /><published>2024-05-17T00:00:00-05:00</published><updated>2024-05-17T00:00:00-05:00</updated><id>https://braunm.github.io/research/2024/05/17/jcr-abtests</id><content type="html" xml:base="https://braunm.github.io/research/2024/05/17/jcr-abtests.html"><![CDATA[<div class="modal fade " id="BraunDeLanghe2024Modal" tabindex="-1">
   <div class="modal-dialog  modal-dialog-centered">
     <div class="modal-content paper-modal">
       <div class="modal-header">

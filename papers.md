@@ -14,7 +14,7 @@ permalink: /papers/
 {% assign allrefs=site.data.papers.references %}
 {% assign wps = allrefs | where: "type", "working-paper" %}
 <div class="citelist">
-  <h2 class="type">Working papers</h2>
+  <!-- <h2 class="type">Working papers</h2> -->
   <div class='row' data-masonry='{"percentPosition": true }'>
     {% for r  in wps %}
     <div class='col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 px-2 py-1 my-1'>
