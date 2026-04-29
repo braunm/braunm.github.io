@@ -15,7 +15,7 @@ excerpt_separator: <!--x-->
 {% assign ab = ABtest[0] %}
 {% include modal.html rx=ab   %}
 
-Many defense attorneys never review the discovery evidence that is provided by prosecutors.  These findings are described ["Defense Use of Digital Discovery in Criminal Cases: A Quantitative Analysis,"](){: class="link-primary" data-bs-toggle="modal" data-bs-target="#BWT2025Modal"}, which was recently published in [_Justice Quarterly_](https://shortdoi.org/ppqp).
+Many defense attorneys never review the discovery evidence that is provided by prosecutors.  These findings are described ["Defense Use of Digital Discovery in Criminal Cases: A Quantitative Analysis,"](){: class="link-primary" data-bs-toggle="modal" data-bs-target="#BWT2025Modal"} which was recently published in [_Justice Quarterly_](https://shortdoi.org/ppqp).
 
 <!--x-->
 

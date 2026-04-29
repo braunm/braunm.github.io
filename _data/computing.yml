@@ -1,7 +1,7 @@
 packages:
 - name: trustOptim
   type: R-package
-  version: 0.8.7.2
+  version: 0.8.7.4
   description: Trust Region Optimization for Nonlinear Functions with Sparse Hessians
   website: braunm.github.io/trustOptim
 - name: sparseHessianFD
