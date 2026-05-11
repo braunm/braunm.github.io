@@ -7,7 +7,7 @@ permalink: /papers/
 <!-- CV and Google Scholar buttons -->
 
 <div class="d-flex justify-content-around fg-info bg-light">
-  <a class="btn btn-outline-primary" align="center" href="/cv/">CV</a>
+  <a class="btn btn-outline-primary" align="center" href="/assets/CV/Braun_CV.pdf" target="_blank">CV</a>
   <a class="btn btn-outline-primary" align="center" href="https://scholar.google.com/citations?user=Rny0DIkAAAAJ&hl=en">Google Scholar</a>
 </div>
 

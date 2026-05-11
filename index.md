@@ -30,7 +30,7 @@ permalink: /
           </ul>
         </div>
         <div class="col-5  my-1 text-center">
-          <a class="btn btn-outline-primary mx-1" href="/cv/">CV</a>
+          <a class="btn btn-outline-primary mx-1" href="/assets/CV/Braun_CV.pdf" target="_blank">CV</a>
           <a class="btn btn-outline-primary mx-1" href="/papers/">Papers</a>
         </div>
       </div>
