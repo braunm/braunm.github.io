@@ -1,1 +1,6 @@
-<iframe  src="{{include.code}}" class="gde-frame" style="width:{{include.width}}; height:{{include.height}}; border: none;"></iframe>
+<div class="mb-2 text-end">
+  <a href="{{include.code}}" class="btn btn-outline-primary btn-sm" target="_blank" download>Download CV (PDF)</a>
+</div>
+<div style="overflow: scroll; -webkit-overflow-scrolling: touch; width: {{include.width}}; height: {{include.height}};">
+  <iframe src="{{include.code}}" class="gde-frame" style="width: 100%; height: 100%; border: none;"></iframe>
+</div>
