@@ -117,6 +117,14 @@
 
 </div>
 
+<script>
+  document.querySelectorAll('article a[href^="http"]').forEach(function(link) {
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+  });
+</script>
+
+
     </div>
 
     </div class="container-md border">
