@@ -21,7 +21,7 @@ This website was created using Jekyll.  It is hosted at braunm.github.io.  I wan
 
 # Editing caution
 
-- `_data/*.yml` files (e.g. `papers.yml`) are structured YAML, not prose. Auto-fill/fill-paragraph in Aquamacs has previously mangled an entry by hard-wrapping it into run-on lines, breaking the YAML structure while leaving the text content unchanged. Disable auto-fill when editing these files, and diff carefully before committing.
+- `_data/*.yml` files (e.g. `papers.yml`) are structured YAML, not prose. On 2026-08-21, auto-fill/fill-paragraph in Aquamacs hard-wrapped one entry into run-on lines, breaking its YAML structure (text content was unaffected). A one-time slip, not a recurring pattern — noted here only so a similar-looking diff is recognized quickly if it ever resurfaces.
 
 # Publishing / build-output notes
 
