@@ -1,7 +1,0 @@
-package:
-  - topic: emacs
-  - title: I write everything in emacs
-  - body: "Yes, everything.  code, reviews, manuscripts, lecture slides, and even recommendation letters. Specifically, I use Aquamacs Emacs, an emacs port for MacOS. GNU Emacs has been around since 1985, so it is just plain solid, with a huge user base for support, and thousands of packages and modes that can do anything from syntax highlighting of your favorite programming language (ess-r-mode) to psychotherapy (doctor). By using the same program for ever a fully-featured platform, I can use the same program (and thus, the same keybindings) for everything I do. Emacs is easy to use. Configuring Emacs can be hard. Someday I will post my configuration file, which has evolved quite a bit over the last decade."
-- topic: R
-  title: R is for statistics
-  body: "For statistical computing, I code in the R language, using Emacs with the ESS package (E macs S peaks S tatistics). ESS let’s me have both my R source document and an active R session open at the same time, in the same Emacs session. It saves a lot of time to be able to send a chunk of source code directly into R with two keystrokes."

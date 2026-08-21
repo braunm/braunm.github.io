@@ -76,14 +76,17 @@ kramdown:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Jekyll's own defaults (already excluded regardless of this list):
+#   .sass-cache/, .jekyll-cache/, gemfiles/, Gemfile, Gemfile.lock,
+#   node_modules/, vendor/bundle/, vendor/cache/, vendor/gems/, vendor/ruby/
+#
+# Project files that don't belong on the live site, listed explicitly so a
+# build never copies them into docs/:
+exclude:
+  - CLAUDE.md
+  - package.json
+  - package-lock.json
+  - assets/computing.html
+  - assets/computing.yml
+  - assets/computing2.yml
+  - assets/posts_temp/
