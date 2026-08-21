@@ -23,6 +23,18 @@ This website was created using Jekyll.  It is hosted at braunm.github.io.  I wan
 
 - `_data/*.yml` files (e.g. `papers.yml`) are structured YAML, not prose. Auto-fill/fill-paragraph in Aquamacs has previously mangled an entry by hard-wrapping it into run-on lines, breaking the YAML structure while leaving the text content unchanged. Disable auto-fill when editing these files, and diff carefully before committing.
 
+# Publishing / build-output notes
+
+- `docs/` is not a Jekyll source folder — it's pre-rendered static output. GitHub Pages' "legacy" build (source: `main:/docs`) doesn't run Liquid/layouts/Sass; it just serves whatever static files are already in `docs/`. All real building (templating, markdown conversion, Sass compilation) happens locally via `bundle exec jekyll build` — pushing source changes without rebuilding first changes nothing on the live site.
+- `_config.yml` has an `exclude:` list keeping non-content project files (`CLAUDE.md`, `package.json`, `package-lock.json`) and known scratch paths (`assets/computing.html`, `assets/computing.yml`, `assets/computing2.yml`, `assets/posts_temp/`) out of `docs/`. Jekyll copies whatever's physically on disk regardless of git tracking status, so a new WIP file dropped into a non-underscore directory (e.g. `assets/`) will get published into `docs/` on the next build unless it's also added to `exclude:` — `.gitignore` alone doesn't stop this.
+- The repo (`braunm/braunm.github.io`) is public — required for free GitHub Pages hosting of a `<username>.github.io` site. Anything committed and pushed stays in public history indefinitely, even if later removed from HEAD. Nothing that's only ever uncommitted (working-tree changes never `git add`ed) is exposed.
+
+# Repo structure decisions
+
+- Considered splitting Jekyll source (private) from published output (public repo) — e.g. a nested git repo inside `docs/`, or an orphan `gh-pages` branch — so in-progress drafts could never reach the public repo at all. Decided (2026-08-21) to keep the current single-repo structure (source + `docs/` output, one repo, pushed as-is) since nothing in source is actually sensitive. Revisit only if that changes.
+- Scratch/draft files intentionally left untracked at the repo root — `assets/computing.html`, `assets/computing.yml`, `assets/computing2.yml`, `assets/posts_temp/` — are WIP the user hasn't decided what to do with. Leave them alone unless asked.
+- For low-risk housekeeping (config fixes, lockfiles, reverting accidental corruption), commit directly to `main` rather than a feature branch — this is a solo-maintained personal site, not a collaborative repo.
+
 # Current needs
 - Set up this directory so Claude can efficiently help me manage and modify the site on an ongoing basis.
 - Get recommendations on how to improve the site.
